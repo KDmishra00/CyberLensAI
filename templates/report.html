@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}Report - CyberLens AI{% endblock %}
+{% block content %}
+<section class="report-view">
+  <header class="report-header">
+    <div>
+      <h1>Incident report</h1>
+      <p class="muted">{{ filename }} &middot; generated {{ results.generated_at }}</p>
+    </div>
+    <div class="report-actions">
+      <a class="btn btn-primary" href="/report/{{ analysis_id }}/download">Download PDF</a>
+      <a class="btn btn-secondary" href="/dashboard/{{ analysis_id }}">Back to dashboard</a>
+    </div>
+  </header>
+
+  {% for para in results.summary_paragraphs %}
+  <p class="report-para">{{ para }}</p>
+  {% endfor %}
+
+  <h2>Key figures</h2>
+  <table class="data-table keyfigures">
+    <tbody>
+      <tr><th scope="row">Total records analysed</th><td>{{ "{:,}".format(results.total_records) }}</td></tr>
+      <tr><th scope="row">Attacks found</th><td>{{ "{:,}".format(results.total_attacks) }}</td></tr>
+      <tr><th scope="row">Normal records</th><td>{{ "{:,}".format(results.total_normal) }}</td></tr>
+      <tr><th scope="row">Attack rate</th><td>{{ "%.1f"|format(results.attack_pct) }}%</td></tr>
+      <tr><th scope="row">Low-confidence attack calls kept as Normal</th>
+          <td>{{ "{:,}".format(results.low_confidence_count) }}</td></tr>
+    </tbody>
+  </table>
+
+  {% if results.category_counts %}
+  <h2>Attack categories</h2>
+  <table class="data-table">
+    <thead><tr><th scope="col">Category</th><th scope="col">Count</th><th scope="col">Share</th></tr></thead>
+    <tbody>
+      {% for cat, count in results.category_counts.items() %}
+      <tr><td>{{ cat }}</td><td>{{ count }}</td><td>{{ "%.1f"|format(results.category_pct[cat]) }}%</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <h2>Severity breakdown</h2>
+  <table class="data-table">
+    <thead><tr><th scope="col">Severity</th><th scope="col">Count</th></tr></thead>
+    <tbody>
+      {% for sev in ["Low", "Medium", "High", "Critical"] %}
+      <tr><td><span class="sev sev-{{ sev|lower }}">{{ sev }}</span></td>
+          <td>{{ results.severity_counts.get(sev, 0) }}</td></tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <h2>Top detections</h2>
+  <div class="table-scroll">
+    <table class="data-table">
+      <thead><tr><th scope="col">Time</th><th scope="col">Source IP</th><th scope="col">Category</th>
+        <th scope="col">Severity</th><th scope="col">Conf.</th><th scope="col">Event</th></tr></thead>
+      <tbody>
+        {% for det in results.detections[:10] %}
+        <tr>
+          <td>{{ det.timestamp or "-" }}</td>
+          <td class="mono">{{ det.src_ip }}</td>
+          <td>{{ det.predicted_category }}</td>
+          <td><span class="sev sev-{{ det.severity|lower }}">{{ det.severity }}</span></td>
+          <td>{{ "%.2f"|format(det.confidence) }}</td>
+          <td class="event-cell" title="{{ det.event }}">{{ det.event[:140] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+
+  <h2>Recommended mitigations</h2>
+  {% for m in mitigations %}
+  <div class="mitigation">
+    <h3>{{ m.category }} {% if m.mitre %}<span class="muted small">MITRE ATT&amp;CK {{ m.mitre|join(", ") }}</span>{% endif %}</h3>
+    <p>{{ m.summary }}</p>
+    <ol>
+      {% for step in m.steps %}<li>{{ step }}</li>{% endfor %}
+    </ol>
+  </div>
+  {% endfor %}
+
+  <h2>How severity is decided</h2>
+  <p>{{ severity_rule }}</p>
+  {% else %}
+  <p>No attacks were detected, so there are no categories, severities or mitigations to list.</p>
+  {% endif %}
+
+  <h2>Limitations</h2>
+  <p>The model was trained on a synthetic corpus and is a demonstration of the pipeline, not
+  a production detector. It only knows normal traffic and the six attack categories above.
+  Attack calls below 0.55 confidence are counted as normal and reported separately. This
+  report was generated entirely on this machine; no data left it.</p>
+</section>
+{% endblock %}

@@ -1,0 +1,160 @@
+{% extends "base.html" %}
+{% block title %}Analysis - {{ filename }} - CyberLensAI{% endblock %}
+{% block content %}
+<div class="analysis-page">
+    <div class="analysis-header">
+        <a href="{{ url_for('dashboard') }}" class="btn btn-secondary">&larr; Back to Dashboard</a>
+        <h1>Analysis Results: {{ filename }}</h1>
+        {% if report_file %}
+        <a href="{{ url_for('download_report', filename=report_file) }}" class="btn btn-success">&#128196; Download Report</a>
+        {% endif %}
+    </div>
+
+    <!-- Summary Cards -->
+    {% if analysis and analysis.summary %}
+    <div class="stat-grid">
+        <div class="stat-card">
+            <div class="stat-value">{{ analysis.summary.total_records }}</div>
+            <div class="stat-label">Total Records</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">{{ analysis.summary.total_fields }}</div>
+            <div class="stat-label">Total Fields</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value {{ 'text-danger' if analysis.anomalies|length > 0 else 'text-success' }}">{{ analysis.anomalies|length }}</div>
+            <div class="stat-label">Anomalies</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value {% if security and security.severity_assessment %}{% if security.severity_assessment.overall_risk == 'high' %}text-danger{% elif security.severity_assessment.overall_risk == 'medium' %}text-warning{% else %}text-success{% endif %}{% endif %}">
+                {% if security and security.severity_assessment %}{{ security.severity_assessment.overall_risk|upper }}{% else %}N/A{% endif %}
+            </div>
+            <div class="stat-label">Risk Level</div>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Threat Indicators -->
+    {% if security and security.threat_indicators %}
+    <div class="card">
+        <div class="card-header">
+            <h2>&#128680; Threat Indicators</h2>
+            <span class="count">{{ security.threat_indicators|length }}</span>
+        </div>
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr><th>Type</th><th>Risk</th><th>Description</th></tr>
+                </thead>
+                <tbody>
+                    {% for indicator in security.threat_indicators %}
+                    <tr>
+                        <td><code>{{ indicator.type }}</code></td>
+                        <td><span class="badge badge-{{ indicator.risk_level }}">{{ indicator.risk_level|upper }}</span></td>
+                        <td>{{ indicator.description }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Anomalies -->
+    {% if analysis and analysis.anomalies %}
+    <div class="card">
+        <div class="card-header">
+            <h2>&#9888; Anomalies Detected</h2>
+            <span class="count">{{ analysis.anomalies|length }}</span>
+        </div>
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr><th>Column</th><th>Type</th><th>Count</th><th>%</th><th>Severity</th></tr>
+                </thead>
+                <tbody>
+                    {% for anomaly in analysis.anomalies %}
+                    <tr>
+                        <td><code>{{ anomaly.column }}</code></td>
+                        <td>{{ anomaly.type }}</td>
+                        <td>{{ anomaly.count|default('N/A') }}</td>
+                        <td>{{ anomaly.percentage|default('N/A') }}%</td>
+                        <td><span class="badge badge-{{ anomaly.severity }}">{{ anomaly.severity|upper }}</span></td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Patterns -->
+    {% if analysis and analysis.patterns %}
+    <div class="card">
+        <div class="card-header">
+            <h2>&#128269; Detected Patterns</h2>
+        </div>
+        <div class="patterns-grid">
+            {% for pattern in analysis.patterns %}
+            <div class="pattern-block">
+                <h3>{{ pattern.description }} ({{ pattern.column }})</h3>
+                <div class="pattern-type">{{ pattern.type }}</div>
+                {% if pattern.data %}
+                <div class="pattern-data">
+                    {% for key, val in pattern.data.items() %}
+                    <div class="pattern-item">
+                        <span class="pattern-key">{{ key }}</span>
+                        <span class="pattern-value">{{ val }}</span>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Insights -->
+    {% if analysis and analysis.insights %}
+    <div class="card">
+        <div class="card-header">
+            <h2>&#128161; Insights</h2>
+        </div>
+        <div class="insights-list">
+            {% for insight in analysis.insights %}
+            <div class="insight-item">
+                <span class="badge badge-{{ insight.severity }}">{{ insight.severity|upper }}</span>
+                <span class="insight-message">{{ insight.message }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    {% endif %}
+
+    <!-- Recommendations -->
+    {% if security and security.recommendations %}
+    <div class="card">
+        <div class="card-header">
+            <h2>&#128736; Security Recommendations</h2>
+        </div>
+        <div class="table-responsive">
+            <table>
+                <thead>
+                    <tr><th>Priority</th><th>Category</th><th>Recommendation</th></tr>
+                </thead>
+                <tbody>
+                    {% for rec in security.recommendations %}
+                    <tr>
+                        <td><span class="badge badge-{{ rec.priority }}">{{ rec.priority|upper }}</span></td>
+                        <td><code>{{ rec.category }}</code></td>
+                        <td>{{ rec.recommendation }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}

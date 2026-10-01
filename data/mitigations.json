@@ -1,0 +1,66 @@
+{
+  "Brute Force": {
+    "mitre": ["T1110", "T1110.001", "T1110.003"],
+    "summary": "Repeated password guessing against accounts or services.",
+    "steps": [
+      "Rate-limit login attempts and lock accounts after a small number of failures (for example 5 in 10 minutes).",
+      "Enforce multi-factor authentication on exposed services, especially VPN, webmail and SSH.",
+      "Disable password authentication for SSH in favour of key pairs.",
+      "Block or challenge the offending source IPs at the firewall or edge proxy.",
+      "Review accounts that logged in successfully shortly after many failures; assume compromise if the pattern repeats."
+    ]
+  },
+  "Port Scan": {
+    "mitre": ["T1046"],
+    "summary": "Systematic probing of ports or services to map what is reachable.",
+    "steps": [
+      "Confirm which of the touched ports actually host services; close the ones that should not be public.",
+      "Restrict management ports (SSH, RDP, databases) to known networks with firewall rules.",
+      "Rate-limit or tarpit repeated connection attempts from single sources.",
+      "Move service banners and version responses behind authentication where possible so scanning learns less."
+    ]
+  },
+  "Malware Activity": {
+    "mitre": ["T1059.001", "T1027", "T1486", "T1071"],
+    "summary": "Suspicious code execution, encoded payloads or malware-style file activity.",
+    "steps": [
+      "Isolate the affected host from the network before doing anything else.",
+      "Search other machines for the same file names, scheduled tasks or registry/service changes.",
+      "Force a password reset for every account that logged into the affected host recently.",
+      "Rebuild the host from a known-good image rather than attempting in-place cleanup.",
+      "Block the external destinations contacted; consider sinking hole the domains outright."
+    ]
+  },
+  "SQL Injection": {
+    "mitre": ["T1190"],
+    "summary": "Database manipulation attempted through web input fields.",
+    "steps": [
+      "Parameterise every database query; never build SQL by string concatenation with request data.",
+      "Review web server and database logs to check whether any injection attempt actually returned data.",
+      "Rotate database credentials that were reachable from the affected application.",
+      "Add a WAF rule or input validation for quotes, semicolons and SQL keywords in query strings.",
+      "Give the application account the smallest possible database rights (no schema changes, no file access)."
+    ]
+  },
+  "Privilege Escalation": {
+    "mitre": ["T1068", "T1548", "T1078"],
+    "summary": "Attempts to gain higher-level permissions than the account holds.",
+    "steps": [
+      "Remove unneeded sudo/group memberships and audit who currently holds administrative rights.",
+      "Patch or remove the tools and setuid binaries involved; check the host against vendor advisories.",
+      "Review recent logins by the affected accounts and rotate their credentials.",
+      "Alert on future writes to sensitive files such as /etc/passwd, /etc/shadow or the Windows SAM.",
+      "Restrict interactive logins for service accounts entirely."
+    ]
+  },
+  "DoS Indicators": {
+    "mitre": ["T1498", "T1499"],
+    "summary": "Traffic or request patterns aimed at exhausting capacity.",
+    "steps": [
+      "Apply rate limits per source IP at the load balancer or reverse proxy.",
+      "Reduce per-request cost: cache aggressively, cap request body sizes, tighten timeouts.",
+      "Contact the upstream provider about scrubbing or blackhole routing if saturation is real.",
+      "Scale the affected service horizontally while investigating the source of the load."
+    ]
+  }
+}

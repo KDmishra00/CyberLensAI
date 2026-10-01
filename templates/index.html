@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <h1>CyberLens reads a security log or dataset, flags the entries that look like attack
+  activity, and writes it up as a report you can hand to someone else.</h1>
+  <p class="lede">It reads files you give it. It never touches a live network, and it
+  never runs anything it finds inside a file.</p>
+  <p class="hero-actions"><a class="btn btn-primary" href="/upload">Analyse a file</a></p>
+</section>
+
+<section class="steps" aria-label="How it works">
+  <ol class="steps-list">
+    <li>
+      <span class="step-num" aria-hidden="true">1</span>
+      <div><h2>Upload</h2>
+      <p>A .csv, .xlsx or .log file, up to 20&nbsp;MB. The file is read, never run.</p></div>
+    </li>
+    <li>
+      <span class="step-num" aria-hidden="true">2</span>
+      <div><h2>Check</h2>
+      <p>Preview the first rows and confirm the columns were read the way you expect.</p></div>
+    </li>
+    <li>
+      <span class="step-num" aria-hidden="true">3</span>
+      <div><h2>Read the results</h2>
+      <p>A dashboard of what was found, then the same story as a one-click PDF report.</p></div>
+    </li>
+  </ol>
+</section>
+
+<section class="categories" aria-label="Recognised attack types">
+  <h2>What it recognises</h2>
+  <p class="muted">Six attack categories, learned from labelled examples. Anything outside
+  these is out of scope, and the tool says so.</p>
+  <ul class="category-list">
+    <li><strong>Brute Force</strong><span>Bursts of failed logins against accounts or services.</span></li>
+    <li><strong>Port Scan</strong><span>One address probing many ports to map what is open.</span></li>
+    <li><strong>Malware Activity</strong><span>Encoded payloads, beaconing, dropped executables, ransomware noise.</span></li>
+    <li><strong>SQL Injection</strong><span>Database manipulation attempts inside web requests.</span></li>
+    <li><strong>Privilege Escalation</strong><span>Sudo abuse, sensitive-file access, permission changes.</span></li>
+    <li><strong>DoS Indicators</strong><span>Floods and request patterns aimed at exhausting capacity.</span></li>
+  </ul>
+</section>
+{% endblock %}

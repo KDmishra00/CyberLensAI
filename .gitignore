@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv
+venv/
+.venv
+.venv/
+env/
+ENV/
+cyberlens-ai/
+
+# IDE / OS / Tooling
+.DS_Store
+.idea/
+.vscode/
+.freebuff/
+.pytest_cache/
+*.log
+!data/samples/*.log
+!data/sample_*.log
+
+# Runtime temporary data & uploads
+tmp/
+data/uploads/
+data/reports/
+data/users.json
+*.db
+*.sqlite3
+
+# Trained model artifacts (generated via python train_model.py)
+models/cyberlens_model.joblib
+models/metrics.json

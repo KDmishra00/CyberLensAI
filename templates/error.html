@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} - CyberLens AI{% endblock %}
+{% block content %}
+<section class="error-page">
+  <h1>{{ title }}</h1>
+  <p>{{ message }}</p>
+  <p class="error-actions">
+    <a class="btn btn-primary" href="/upload">Analyse another file</a>
+    <a class="btn btn-secondary" href="/">Back home</a>
+  </p>
+</section>
+{% endblock %}

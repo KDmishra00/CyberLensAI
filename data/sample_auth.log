@@ -1,0 +1,7 @@
+Mar 15 08:23:41 auth-server sshd[1234]: Accepted password for admin from 192.168.1.100 port 22 ssh2
+Mar 15 08:24:12 auth-server sshd[1235]: Failed password for root from 10.0.0.55 port 22 ssh2
+Mar 15 08:24:13 auth-server sshd[1236]: Failed password for root from 10.0.0.55 port 22 ssh2
+Mar 15 08:24:14 auth-server sshd[1237]: Failed password for root from 10.0.0.55 port 22 ssh2
+Mar 15 08:25:01 auth-server kernel: [UFW BLOCK] IN=eth0 OUT= SRC=172.16.0.44 DST=192.168.1.1 PROTO=TCP SPT=45123 DPT=80
+Mar 15 08:25:02 auth-server web-app[999]: SQL syntax error: SELECT * FROM users WHERE username = 'admin' OR '1'='1' from 192.168.1.200
+Mar 15 08:26:30 auth-server antivirus: ALERT Trojan.Generic found in /tmp/payload.exe executed by svc_account

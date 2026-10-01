@@ -1,0 +1,130 @@
+{% extends "base.html" %}
+{% block bodyattrs %}data-analysis-id="{{ analysis_id }}"{% endblock %}
+{% block title %}Dashboard - CyberLens AI{% endblock %}
+{% block container %}container container-wide{% endblock %}
+{% block content %}
+<section class="dashboard">
+  <header class="dash-header">
+    <div>
+      <h1>Analysis dashboard</h1>
+      <p class="muted" id="dash-filename">{{ filename }}</p>
+    </div>
+    <div class="dash-actions">
+      <a class="btn btn-secondary" href="/report/{{ analysis_id }}">View report</a>
+      <a class="btn btn-primary" href="/report/{{ analysis_id }}/download">Download PDF</a>
+      <a class="btn btn-secondary" href="/upload">Analyse another file</a>
+      <button id="delete-btn" class="btn btn-danger" type="button">Delete my data</button>
+    </div>
+  </header>
+
+  <div id="dash-error" class="error-text" role="alert" hidden></div>
+
+  <section class="stat-blocks" aria-label="Key numbers">
+    <div class="stat"><span class="stat-num" id="stat-total">-</span><span class="stat-label">Total records</span></div>
+    <div class="stat"><span class="stat-num" id="stat-attacks">-</span><span class="stat-label">Attacks found</span></div>
+    <div class="stat"><span class="stat-num" id="stat-normal">-</span><span class="stat-label">Normal records</span></div>
+    <div class="stat"><span class="stat-num" id="stat-rate">-</span><span class="stat-label">Attack rate</span></div>
+  </section>
+
+  <section class="dash-grid">
+    <div class="panel">
+      <h2>Attack categories</h2>
+      <div class="chart-flex">
+        <div class="chart-box chart-doughnut"><canvas id="chart-doughnut" aria-label="Doughnut chart of attack categories" role="img"></canvas></div>
+        <table class="data-table" id="category-table" aria-label="Category counts">
+          <thead><tr><th scope="col">Category</th><th scope="col">Count</th><th scope="col">Share</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>Category counts</h2>
+      <div class="chart-box chart-tall"><canvas id="chart-bars" aria-label="Bar chart of category counts" role="img"></canvas></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Severity breakdown</h2>
+    <div class="sev-inline" id="severity-inline"></div>
+  </section>
+
+  <section class="panel" id="timeline-panel">
+    <h2>Attack timeline <span class="muted small" id="timeline-note"></span></h2>
+    <div class="chart-box chart-timeline"><canvas id="chart-timeline" aria-label="Attack events over time" role="img"></canvas></div>
+    <p id="timeline-hidden" class="muted" hidden></p>
+  </section>
+
+  <section class="dash-grid">
+    <div class="panel">
+      <h2>Top source IPs</h2>
+      <table class="data-table" id="topips-table" aria-label="Top source IPs by attack count">
+        <thead><tr><th scope="col">Source IP</th><th scope="col">Attacks</th><th scope="col">Main category</th><th scope="col">Worst severity</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="panel">
+      <h2>Top targets</h2>
+      <div id="top-targets"></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Detections</h2>
+    <form class="filter-bar" id="filter-form">
+      <input type="search" id="filter-q" placeholder="Search event, IP or user" aria-label="Search detections">
+      <select id="filter-category" aria-label="Filter by category"></select>
+      <select id="filter-severity" aria-label="Filter by severity"></select>
+      <button type="submit" class="btn btn-secondary">Apply</button>
+      <button type="button" id="filter-reset" class="btn btn-secondary">Reset</button>
+    </form>
+    <div class="table-scroll">
+      <table class="data-table detections-table" id="detections-table" aria-label="Individual detections">
+        <thead><tr>
+          <th scope="col"><button class="th-sort" data-sort="time">Time</button></th>
+          <th scope="col"><button class="th-sort" data-sort="src_ip">Source IP</button></th>
+          <th scope="col">User</th>
+          <th scope="col"><button class="th-sort" data-sort="category">Category</button></th>
+          <th scope="col">Severity</th>
+          <th scope="col"><button class="th-sort" data-sort="confidence">Conf.</button></th>
+          <th scope="col">Event</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <p class="muted" id="detections-count"></p>
+    <nav class="pagination" id="pagination" aria-label="Detections pages"></nav>
+  </section>
+
+  <section class="panel">
+    <h2>Mitigations</h2>
+    <div id="mitigations"></div>
+  </section>
+
+  <section class="panel panel-collapsible" id="explore-panel">
+    <h2>
+      <button type="button" id="explore-toggle" class="explore-toggle" aria-expanded="false"
+              aria-controls="explore-body">Explore the data in 2-D</button>
+    </h2>
+    <div id="explore-body" hidden>
+      <p class="muted">Each dot is one sampled record placed by a 2-D projection of the model's
+      features. Records of the same kind cluster together; attacks sitting close to the normal
+      cloud are the ones to double-check.</p>
+      <div class="chart-box chart-tall"><canvas id="chart-explore" aria-label="Scatter plot of records in two dimensions" role="img"></canvas></div>
+    </div>
+  </section>
+
+  <section class="panel caveats">
+    <h2>Read this before trusting the numbers</h2>
+    <p id="caveat-accuracy" class="muted"></p>
+    <p id="caveat-lowconf" class="muted" hidden></p>
+    <p id="caveat-warning" class="error-text" hidden></p>
+    <p class="muted">The model only knows the seven categories it was trained on: normal
+    traffic plus the six attack types above. It was trained on synthetic data, so treat every
+    finding here as a lead for a human, not a verdict.</p>
+  </section>
+</section>
+{% endblock %}
+{% block scripts %}<script src="/static/vendor/chart.umd.min.js"></script>
+<script src="/static/js/charts.js"></script>
+<script src="/static/js/dashboard.js"></script>{% endblock %}

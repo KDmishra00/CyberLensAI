@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}CyberLens AI — AI-Powered Cybersecurity Analysis{% endblock %}
+{% block content %}
+<div class="hero">
+    <div class="hero-badge">&#128274; AI-Powered Security Analysis</div>
+    <h1>Detect Cyber Threats<br>Before They Strike</h1>
+    <p>Upload your cybersecurity log files and let our AI-powered analysis engine detect anomalies, classify attack types, and generate actionable incident reports — all in seconds.</p>
+    <div class="hero-actions">
+        {% if session.get('auth_token') %}
+        <a href="{{ url_for('upload_page') }}" class="btn btn-primary btn-lg">&#128229; Upload Dataset</a>
+        <a href="{{ url_for('dashboard_page') }}" class="btn btn-ghost btn-lg">&#128202; View Dashboard</a>
+        {% else %}
+        <a href="{{ url_for('login') }}" class="btn btn-primary btn-lg">&#128272; Get Started</a>
+        <a href="{{ url_for('register') }}" class="btn btn-ghost btn-lg">Create Account</a>
+        {% endif %}
+    </div>
+</div>
+
+<div class="features-grid">
+    <div class="feature-card">
+        <div class="feature-icon feature-icon-blue">&#128229;</div>
+        <h3>Smart File Upload</h3>
+        <p>Upload CSV, XLSX, or LOG files up to 20 MB. The system validates format, size, and structure before processing.</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon feature-icon-cyan">&#129302;</div>
+        <h3>AI Attack Classification</h3>
+        <p>Pre-trained ML model classifies records into 6 attack categories — Brute Force, Port Scan, Malware, SQL Injection, Privilege Escalation, and DoS.</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon feature-icon-purple">&#128202;</div>
+        <h3>Interactive Dashboard</h3>
+        <p>Visualize results with dynamic charts, severity breakdowns, attack timelines, and statistical summaries.</p>
+    </div>
+    <div class="feature-card">
+        <div class="feature-icon feature-icon-green">&#128196;</div>
+        <h3>PDF Incident Reports</h3>
+        <p>Generate and download professional incident reports with executive summaries, timelines, and mitigation recommendations.</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p>CyberLens AI v1.0 — Prepared by Kuldeep Mishra & Samay Shakya, Manipal University Jaipur</p>
+</div>
+{% endblock %}

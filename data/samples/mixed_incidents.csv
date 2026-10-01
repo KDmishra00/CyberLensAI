@@ -1,0 +1,1417 @@
+Datetime,Source Address,Destination Port,Account,Log Message,Total Bytes,Flow Duration,Status Code,Attack Type
+2026-08-10 07:36:56,91.240.20.70,,,GET /items.php?id=1 AND SLEEP(5),580,3.376,403,SQL Injection
+2026-08-10T07:37:02,91.240.20.70,,,GET /api/users?name=1' OR '1'='1,729,0.529,403,SQL Injection
+10 Aug 2026 07:37:05,91.240.20.70,,,GET /search?q=1 AND SLEEP(5),2287,0.811,200,SQL Injection
+2026-08-10 07:37:07,91.240.20.70,,,"GET /api/users?name=' UNION SELECT username, password FROM users--",1213,2.976,200,SQL Injection
+2026-08-10T07:37:13,91.240.20.70,,,"GET /blog/?cat=%27%20UNION%20SELECT%20null,null--",2328,1.456,403,SQL Injection
+10 Aug 2026 07:37:21,91.240.20.70,,,GET /blog/?cat=1;DROP TABLE users--,2024,1.567,403,SQL Injection
+2026-08-10 07:37:26,91.240.20.70,,,GET /blog/?cat=1%20AND%20SLEEP%285%29,806,3.33,200,SQL Injection
+2026-08-10T07:37:29,91.240.20.70,,,GET /blog/?cat=%27%20OR%20%271%27%3D%271,1091,2.682,500,SQL Injection
+10 Aug 2026 07:37:29,91.240.20.70,,,GET /page?id=1' OR '1'='1,1206,4.415,500,SQL Injection
+2026-08-10 07:37:33,91.240.20.70,,,"GET /api/users?name=%27%20UNION%20SELECT%20null,null--",705,3.939,500,SQL Injection
+2026-08-10T07:37:41,91.240.20.70,,,"GET /blog/?cat=%27%20UNION%20SELECT%20null,null--",2118,3.096,403,SQL Injection
+10 Aug 2026 07:37:43,91.240.20.70,,,GET /page?id=1%27%3BDROP%20TABLE%20users--,1730,0.069,200,SQL Injection
+2026-08-10 07:37:49,91.240.20.70,,,GET /api/users?name=1%27%3BDROP%20TABLE%20users--,2175,3.391,200,SQL Injection
+2026-08-10T07:37:55,91.240.20.70,,,GET /search?q=1%27%3BDROP%20TABLE%20users--,965,2.421,200,SQL Injection
+10 Aug 2026 07:37:56,91.240.20.70,,,"GET /items.php?id=%27%20UNION%20SELECT%20null,null--",634,1.43,200,SQL Injection
+2026-08-10 07:37:58,91.240.20.70,,,"GET /api/users?name=1 UNION SELECT 1,2,3 FROM information_schema.tables",1219,3.844,200,SQL Injection
+2026-08-10T07:37:59,91.240.20.70,,,"GET /product.php?id=%27%20UNION%20SELECT%20null,null--",1036,2.714,200,SQL Injection
+10 Aug 2026 07:38:02,91.240.20.70,,,GET /product.php?id=1;DROP TABLE users--,952,3.617,200,SQL Injection
+2026-08-10 08:11:30,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (39k pkt/s),1800,25.93,,DoS Indicators
+2026-08-10T08:11:30,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (28k pkt/s),1548,18.96,,DoS Indicators
+10 Aug 2026 08:11:30,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (57k pkt/s),484,23.71,,DoS Indicators
+2026-08-10 08:11:31,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (66k pkt/s),403,26.7,,DoS Indicators
+2026-08-10T08:11:31,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (78k pkt/s),1622,15.8,,DoS Indicators
+10 Aug 2026 08:11:31,203.0.113.74,,,web: slowloris-style connection held by 203.0.113.74,163,5.24,,DoS Indicators
+2026-08-10 08:11:31,185.220.30.109,,,lb: request rate 1307/s from 185.220.30.109 exceeds threshold,927,12.76,,DoS Indicators
+2026-08-10T08:11:32,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (53k pkt/s),1793,10.93,,DoS Indicators
+10 Aug 2026 08:11:32,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (44k pkt/s),700,20.04,,DoS Indicators
+2026-08-10 08:11:32,203.0.113.74,,,lb: request rate 1456/s from 203.0.113.74 exceeds threshold,191,7.83,,DoS Indicators
+2026-08-10T08:11:32,185.220.30.109,,,app: worker pool exhausted; 1127 pending connections,971,7.34,,DoS Indicators
+10 Aug 2026 08:11:33,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (4k pkt/s),1949,25.3,,DoS Indicators
+2026-08-10 08:11:33,185.220.30.109,,,GET /download.iso,42580348,3.16,200,DoS Indicators
+2026-08-10T08:11:33,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (58k pkt/s),1830,11.31,,DoS Indicators
+10 Aug 2026 08:11:33,185.220.30.109,,,app: worker pool exhausted; 1519 pending connections,1306,18.2,,DoS Indicators
+2026-08-10 08:11:33,203.0.113.74,,,GET /download.iso,22379926,2.6,200,DoS Indicators
+2026-08-10T08:11:34,185.220.30.109,,,lb: request rate 1530/s from 185.220.30.109 exceeds threshold,1034,15.46,,DoS Indicators
+10 Aug 2026 08:11:34,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (72k pkt/s),1313,22.82,,DoS Indicators
+2026-08-10 08:11:34,185.220.30.109,,,web: slowloris-style connection held by 185.220.30.109,263,24.89,,DoS Indicators
+2026-08-10T08:11:35,203.0.113.74,,,"kernel: conntrack table full, dropping packets from 203.0.113.74",842,25.38,,DoS Indicators
+10 Aug 2026 08:11:35,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (69k pkt/s),978,29.73,,DoS Indicators
+2026-08-10 08:11:35,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (13k pkt/s),249,29.3,,DoS Indicators
+2026-08-10T08:11:35,185.220.30.109,,,web: slowloris-style connection held by 185.220.30.109,963,26.43,,DoS Indicators
+10 Aug 2026 08:11:35,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (14k pkt/s),457,28.43,,DoS Indicators
+2026-08-10 08:11:36,185.220.30.109,,,lb: request rate 4857/s from 185.220.30.109 exceeds threshold,550,6.01,,DoS Indicators
+2026-08-10T08:11:36,203.0.113.74,,,app: worker pool exhausted; 1348 pending connections,1638,22.31,,DoS Indicators
+10 Aug 2026 08:11:36,185.220.30.109,,,GET /download.iso,36899225,4.6,200,DoS Indicators
+2026-08-10 08:11:37,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (42k pkt/s),473,4.88,,DoS Indicators
+2026-08-10T08:11:37,185.220.30.109,,,lb: request rate 7733/s from 185.220.30.109 exceeds threshold,1765,14.23,,DoS Indicators
+10 Aug 2026 08:11:37,203.0.113.74,,,web: slowloris-style connection held by 203.0.113.74,1072,15.23,,DoS Indicators
+2026-08-10 08:11:38,185.220.30.109,,,web: slowloris-style connection held by 185.220.30.109,565,4.99,,DoS Indicators
+2026-08-10T08:11:38,203.0.113.74,,,lb: request rate 6958/s from 203.0.113.74 exceeds threshold,1456,29.97,,DoS Indicators
+10 Aug 2026 08:11:38,185.220.30.109,,,web: slowloris-style connection held by 185.220.30.109,155,11.63,,DoS Indicators
+2026-08-10 08:11:38,203.0.113.74,,,GET /download.iso,49458599,0.83,200,DoS Indicators
+2026-08-10T08:11:39,185.220.30.109,,,lb: request rate 2811/s from 185.220.30.109 exceeds threshold,841,14.75,,DoS Indicators
+10 Aug 2026 08:11:39,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (57k pkt/s),1119,14.4,,DoS Indicators
+2026-08-10 08:11:39,185.220.30.109,,,web: slowloris-style connection held by 185.220.30.109,1531,12.96,,DoS Indicators
+2026-08-10T08:11:40,203.0.113.74,,,web: slowloris-style connection held by 203.0.113.74,1102,24.47,,DoS Indicators
+10 Aug 2026 08:11:40,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (74k pkt/s),1256,15.92,,DoS Indicators
+2026-08-10 08:11:40,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (80k pkt/s),1818,2.95,,DoS Indicators
+2026-08-10T08:11:41,185.220.30.109,,,lb: request rate 3229/s from 185.220.30.109 exceeds threshold,1239,13.09,,DoS Indicators
+10 Aug 2026 08:11:41,203.0.113.74,,,app: worker pool exhausted; 3301 pending connections,955,20.67,,DoS Indicators
+2026-08-10 08:11:41,185.220.30.109,,,lb: request rate 4597/s from 185.220.30.109 exceeds threshold,1708,6.95,,DoS Indicators
+2026-08-10T08:11:41,203.0.113.74,,,GET /download.iso,50995225,0.84,200,DoS Indicators
+10 Aug 2026 08:11:42,185.220.30.109,,,"kernel: conntrack table full, dropping packets from 185.220.30.109",1613,29.21,,DoS Indicators
+2026-08-10 08:11:42,203.0.113.74,,,web: slowloris-style connection held by 203.0.113.74,1641,1.68,,DoS Indicators
+2026-08-10T08:11:42,185.220.30.109,,,GET /download.iso,21084007,3.44,200,DoS Indicators
+10 Aug 2026 08:11:43,203.0.113.74,,,lb: request rate 1927/s from 203.0.113.74 exceeds threshold,1098,2.42,,DoS Indicators
+2026-08-10 08:11:43,185.220.30.109,,,"kernel: conntrack table full, dropping packets from 185.220.30.109",1648,29.68,,DoS Indicators
+2026-08-10T08:11:43,203.0.113.74,,,app: worker pool exhausted; 3240 pending connections,345,22.68,,DoS Indicators
+10 Aug 2026 08:11:44,185.220.30.109,,,lb: request rate 4059/s from 185.220.30.109 exceeds threshold,1906,11.81,,DoS Indicators
+2026-08-10 08:11:44,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (88k pkt/s),1105,21.37,,DoS Indicators
+2026-08-10T08:11:44,185.220.30.109,,,"kernel: conntrack table full, dropping packets from 185.220.30.109",1002,16.11,,DoS Indicators
+10 Aug 2026 08:11:44,203.0.113.74,,,GET /download.iso,34947586,7.59,200,DoS Indicators
+2026-08-10 08:11:45,185.220.30.109,,,GET /download.iso,58824954,6.42,200,DoS Indicators
+2026-08-10T08:11:45,203.0.113.74,,,web: slowloris-style connection held by 203.0.113.74,316,15.5,,DoS Indicators
+10 Aug 2026 08:11:45,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (21k pkt/s),193,7.02,,DoS Indicators
+2026-08-10 08:11:45,203.0.113.74,,,"kernel: conntrack table full, dropping packets from 203.0.113.74",997,2.14,,DoS Indicators
+2026-08-10T08:11:45,185.220.30.109,,,lb: request rate 6333/s from 185.220.30.109 exceeds threshold,1089,18.08,,DoS Indicators
+10 Aug 2026 08:11:45,203.0.113.74,,,lb: request rate 6355/s from 203.0.113.74 exceeds threshold,132,8.98,,DoS Indicators
+2026-08-10 08:11:46,185.220.30.109,,,lb: request rate 1108/s from 185.220.30.109 exceeds threshold,152,0.82,,DoS Indicators
+2026-08-10T08:11:46,203.0.113.74,,,web: slowloris-style connection held by 203.0.113.74,17,13.31,,DoS Indicators
+10 Aug 2026 08:11:46,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (90k pkt/s),290,7.63,,DoS Indicators
+2026-08-10 08:11:47,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (51k pkt/s),1238,4.81,,DoS Indicators
+2026-08-10T08:11:47,185.220.30.109,,,app: worker pool exhausted; 746 pending connections,612,9.96,,DoS Indicators
+10 Aug 2026 08:11:47,203.0.113.74,,,GET /download.iso,39762882,3.53,200,DoS Indicators
+2026-08-10 08:11:47,185.220.30.109,,,app: worker pool exhausted; 803 pending connections,620,10.56,,DoS Indicators
+2026-08-10T08:11:47,203.0.113.74,,,"kernel: conntrack table full, dropping packets from 203.0.113.74",1724,15.77,,DoS Indicators
+10 Aug 2026 08:11:48,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (17k pkt/s),22,29.59,,DoS Indicators
+2026-08-10 08:11:48,203.0.113.74,,,"kernel: conntrack table full, dropping packets from 203.0.113.74",1594,9.04,,DoS Indicators
+2026-08-10T08:11:48,185.220.30.109,,,lb: request rate 4654/s from 185.220.30.109 exceeds threshold,421,7.76,,DoS Indicators
+10 Aug 2026 08:11:49,203.0.113.74,,,app: worker pool exhausted; 2364 pending connections,1146,6.81,,DoS Indicators
+2026-08-10 08:11:49,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (27k pkt/s),278,9.32,,DoS Indicators
+2026-08-10T08:11:49,203.0.113.74,,,GET /download.iso,43241071,7.78,200,DoS Indicators
+10 Aug 2026 08:11:50,185.220.30.109,,,app: worker pool exhausted; 1954 pending connections,1671,15.89,,DoS Indicators
+2026-08-10 08:11:50,203.0.113.74,,,app: worker pool exhausted; 3343 pending connections,1176,0.73,,DoS Indicators
+2026-08-10T08:11:50,185.220.30.109,,,GET /download.iso,20803932,2.87,200,DoS Indicators
+10 Aug 2026 08:11:51,203.0.113.74,,,GET /download.iso,26865397,5.73,200,DoS Indicators
+2026-08-10 08:11:51,185.220.30.109,,,GET /download.iso,25710601,1.25,200,DoS Indicators
+2026-08-10T08:11:51,203.0.113.74,,,lb: request rate 6627/s from 203.0.113.74 exceeds threshold,1050,24.35,,DoS Indicators
+10 Aug 2026 08:11:52,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (29k pkt/s),24,17.34,,DoS Indicators
+2026-08-10 08:11:52,203.0.113.74,,,web: slowloris-style connection held by 203.0.113.74,490,10.75,,DoS Indicators
+2026-08-10T08:11:52,185.220.30.109,,,GET /download.iso,12236077,0.55,200,DoS Indicators
+10 Aug 2026 08:11:52,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (42k pkt/s),1788,10.63,,DoS Indicators
+2026-08-10 08:11:53,185.220.30.109,,,GET /download.iso,49195079,1.46,200,DoS Indicators
+2026-08-10T08:11:53,203.0.113.74,,,lb: request rate 5295/s from 203.0.113.74 exceeds threshold,177,8.66,,DoS Indicators
+10 Aug 2026 08:11:53,185.220.30.109,,,GET /download.iso,55422078,6.17,200,DoS Indicators
+2026-08-10 08:11:53,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (69k pkt/s),1574,17.58,,DoS Indicators
+2026-08-10T08:11:54,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (21k pkt/s),772,3.08,,DoS Indicators
+10 Aug 2026 08:11:54,203.0.113.74,,,app: worker pool exhausted; 2531 pending connections,1196,22.7,,DoS Indicators
+2026-08-10 08:11:54,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (59k pkt/s),1541,22.63,,DoS Indicators
+2026-08-10T08:11:55,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (72k pkt/s),1570,0.78,,DoS Indicators
+10 Aug 2026 08:11:55,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (26k pkt/s),29,22.36,,DoS Indicators
+2026-08-10 08:11:55,203.0.113.74,,,web: slowloris-style connection held by 203.0.113.74,1048,17.33,,DoS Indicators
+2026-08-10T08:11:55,185.220.30.109,,,"kernel: conntrack table full, dropping packets from 185.220.30.109",884,13.18,,DoS Indicators
+10 Aug 2026 08:11:56,203.0.113.74,,,"kernel: conntrack table full, dropping packets from 203.0.113.74",684,28.59,,DoS Indicators
+2026-08-10 08:11:56,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (6k pkt/s),431,20.27,,DoS Indicators
+2026-08-10T08:11:57,203.0.113.74,,,"kernel: conntrack table full, dropping packets from 203.0.113.74",931,9.85,,DoS Indicators
+10 Aug 2026 08:11:57,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (32k pkt/s),1684,9.3,,DoS Indicators
+2026-08-10 08:11:57,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (43k pkt/s),1539,19.28,,DoS Indicators
+2026-08-10T08:11:57,185.220.30.109,,,web: slowloris-style connection held by 185.220.30.109,651,18.49,,DoS Indicators
+10 Aug 2026 08:11:58,203.0.113.74,,,GET /download.iso,26789572,2.63,200,DoS Indicators
+2026-08-10 08:11:58,185.220.30.109,,,lb: request rate 2511/s from 185.220.30.109 exceeds threshold,1160,25.5,,DoS Indicators
+2026-08-10T08:11:59,203.0.113.74,,,app: worker pool exhausted; 2912 pending connections,1310,1.41,,DoS Indicators
+10 Aug 2026 08:11:59,185.220.30.109,,,lb: request rate 7038/s from 185.220.30.109 exceeds threshold,285,15.89,,DoS Indicators
+2026-08-10 08:11:59,203.0.113.74,,,lb: request rate 2379/s from 203.0.113.74 exceeds threshold,132,2.87,,DoS Indicators
+2026-08-10T08:12:00,185.220.30.109,,,GET /download.iso,15056758,4.04,200,DoS Indicators
+10 Aug 2026 08:12:00,203.0.113.74,,,lb: request rate 7850/s from 203.0.113.74 exceeds threshold,1566,29.06,,DoS Indicators
+2026-08-10 08:12:00,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (50k pkt/s),371,1.51,,DoS Indicators
+2026-08-10T08:12:00,203.0.113.74,,,lb: request rate 3746/s from 203.0.113.74 exceeds threshold,615,3.03,,DoS Indicators
+10 Aug 2026 08:12:01,185.220.30.109,,,"kernel: conntrack table full, dropping packets from 185.220.30.109",1009,16.01,,DoS Indicators
+2026-08-10 08:12:01,203.0.113.74,,,lb: request rate 7925/s from 203.0.113.74 exceeds threshold,773,9.35,,DoS Indicators
+2026-08-10T08:12:01,185.220.30.109,,,web: slowloris-style connection held by 185.220.30.109,466,10.93,,DoS Indicators
+10 Aug 2026 08:12:02,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (20k pkt/s),1556,1.45,,DoS Indicators
+2026-08-10 08:12:02,185.220.30.109,,,lb: request rate 1900/s from 185.220.30.109 exceeds threshold,1877,15.53,,DoS Indicators
+2026-08-10T08:12:03,203.0.113.74,,,lb: request rate 7266/s from 203.0.113.74 exceeds threshold,1700,3.02,,DoS Indicators
+10 Aug 2026 08:12:03,185.220.30.109,,,GET /download.iso,44296049,0.64,200,DoS Indicators
+2026-08-10 08:12:03,203.0.113.74,,,web: slowloris-style connection held by 203.0.113.74,1375,1.41,,DoS Indicators
+2026-08-10T08:12:03,185.220.30.109,,,app: worker pool exhausted; 803 pending connections,1399,25.81,,DoS Indicators
+10 Aug 2026 08:12:03,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (76k pkt/s),1600,5.74,,DoS Indicators
+2026-08-10 08:12:04,185.220.30.109,,,"kernel: conntrack table full, dropping packets from 185.220.30.109",858,23.55,,DoS Indicators
+2026-08-10T08:12:04,203.0.113.74,,,lb: request rate 5225/s from 203.0.113.74 exceeds threshold,854,29.08,,DoS Indicators
+10 Aug 2026 08:12:04,185.220.30.109,,,GET /download.iso,21568656,3.98,200,DoS Indicators
+2026-08-10 08:12:05,203.0.113.74,,,lb: request rate 7276/s from 203.0.113.74 exceeds threshold,517,8.75,,DoS Indicators
+2026-08-10T08:12:05,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (77k pkt/s),281,2.83,,DoS Indicators
+10 Aug 2026 08:12:05,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (66k pkt/s),321,14.28,,DoS Indicators
+2026-08-10 08:12:05,185.220.30.109,,,GET /download.iso,54639306,2.15,200,DoS Indicators
+2026-08-10T08:12:05,203.0.113.74,,,app: worker pool exhausted; 3393 pending connections,845,1.33,,DoS Indicators
+10 Aug 2026 08:12:06,185.220.30.109,,,GET /download.iso,24122681,1.94,200,DoS Indicators
+2026-08-10 08:12:06,203.0.113.74,,,web: slowloris-style connection held by 203.0.113.74,1208,23.84,,DoS Indicators
+2026-08-10T08:12:06,185.220.30.109,,,app: worker pool exhausted; 2949 pending connections,989,24.21,,DoS Indicators
+10 Aug 2026 08:12:07,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (89k pkt/s),1248,11.06,,DoS Indicators
+2026-08-10 08:12:07,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (74k pkt/s),1989,8.99,,DoS Indicators
+2026-08-10T08:12:07,203.0.113.74,,,web: slowloris-style connection held by 203.0.113.74,251,20.27,,DoS Indicators
+10 Aug 2026 08:12:07,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (33k pkt/s),1619,10.94,,DoS Indicators
+2026-08-10 08:12:08,203.0.113.74,,,ddos: SYN flood detected from 203.0.113.74 (27k pkt/s),1614,4.37,,DoS Indicators
+2026-08-10T08:12:08,185.220.30.109,,,app: worker pool exhausted; 1890 pending connections,7,9.95,,DoS Indicators
+10 Aug 2026 08:12:09,203.0.113.74,,,GET /download.iso,25043464,3.09,200,DoS Indicators
+2026-08-10 08:12:09,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (55k pkt/s),362,10.47,,DoS Indicators
+2026-08-10T08:12:09,203.0.113.74,,,app: worker pool exhausted; 1856 pending connections,114,15.76,,DoS Indicators
+10 Aug 2026 08:12:09,185.220.30.109,,,ddos: SYN flood detected from 185.220.30.109 (30k pkt/s),147,27.53,,DoS Indicators
+2026-08-10 08:12:09,203.0.113.74,,,GET /download.iso,59455879,3.43,200,DoS Indicators
+2026-08-10T08:12:10,185.220.30.109,,,"kernel: conntrack table full, dropping packets from 185.220.30.109",1523,0.98,,DoS Indicators
+10 Aug 2026 08:12:10,203.0.113.74,,,app: worker pool exhausted; 1547 pending connections,1602,9.18,,DoS Indicators
+2026-08-10 08:12:10,185.220.30.109,,,app: worker pool exhausted; 503 pending connections,761,23.73,,DoS Indicators
+2026-08-10T08:12:11,203.0.113.74,,,lb: request rate 1758/s from 203.0.113.74 exceeds threshold,1820,29.16,,DoS Indicators
+10 Aug 2026 14:45:08,45.148.10.218,5179,,firewall: blocked connection attempt from 45.148.10.218 to port 5179,77,0.039,,Port Scan
+2026-08-10 14:45:09,45.148.10.218,445,,firewall: blocked connection attempt from 45.148.10.218 to port 445,6,0.004,,Port Scan
+2026-08-10T14:45:09,45.148.10.218,23,,sshd: Connection closed by 45.148.10.218 port 61695 [preauth],99,0.045,,Port Scan
+10 Aug 2026 14:45:09,45.148.10.218,648,,firewall: blocked connection attempt from 45.148.10.218 to port 648,112,0.031,,Port Scan
+2026-08-10 14:45:09,45.148.10.218,143,,firewall: blocked connection attempt from 45.148.10.218 to port 143,26,0.031,,Port Scan
+2026-08-10T14:45:10,45.148.10.218,110,,sshd: Connection closed by 45.148.10.218 port 42606 [preauth],101,0.049,,Port Scan
+10 Aug 2026 14:45:10,45.148.10.218,820,,nsm: SYN packet from 45.148.10.218 to port 820 (no handshake),80,0.019,,Port Scan
+2026-08-10 14:45:11,45.148.10.218,1749,,sshd: Connection closed by 45.148.10.218 port 41836 [preauth],40,0.019,,Port Scan
+2026-08-10T14:45:11,45.148.10.218,7692,,app: connection to closed port 7692 from 45.148.10.218 refused,61,0.011,,Port Scan
+10 Aug 2026 14:45:11,45.148.10.218,1002,,nsm: SYN packet from 45.148.10.218 to port 1002 (no handshake),110,0.048,,Port Scan
+2026-08-10 14:45:12,45.148.10.218,22,,app: connection to closed port 22 from 45.148.10.218 refused,70,0.001,,Port Scan
+2026-08-10T14:45:12,45.148.10.218,445,,firewall: blocked connection attempt from 45.148.10.218 to port 445,20,0.013,,Port Scan
+10 Aug 2026 14:45:12,45.148.10.218,877,,nsm: SYN packet from 45.148.10.218 to port 877 (no handshake),100,0.025,,Port Scan
+2026-08-10 14:45:12,45.148.10.218,698,,firewall: blocked connection attempt from 45.148.10.218 to port 698,45,0.024,,Port Scan
+2026-08-10T14:45:13,45.148.10.218,7726,,firewall: blocked connection attempt from 45.148.10.218 to port 7726,109,0.036,,Port Scan
+10 Aug 2026 14:45:13,45.148.10.218,970,,nsm: SYN packet from 45.148.10.218 to port 970 (no handshake),38,0.001,,Port Scan
+2026-08-10 14:45:13,45.148.10.218,6832,,app: connection to closed port 6832 from 45.148.10.218 refused,107,0.013,,Port Scan
+2026-08-10T14:45:14,45.148.10.218,33382,,app: connection to closed port 33382 from 45.148.10.218 refused,66,0.003,,Port Scan
+10 Aug 2026 14:45:14,45.148.10.218,904,,sshd: Connection closed by 45.148.10.218 port 50255 [preauth],59,0.046,,Port Scan
+2026-08-10 14:45:14,45.148.10.218,6733,,firewall: blocked connection attempt from 45.148.10.218 to port 6733,17,0.006,,Port Scan
+2026-08-10T14:45:15,45.148.10.218,56920,,firewall: blocked connection attempt from 45.148.10.218 to port 56920,69,0.011,,Port Scan
+10 Aug 2026 14:45:15,45.148.10.218,2053,,firewall: blocked connection attempt from 45.148.10.218 to port 2053,118,0.009,,Port Scan
+2026-08-10 14:45:15,45.148.10.218,6941,,sshd: Connection closed by 45.148.10.218 port 56370 [preauth],8,0.006,,Port Scan
+2026-08-10T14:45:15,45.148.10.218,47,,firewall: blocked connection attempt from 45.148.10.218 to port 47,12,0.035,,Port Scan
+10 Aug 2026 14:45:15,45.148.10.218,1322,,sshd: Connection closed by 45.148.10.218 port 45985 [preauth],7,0.02,,Port Scan
+2026-08-10 14:45:16,45.148.10.218,5432,,app: connection to closed port 5432 from 45.148.10.218 refused,99,0.01,,Port Scan
+2026-08-10T14:45:16,45.148.10.218,6858,,app: connection to closed port 6858 from 45.148.10.218 refused,79,0.039,,Port Scan
+10 Aug 2026 14:45:16,45.148.10.218,672,,firewall: blocked connection attempt from 45.148.10.218 to port 672,25,0.007,,Port Scan
+2026-08-10 14:45:17,45.148.10.218,5432,,nsm: SYN packet from 45.148.10.218 to port 5432 (no handshake),18,0.031,,Port Scan
+2026-08-10T14:45:17,45.148.10.218,25,,firewall: blocked connection attempt from 45.148.10.218 to port 25,32,0.018,,Port Scan
+10 Aug 2026 14:45:17,45.148.10.218,22,,firewall: blocked connection attempt from 45.148.10.218 to port 22,71,0.005,,Port Scan
+2026-08-10 14:45:18,45.148.10.218,1898,,sshd: Connection closed by 45.148.10.218 port 59810 [preauth],4,0.005,,Port Scan
+2026-08-10T14:45:18,45.148.10.218,1856,,firewall: blocked connection attempt from 45.148.10.218 to port 1856,9,0.01,,Port Scan
+10 Aug 2026 14:45:18,45.148.10.218,36471,,firewall: blocked connection attempt from 45.148.10.218 to port 36471,38,0.036,,Port Scan
+2026-08-10 14:45:19,45.148.10.218,3306,,firewall: blocked connection attempt from 45.148.10.218 to port 3306,82,0.044,,Port Scan
+2026-08-10T14:45:19,45.148.10.218,2575,,firewall: blocked connection attempt from 45.148.10.218 to port 2575,13,0.016,,Port Scan
+10 Aug 2026 14:45:19,45.148.10.218,8626,,nsm: SYN packet from 45.148.10.218 to port 8626 (no handshake),31,0.007,,Port Scan
+2026-08-10 14:45:20,45.148.10.218,51946,,firewall: blocked connection attempt from 45.148.10.218 to port 51946,24,0.044,,Port Scan
+2026-08-10T14:45:20,45.148.10.218,61554,,sshd: Connection closed by 45.148.10.218 port 50894 [preauth],54,0.047,,Port Scan
+10 Aug 2026 14:45:20,45.148.10.218,54284,,nsm: SYN packet from 45.148.10.218 to port 54284 (no handshake),108,0.039,,Port Scan
+2026-08-10 14:45:20,45.148.10.218,127,,firewall: blocked connection attempt from 45.148.10.218 to port 127,46,0.032,,Port Scan
+2026-08-10T14:45:21,45.148.10.218,8843,,firewall: blocked connection attempt from 45.148.10.218 to port 8843,20,0.035,,Port Scan
+10 Aug 2026 14:45:21,45.148.10.218,962,,nsm: SYN packet from 45.148.10.218 to port 962 (no handshake),50,0.004,,Port Scan
+2026-08-10 14:45:22,45.148.10.218,458,,nsm: SYN packet from 45.148.10.218 to port 458 (no handshake),2,0.013,,Port Scan
+2026-08-10T14:45:22,45.148.10.218,993,,nsm: SYN packet from 45.148.10.218 to port 993 (no handshake),10,0.043,,Port Scan
+10 Aug 2026 14:45:22,45.148.10.218,2511,,firewall: blocked connection attempt from 45.148.10.218 to port 2511,41,0.023,,Port Scan
+2026-08-10 14:45:23,45.148.10.218,35171,,app: connection to closed port 35171 from 45.148.10.218 refused,78,0.016,,Port Scan
+2026-08-10T14:45:23,45.148.10.218,60040,,app: connection to closed port 60040 from 45.148.10.218 refused,64,0.017,,Port Scan
+10 Aug 2026 14:45:24,45.148.10.218,8080,,sshd: Connection closed by 45.148.10.218 port 59154 [preauth],85,0.024,,Port Scan
+2026-08-10 14:45:24,45.148.10.218,5432,,sshd: Connection closed by 45.148.10.218 port 58159 [preauth],28,0.029,,Port Scan
+2026-08-10T14:45:24,45.148.10.218,5098,,app: connection to closed port 5098 from 45.148.10.218 refused,13,0.04,,Port Scan
+10 Aug 2026 14:45:25,45.148.10.218,1433,,firewall: blocked connection attempt from 45.148.10.218 to port 1433,100,0.01,,Port Scan
+2026-08-10 14:45:25,45.148.10.218,3306,,firewall: blocked connection attempt from 45.148.10.218 to port 3306,120,0.008,,Port Scan
+2026-08-10T14:45:26,45.148.10.218,47148,,firewall: blocked connection attempt from 45.148.10.218 to port 47148,37,0.019,,Port Scan
+10 Aug 2026 14:45:26,45.148.10.218,253,,app: connection to closed port 253 from 45.148.10.218 refused,86,0.01,,Port Scan
+2026-08-10 14:45:26,45.148.10.218,3110,,firewall: blocked connection attempt from 45.148.10.218 to port 3110,79,0.009,,Port Scan
+2026-08-10T14:45:27,45.148.10.218,25,,nsm: SYN packet from 45.148.10.218 to port 25 (no handshake),47,0.031,,Port Scan
+10 Aug 2026 14:45:27,45.148.10.218,6605,,firewall: blocked connection attempt from 45.148.10.218 to port 6605,93,0.015,,Port Scan
+2026-08-10 14:45:28,45.148.10.218,9200,,nsm: SYN packet from 45.148.10.218 to port 9200 (no handshake),38,0.025,,Port Scan
+2026-08-10T14:45:28,45.148.10.218,6817,,nsm: SYN packet from 45.148.10.218 to port 6817 (no handshake),91,0.043,,Port Scan
+10 Aug 2026 14:45:28,45.148.10.218,975,,sshd: Connection closed by 45.148.10.218 port 52687 [preauth],3,0.017,,Port Scan
+2026-08-10 14:45:28,45.148.10.218,43967,,firewall: blocked connection attempt from 45.148.10.218 to port 43967,8,0.031,,Port Scan
+2026-08-10T14:45:29,45.148.10.218,25,,app: connection to closed port 25 from 45.148.10.218 refused,93,0.036,,Port Scan
+10 Aug 2026 14:45:29,45.148.10.218,48697,,app: connection to closed port 48697 from 45.148.10.218 refused,40,0.032,,Port Scan
+2026-08-10 14:45:30,45.148.10.218,9200,,app: connection to closed port 9200 from 45.148.10.218 refused,39,0.021,,Port Scan
+2026-08-10T14:45:30,45.148.10.218,64382,,firewall: blocked connection attempt from 45.148.10.218 to port 64382,114,0.026,,Port Scan
+10 Aug 2026 14:45:31,45.148.10.218,5432,,firewall: blocked connection attempt from 45.148.10.218 to port 5432,102,0.003,,Port Scan
+2026-08-10 14:45:31,45.148.10.218,667,,firewall: blocked connection attempt from 45.148.10.218 to port 667,40,0.026,,Port Scan
+2026-08-10T14:45:31,45.148.10.218,9200,,nsm: SYN packet from 45.148.10.218 to port 9200 (no handshake),40,0.006,,Port Scan
+10 Aug 2026 14:45:31,45.148.10.218,3478,,firewall: blocked connection attempt from 45.148.10.218 to port 3478,112,0.029,,Port Scan
+2026-08-10 14:45:32,45.148.10.218,23,,app: connection to closed port 23 from 45.148.10.218 refused,117,0.037,,Port Scan
+2026-08-10T14:45:32,45.148.10.218,2194,,app: connection to closed port 2194 from 45.148.10.218 refused,104,0.006,,Port Scan
+10 Aug 2026 14:45:32,45.148.10.218,60933,,app: connection to closed port 60933 from 45.148.10.218 refused,0,0.041,,Port Scan
+2026-08-10 14:45:33,45.148.10.218,653,,app: connection to closed port 653 from 45.148.10.218 refused,83,0.045,,Port Scan
+2026-08-10T14:45:33,45.148.10.218,555,,nsm: SYN packet from 45.148.10.218 to port 555 (no handshake),38,0.004,,Port Scan
+10 Aug 2026 14:45:34,45.148.10.218,6379,,sshd: Connection closed by 45.148.10.218 port 62759 [preauth],6,0.047,,Port Scan
+2026-08-10 14:45:34,45.148.10.218,35492,,app: connection to closed port 35492 from 45.148.10.218 refused,69,0.031,,Port Scan
+2026-08-10T14:45:34,45.148.10.218,938,,firewall: blocked connection attempt from 45.148.10.218 to port 938,58,0.039,,Port Scan
+10 Aug 2026 14:45:35,45.148.10.218,5533,,nsm: SYN packet from 45.148.10.218 to port 5533 (no handshake),68,0.045,,Port Scan
+2026-08-10 14:45:35,45.148.10.218,8704,,firewall: blocked connection attempt from 45.148.10.218 to port 8704,73,0.038,,Port Scan
+2026-08-10T14:45:35,45.148.10.218,1010,,sshd: Connection closed by 45.148.10.218 port 43474 [preauth],47,0.026,,Port Scan
+10 Aug 2026 14:45:36,45.148.10.218,53,,nsm: SYN packet from 45.148.10.218 to port 53 (no handshake),105,0.014,,Port Scan
+2026-08-10 14:45:36,45.148.10.218,8577,,app: connection to closed port 8577 from 45.148.10.218 refused,27,0.035,,Port Scan
+2026-08-10T14:45:36,45.148.10.218,470,,firewall: blocked connection attempt from 45.148.10.218 to port 470,119,0.02,,Port Scan
+10 Aug 2026 14:45:36,45.148.10.218,9200,,sshd: Connection closed by 45.148.10.218 port 54967 [preauth],67,0.05,,Port Scan
+2026-08-10 14:45:36,45.148.10.218,49214,,sshd: Connection closed by 45.148.10.218 port 52513 [preauth],12,0.049,,Port Scan
+2026-08-10T14:45:37,45.148.10.218,63961,,firewall: blocked connection attempt from 45.148.10.218 to port 63961,23,0.034,,Port Scan
+10 Aug 2026 14:45:37,45.148.10.218,879,,app: connection to closed port 879 from 45.148.10.218 refused,21,0.033,,Port Scan
+2026-08-10 14:45:37,45.148.10.218,80,,firewall: blocked connection attempt from 45.148.10.218 to port 80,67,0.019,,Port Scan
+2026-08-10T14:45:37,45.148.10.218,1433,,firewall: blocked connection attempt from 45.148.10.218 to port 1433,12,0.021,,Port Scan
+10 Aug 2026 14:45:37,45.148.10.218,993,,app: connection to closed port 993 from 45.148.10.218 refused,80,0.002,,Port Scan
+2026-08-10 14:45:38,45.148.10.218,993,,firewall: blocked connection attempt from 45.148.10.218 to port 993,103,0.011,,Port Scan
+2026-08-10T14:45:38,45.148.10.218,80,,nsm: SYN packet from 45.148.10.218 to port 80 (no handshake),23,0.04,,Port Scan
+10 Aug 2026 14:45:38,45.148.10.218,6814,,firewall: blocked connection attempt from 45.148.10.218 to port 6814,26,0.008,,Port Scan
+2026-08-10 14:45:39,45.148.10.218,110,,nsm: SYN packet from 45.148.10.218 to port 110 (no handshake),84,0.044,,Port Scan
+2026-08-10T14:45:39,45.148.10.218,2359,,sshd: Connection closed by 45.148.10.218 port 49210 [preauth],34,0.005,,Port Scan
+10 Aug 2026 14:45:40,45.148.10.218,6379,,firewall: blocked connection attempt from 45.148.10.218 to port 6379,28,0.034,,Port Scan
+2026-08-10 14:45:40,45.148.10.218,22,,nsm: SYN packet from 45.148.10.218 to port 22 (no handshake),16,0.003,,Port Scan
+2026-08-10T14:45:40,45.148.10.218,65098,,nsm: SYN packet from 45.148.10.218 to port 65098 (no handshake),36,0.009,,Port Scan
+10 Aug 2026 14:45:40,45.148.10.218,110,,nsm: SYN packet from 45.148.10.218 to port 110 (no handshake),32,0.015,,Port Scan
+2026-08-10 14:45:41,45.148.10.218,977,,nsm: SYN packet from 45.148.10.218 to port 977 (no handshake),3,0.019,,Port Scan
+2026-08-10T14:45:41,45.148.10.218,222,,firewall: blocked connection attempt from 45.148.10.218 to port 222,119,0.012,,Port Scan
+10 Aug 2026 14:45:41,45.148.10.218,47603,,firewall: blocked connection attempt from 45.148.10.218 to port 47603,114,0.013,,Port Scan
+2026-08-10 14:45:42,45.148.10.218,1272,,nsm: SYN packet from 45.148.10.218 to port 1272 (no handshake),15,0.02,,Port Scan
+2026-08-10T14:45:42,45.148.10.218,857,,firewall: blocked connection attempt from 45.148.10.218 to port 857,89,0.008,,Port Scan
+10 Aug 2026 14:45:42,45.148.10.218,4110,,firewall: blocked connection attempt from 45.148.10.218 to port 4110,35,0.007,,Port Scan
+2026-08-10 14:45:43,45.148.10.218,4622,,app: connection to closed port 4622 from 45.148.10.218 refused,15,0.046,,Port Scan
+2026-08-10T14:45:43,45.148.10.218,506,,firewall: blocked connection attempt from 45.148.10.218 to port 506,96,0.004,,Port Scan
+10 Aug 2026 14:45:43,45.148.10.218,35173,,firewall: blocked connection attempt from 45.148.10.218 to port 35173,109,0.043,,Port Scan
+2026-08-10 14:45:43,45.148.10.218,80,,firewall: blocked connection attempt from 45.148.10.218 to port 80,57,0.025,,Port Scan
+2026-08-10T14:45:44,45.148.10.218,50205,,app: connection to closed port 50205 from 45.148.10.218 refused,97,0.0,,Port Scan
+10 Aug 2026 14:45:44,45.148.10.218,53,,firewall: blocked connection attempt from 45.148.10.218 to port 53,55,0.001,,Port Scan
+2026-08-10 14:45:45,45.148.10.218,38968,,firewall: blocked connection attempt from 45.148.10.218 to port 38968,99,0.049,,Port Scan
+2026-08-10T14:45:45,45.148.10.218,4819,,firewall: blocked connection attempt from 45.148.10.218 to port 4819,67,0.001,,Port Scan
+10 Aug 2026 14:45:46,45.148.10.218,30795,,sshd: Connection closed by 45.148.10.218 port 55060 [preauth],7,0.033,,Port Scan
+2026-08-10 14:45:46,45.148.10.218,80,,app: connection to closed port 80 from 45.148.10.218 refused,100,0.013,,Port Scan
+2026-08-10T14:45:46,45.148.10.218,32672,,nsm: SYN packet from 45.148.10.218 to port 32672 (no handshake),37,0.028,,Port Scan
+10 Aug 2026 14:45:47,45.148.10.218,80,,app: connection to closed port 80 from 45.148.10.218 refused,109,0.011,,Port Scan
+2026-08-10 14:45:47,45.148.10.218,63330,,sshd: Connection closed by 45.148.10.218 port 55719 [preauth],113,0.006,,Port Scan
+2026-08-10T14:45:48,45.148.10.218,5781,,nsm: SYN packet from 45.148.10.218 to port 5781 (no handshake),98,0.03,,Port Scan
+10 Aug 2026 14:45:48,45.148.10.218,8443,,sshd: Connection closed by 45.148.10.218 port 49887 [preauth],76,0.026,,Port Scan
+2026-08-10 14:45:48,45.148.10.218,46371,,firewall: blocked connection attempt from 45.148.10.218 to port 46371,79,0.022,,Port Scan
+2026-08-10T14:45:48,45.148.10.218,143,,app: connection to closed port 143 from 45.148.10.218 refused,18,0.037,,Port Scan
+10 Aug 2026 14:45:48,45.148.10.218,42061,,nsm: SYN packet from 45.148.10.218 to port 42061 (no handshake),100,0.013,,Port Scan
+2026-08-10 14:45:49,45.148.10.218,1340,,sshd: Connection closed by 45.148.10.218 port 60450 [preauth],2,0.03,,Port Scan
+2026-08-10T14:45:49,45.148.10.218,59668,,nsm: SYN packet from 45.148.10.218 to port 59668 (no handshake),83,0.021,,Port Scan
+10 Aug 2026 14:45:50,45.148.10.218,404,,app: connection to closed port 404 from 45.148.10.218 refused,17,0.017,,Port Scan
+2026-08-10 14:45:50,45.148.10.218,7937,,nsm: SYN packet from 45.148.10.218 to port 7937 (no handshake),6,0.015,,Port Scan
+2026-08-10T14:45:50,45.148.10.218,80,,firewall: blocked connection attempt from 45.148.10.218 to port 80,111,0.008,,Port Scan
+10 Aug 2026 14:45:50,45.148.10.218,2508,,nsm: SYN packet from 45.148.10.218 to port 2508 (no handshake),110,0.016,,Port Scan
+2026-08-10 14:45:50,45.148.10.218,9200,,app: connection to closed port 9200 from 45.148.10.218 refused,64,0.001,,Port Scan
+2026-08-10T14:45:51,45.148.10.218,872,,app: connection to closed port 872 from 45.148.10.218 refused,41,0.014,,Port Scan
+10 Aug 2026 14:45:51,45.148.10.218,60700,,sshd: Connection closed by 45.148.10.218 port 49151 [preauth],66,0.016,,Port Scan
+2026-08-10 14:45:51,45.148.10.218,897,,firewall: blocked connection attempt from 45.148.10.218 to port 897,83,0.047,,Port Scan
+2026-08-10T14:45:52,45.148.10.218,64497,,sshd: Connection closed by 45.148.10.218 port 45775 [preauth],111,0.049,,Port Scan
+10 Aug 2026 14:45:52,45.148.10.218,61725,,sshd: Connection closed by 45.148.10.218 port 59281 [preauth],112,0.008,,Port Scan
+2026-08-10 14:45:53,45.148.10.218,5432,,nsm: SYN packet from 45.148.10.218 to port 5432 (no handshake),66,0.05,,Port Scan
+2026-08-10T14:45:53,45.148.10.218,35659,,firewall: blocked connection attempt from 45.148.10.218 to port 35659,28,0.002,,Port Scan
+10 Aug 2026 14:45:53,45.148.10.218,701,,firewall: blocked connection attempt from 45.148.10.218 to port 701,38,0.032,,Port Scan
+2026-08-10 14:45:54,45.148.10.218,589,,firewall: blocked connection attempt from 45.148.10.218 to port 589,89,0.033,,Port Scan
+2026-08-10T14:45:54,45.148.10.218,63531,,firewall: blocked connection attempt from 45.148.10.218 to port 63531,91,0.038,,Port Scan
+10 Aug 2026 14:45:54,45.148.10.218,44479,,app: connection to closed port 44479 from 45.148.10.218 refused,22,0.023,,Port Scan
+2026-08-10 14:45:55,45.148.10.218,49959,,app: connection to closed port 49959 from 45.148.10.218 refused,22,0.015,,Port Scan
+2026-08-10T14:45:55,45.148.10.218,53,,firewall: blocked connection attempt from 45.148.10.218 to port 53,42,0.021,,Port Scan
+10 Aug 2026 14:45:56,45.148.10.218,3306,,firewall: blocked connection attempt from 45.148.10.218 to port 3306,87,0.031,,Port Scan
+2026-08-10 14:45:56,45.148.10.218,6417,,firewall: blocked connection attempt from 45.148.10.218 to port 6417,93,0.018,,Port Scan
+2026-08-10T14:45:56,45.148.10.218,543,,sshd: Connection closed by 45.148.10.218 port 56260 [preauth],6,0.027,,Port Scan
+10 Aug 2026 14:45:57,45.148.10.218,58753,,firewall: blocked connection attempt from 45.148.10.218 to port 58753,19,0.035,,Port Scan
+2026-08-10 14:45:57,45.148.10.218,3885,,firewall: blocked connection attempt from 45.148.10.218 to port 3885,53,0.043,,Port Scan
+2026-08-10T14:45:57,45.148.10.218,56996,,sshd: Connection closed by 45.148.10.218 port 64290 [preauth],71,0.016,,Port Scan
+10 Aug 2026 14:45:57,45.148.10.218,57904,,firewall: blocked connection attempt from 45.148.10.218 to port 57904,23,0.04,,Port Scan
+2026-08-10 14:45:58,45.148.10.218,445,,firewall: blocked connection attempt from 45.148.10.218 to port 445,105,0.04,,Port Scan
+2026-08-10T14:45:58,45.148.10.218,6379,,nsm: SYN packet from 45.148.10.218 to port 6379 (no handshake),72,0.046,,Port Scan
+10 Aug 2026 14:45:58,45.148.10.218,61608,,sshd: Connection closed by 45.148.10.218 port 63699 [preauth],71,0.016,,Port Scan
+2026-08-10 14:45:59,45.148.10.218,82,,firewall: blocked connection attempt from 45.148.10.218 to port 82,93,0.015,,Port Scan
+2026-08-10T14:45:59,45.148.10.218,23,,nsm: SYN packet from 45.148.10.218 to port 23 (no handshake),19,0.006,,Port Scan
+10 Aug 2026 14:46:00,45.148.10.218,42,,nsm: SYN packet from 45.148.10.218 to port 42 (no handshake),48,0.025,,Port Scan
+2026-08-10 14:46:00,45.148.10.218,143,,nsm: SYN packet from 45.148.10.218 to port 143 (no handshake),119,0.042,,Port Scan
+2026-08-10T14:46:01,45.148.10.218,4816,,firewall: blocked connection attempt from 45.148.10.218 to port 4816,46,0.012,,Port Scan
+10 Aug 2026 14:46:01,45.148.10.218,51773,,app: connection to closed port 51773 from 45.148.10.218 refused,63,0.047,,Port Scan
+2026-08-10 14:46:01,45.148.10.218,29,,nsm: SYN packet from 45.148.10.218 to port 29 (no handshake),104,0.04,,Port Scan
+2026-08-10T14:46:02,45.148.10.218,514,,nsm: SYN packet from 45.148.10.218 to port 514 (no handshake),38,0.029,,Port Scan
+10 Aug 2026 14:46:02,45.148.10.218,445,,firewall: blocked connection attempt from 45.148.10.218 to port 445,88,0.05,,Port Scan
+2026-08-10 14:46:02,45.148.10.218,3389,,firewall: blocked connection attempt from 45.148.10.218 to port 3389,91,0.002,,Port Scan
+2026-08-10T14:46:02,45.148.10.218,3833,,nsm: SYN packet from 45.148.10.218 to port 3833 (no handshake),100,0.032,,Port Scan
+10 Aug 2026 14:46:03,45.148.10.218,3306,,app: connection to closed port 3306 from 45.148.10.218 refused,66,0.01,,Port Scan
+2026-08-10 14:46:03,45.148.10.218,3750,,nsm: SYN packet from 45.148.10.218 to port 3750 (no handshake),107,0.022,,Port Scan
+2026-08-10T14:46:04,45.148.10.218,65366,,firewall: blocked connection attempt from 45.148.10.218 to port 65366,61,0.035,,Port Scan
+10 Aug 2026 14:46:05,45.148.10.218,5037,,app: connection to closed port 5037 from 45.148.10.218 refused,54,0.04,,Port Scan
+2026-08-10 14:46:05,45.148.10.218,5384,,nsm: SYN packet from 45.148.10.218 to port 5384 (no handshake),110,0.005,,Port Scan
+2026-08-10T14:46:05,45.148.10.218,4372,,firewall: blocked connection attempt from 45.148.10.218 to port 4372,94,0.018,,Port Scan
+10 Aug 2026 14:46:06,45.148.10.218,373,,app: connection to closed port 373 from 45.148.10.218 refused,81,0.031,,Port Scan
+2026-08-10 14:46:06,45.148.10.218,31204,,nsm: SYN packet from 45.148.10.218 to port 31204 (no handshake),41,0.015,,Port Scan
+2026-08-10T14:46:06,45.148.10.218,5569,,firewall: blocked connection attempt from 45.148.10.218 to port 5569,6,0.047,,Port Scan
+10 Aug 2026 14:46:07,45.148.10.218,56738,,sshd: Connection closed by 45.148.10.218 port 58439 [preauth],105,0.024,,Port Scan
+2026-08-10 14:46:07,45.148.10.218,4302,,firewall: blocked connection attempt from 45.148.10.218 to port 4302,111,0.003,,Port Scan
+2026-08-10T14:46:07,45.148.10.218,6701,,firewall: blocked connection attempt from 45.148.10.218 to port 6701,31,0.032,,Port Scan
+10 Aug 2026 14:46:08,45.148.10.218,138,,firewall: blocked connection attempt from 45.148.10.218 to port 138,48,0.047,,Port Scan
+2026-08-10 14:46:08,45.148.10.218,5432,,nsm: SYN packet from 45.148.10.218 to port 5432 (no handshake),92,0.046,,Port Scan
+2026-08-10T14:46:08,45.148.10.218,471,,sshd: Connection closed by 45.148.10.218 port 55936 [preauth],73,0.024,,Port Scan
+10 Aug 2026 14:46:09,45.148.10.218,55015,,app: connection to closed port 55015 from 45.148.10.218 refused,50,0.015,,Port Scan
+2026-08-10 14:46:09,45.148.10.218,5596,,firewall: blocked connection attempt from 45.148.10.218 to port 5596,119,0.024,,Port Scan
+2026-08-10T14:46:09,45.148.10.218,777,,nsm: SYN packet from 45.148.10.218 to port 777 (no handshake),59,0.018,,Port Scan
+10 Aug 2026 14:46:10,45.148.10.218,37301,,firewall: blocked connection attempt from 45.148.10.218 to port 37301,62,0.004,,Port Scan
+2026-08-10 14:46:10,45.148.10.218,25,,firewall: blocked connection attempt from 45.148.10.218 to port 25,91,0.03,,Port Scan
+2026-08-10T14:46:10,45.148.10.218,753,,firewall: blocked connection attempt from 45.148.10.218 to port 753,20,0.007,,Port Scan
+10 Aug 2026 14:46:11,45.148.10.218,1981,,nsm: SYN packet from 45.148.10.218 to port 1981 (no handshake),83,0.002,,Port Scan
+2026-08-10 14:46:11,45.148.10.218,570,,sshd: Connection closed by 45.148.10.218 port 46493 [preauth],4,0.003,,Port Scan
+2026-08-10T14:46:12,45.148.10.218,993,,firewall: blocked connection attempt from 45.148.10.218 to port 993,19,0.043,,Port Scan
+10 Aug 2026 14:46:12,45.148.10.218,445,,nsm: SYN packet from 45.148.10.218 to port 445 (no handshake),119,0.023,,Port Scan
+2026-08-10 14:46:12,45.148.10.218,46334,,nsm: SYN packet from 45.148.10.218 to port 46334 (no handshake),113,0.036,,Port Scan
+2026-08-10T14:46:13,45.148.10.218,107,,nsm: SYN packet from 45.148.10.218 to port 107 (no handshake),60,0.017,,Port Scan
+10 Aug 2026 14:46:13,45.148.10.218,995,,firewall: blocked connection attempt from 45.148.10.218 to port 995,88,0.011,,Port Scan
+2026-08-10 14:46:13,45.148.10.218,6852,,sshd: Connection closed by 45.148.10.218 port 44819 [preauth],55,0.049,,Port Scan
+2026-08-10T14:46:14,45.148.10.218,869,,firewall: blocked connection attempt from 45.148.10.218 to port 869,23,0.021,,Port Scan
+10 Aug 2026 14:46:14,45.148.10.218,22,,firewall: blocked connection attempt from 45.148.10.218 to port 22,27,0.029,,Port Scan
+2026-08-10 14:46:14,45.148.10.218,22,,firewall: blocked connection attempt from 45.148.10.218 to port 22,25,0.015,,Port Scan
+2026-08-10T14:46:15,45.148.10.218,43682,,firewall: blocked connection attempt from 45.148.10.218 to port 43682,63,0.023,,Port Scan
+10 Aug 2026 14:46:15,45.148.10.218,740,,nsm: SYN packet from 45.148.10.218 to port 740 (no handshake),72,0.035,,Port Scan
+2026-08-10 14:46:15,45.148.10.218,37026,,firewall: blocked connection attempt from 45.148.10.218 to port 37026,111,0.012,,Port Scan
+2026-08-10T14:46:16,45.148.10.218,57312,,sshd: Connection closed by 45.148.10.218 port 58370 [preauth],78,0.034,,Port Scan
+10 Aug 2026 14:46:16,45.148.10.218,5633,,nsm: SYN packet from 45.148.10.218 to port 5633 (no handshake),101,0.043,,Port Scan
+2026-08-10 14:46:16,45.148.10.218,30441,,firewall: blocked connection attempt from 45.148.10.218 to port 30441,82,0.038,,Port Scan
+2026-08-10T14:46:17,45.148.10.218,5438,,nsm: SYN packet from 45.148.10.218 to port 5438 (no handshake),115,0.003,,Port Scan
+10 Aug 2026 14:46:17,45.148.10.218,48252,,sshd: Connection closed by 45.148.10.218 port 61723 [preauth],55,0.048,,Port Scan
+2026-08-10 14:46:17,45.148.10.218,672,,firewall: blocked connection attempt from 45.148.10.218 to port 672,45,0.032,,Port Scan
+2026-08-10T14:46:17,45.148.10.218,51415,,firewall: blocked connection attempt from 45.148.10.218 to port 51415,79,0.011,,Port Scan
+10 Aug 2026 14:46:18,45.148.10.218,37670,,firewall: blocked connection attempt from 45.148.10.218 to port 37670,41,0.008,,Port Scan
+2026-08-10 14:46:18,45.148.10.218,2400,,nsm: SYN packet from 45.148.10.218 to port 2400 (no handshake),20,0.044,,Port Scan
+2026-08-10T14:46:19,45.148.10.218,999,,firewall: blocked connection attempt from 45.148.10.218 to port 999,53,0.047,,Port Scan
+10 Aug 2026 14:46:19,45.148.10.218,143,,firewall: blocked connection attempt from 45.148.10.218 to port 143,28,0.028,,Port Scan
+2026-08-10 14:46:20,45.148.10.218,563,,firewall: blocked connection attempt from 45.148.10.218 to port 563,89,0.048,,Port Scan
+2026-08-10T14:46:20,45.148.10.218,4191,,sshd: Connection closed by 45.148.10.218 port 64501 [preauth],22,0.048,,Port Scan
+10 Aug 2026 14:46:20,45.148.10.218,63242,,nsm: SYN packet from 45.148.10.218 to port 63242 (no handshake),77,0.038,,Port Scan
+2026-08-10 14:46:21,45.148.10.218,633,,firewall: blocked connection attempt from 45.148.10.218 to port 633,83,0.049,,Port Scan
+2026-08-10T14:46:21,45.148.10.218,80,,firewall: blocked connection attempt from 45.148.10.218 to port 80,86,0.016,,Port Scan
+10 Aug 2026 14:46:21,45.148.10.218,55336,,sshd: Connection closed by 45.148.10.218 port 55920 [preauth],21,0.045,,Port Scan
+2026-08-10 14:46:22,45.148.10.218,995,,app: connection to closed port 995 from 45.148.10.218 refused,36,0.04,,Port Scan
+2026-08-10T14:46:22,45.148.10.218,34449,,firewall: blocked connection attempt from 45.148.10.218 to port 34449,55,0.034,,Port Scan
+10 Aug 2026 14:46:23,45.148.10.218,35458,,firewall: blocked connection attempt from 45.148.10.218 to port 35458,9,0.011,,Port Scan
+2026-08-10 14:46:23,45.148.10.218,53,,firewall: blocked connection attempt from 45.148.10.218 to port 53,50,0.024,,Port Scan
+2026-08-10T14:46:23,45.148.10.218,466,,firewall: blocked connection attempt from 45.148.10.218 to port 466,19,0.002,,Port Scan
+10 Aug 2026 14:46:24,45.148.10.218,110,,firewall: blocked connection attempt from 45.148.10.218 to port 110,23,0.047,,Port Scan
+2026-08-10 14:46:24,45.148.10.218,7717,,nsm: SYN packet from 45.148.10.218 to port 7717 (no handshake),23,0.032,,Port Scan
+2026-08-10T14:46:25,45.148.10.218,9200,,app: connection to closed port 9200 from 45.148.10.218 refused,42,0.042,,Port Scan
+10 Aug 2026 14:46:25,45.148.10.218,650,,app: connection to closed port 650 from 45.148.10.218 refused,88,0.016,,Port Scan
+2026-08-10 14:46:25,45.148.10.218,5900,,firewall: blocked connection attempt from 45.148.10.218 to port 5900,68,0.043,,Port Scan
+2026-08-10T14:46:26,45.148.10.218,649,,firewall: blocked connection attempt from 45.148.10.218 to port 649,56,0.008,,Port Scan
+10 Aug 2026 14:46:26,45.148.10.218,5432,,firewall: blocked connection attempt from 45.148.10.218 to port 5432,31,0.035,,Port Scan
+2026-08-10 14:46:26,45.148.10.218,1467,,nsm: SYN packet from 45.148.10.218 to port 1467 (no handshake),26,0.028,,Port Scan
+2026-08-10T14:46:27,45.148.10.218,607,,firewall: blocked connection attempt from 45.148.10.218 to port 607,84,0.028,,Port Scan
+10 Aug 2026 16:50:33,,,postgres,sudo: postgres : user NOT in sudoers ; TTY=pts/0 ; COMMAND=/bin/bash,1730,,,Privilege Escalation
+2026-08-10 16:51:47,,,postgres,audit: chmod 777 /etc/shadow by postgres,1729,,,Privilege Escalation
+2026-08-10T16:53:36,,,postgres,sudo: postgres : user NOT in sudoers ; TTY=pts/0 ; COMMAND=/bin/bash,1618,,,Privilege Escalation
+10 Aug 2026 16:58:28,,,postgres,sudo: postgres : user NOT in sudoers ; TTY=pts/4 ; COMMAND=/bin/bash,1690,,,Privilege Escalation
+2026-08-10 16:59:08,,,postgres,sudo: postgres : COMMAND=/bin/sh -c whoami,363,,,Privilege Escalation
+2026-08-10T17:03:06,,,postgres,sudo: postgres : COMMAND=/bin/sh -c whoami,624,,,Privilege Escalation
+10 Aug 2026 17:03:46,,,postgres,audit: chmod 777 /etc/shadow by postgres,1610,,,Privilege Escalation
+2026-08-10 17:04:29,,,postgres,usermod: user postgres added to group wheel,1675,,,Privilege Escalation
+2026-08-10T17:05:24,,,postgres,audit: chmod 777 /etc/shadow by postgres,1228,,,Privilege Escalation
+10 Aug 2026 17:08:14,,,postgres,sudo: postgres : user NOT in sudoers ; TTY=pts/0 ; COMMAND=/bin/bash,791,,,Privilege Escalation
+2026-08-10 17:11:47,,,postgres,audit: /etc/passwd modified by postgres,1867,,,Privilege Escalation
+2026-08-10T17:12:58,,,postgres,sudo: postgres : user NOT in sudoers ; TTY=pts/0 ; COMMAND=/bin/bash,1127,,,Privilege Escalation
+10 Aug 2026 17:16:32,,,postgres,audit: chmod 777 /etc/shadow by postgres,1669,,,Privilege Escalation
+2026-08-10 17:18:11,,,postgres,audit: setuid bit set on /usr/bin/find by postgres,1163,,,Privilege Escalation
+2026-08-10T17:23:05,,,postgres,audit: chmod 777 /etc/shadow by postgres,1774,,,Privilege Escalation
+10 Aug 2026 17:24:47,,,postgres,sec: UAC bypass attempt via eventvwr.exe by postgres,957,,,Privilege Escalation
+2026-08-10 17:28:26,,,postgres,usermod: user postgres added to group wheel,742,,,Privilege Escalation
+2026-08-10T17:30:52,,,postgres,usermod: user postgres added to group sudo,1215,,,Privilege Escalation
+10 Aug 2026 17:33:37,,,postgres,audit: chmod 777 /etc/shadow by postgres,366,,,Privilege Escalation
+2026-08-10 17:38:06,,,postgres,sec: UAC bypass attempt via eventvwr.exe by postgres,1657,,,Privilege Escalation
+2026-08-10T17:40:45,,,postgres,sudo: postgres : user NOT in sudoers ; TTY=pts/4 ; COMMAND=/bin/bash,1061,,,Privilege Escalation
+10 Aug 2026 17:41:27,,,postgres,audit: chmod 777 /etc/shadow by postgres,1200,,,Privilege Escalation
+2026-08-10 17:41:38,,,postgres,sudo: postgres : COMMAND=/bin/sh -c whoami,1847,,,Privilege Escalation
+2026-08-10T18:38:22,,,,edr: Ransom note README_RESTORE_FILES.txt created in \\web1\docs,10810,,,Malware Activity
+10 Aug 2026 18:38:51,185.220.30.158,,,edr: Reverse shell connection to 185.220.30.158:4444 blocked,103192,,,Malware Activity
+2026-08-10 18:38:59,,,,edr: powershell -enc AagABAABAhggA launched by www-data,15730,,,Malware Activity
+2026-08-10T18:39:55,,,,edr: powershell -enc AgXAAHgAjQFAtwBAQQBaA launched by www-data,106280,,,Malware Activity
+10 Aug 2026 18:40:44,,,,edr: Ransom note README_RESTORE_FILES.txt created in \\web1\docs,162675,,,Malware Activity
+2026-08-10 18:41:11,,,,edr: vssadmin delete shadows /all executed by www-data,121181,,,Malware Activity
+2026-08-10T18:41:34,,,,edr: Ransom note README_RESTORE_FILES.txt created in \\web1\docs,144633,,,Malware Activity
+10 Aug 2026 18:41:54,,,,edr: Ransom note README_RESTORE_FILES.txt created in \\web1\docs,117717,,,Malware Activity
+2026-08-10 18:42:22,,,,edr: Dropped file C:\Users\www-data\AppData\Local\Temp\svchost.exe quarantined,113990,,,Malware Activity
+2026-08-10T18:43:02,,,,edr: Dropped file C:\Users\www-data\AppData\Local\Temp\chrome_updater.exe quarantined,72314,,,Malware Activity
+10 Aug 2026 18:43:51,,,,edr: Dropped file C:\Users\www-data\AppData\Local\Temp\csrss.exe quarantined,37590,,,Malware Activity
+2026-08-10 18:44:38,,,,edr: powershell -enc QhBHHAhAAQHXBXaF launched by www-data,83441,,,Malware Activity
+2026-08-11T01:07:12,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 41582 ssh2,158,1.77,,Brute Force
+11 Aug 2026 01:07:12,192.0.2.57,5900,support,sshd: Failed password for support from 192.0.2.57 port 63641 ssh2,111,2.94,,Brute Force
+2026-08-11 01:07:13,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 58812 ssh2,183,0.85,,Brute Force
+2026-08-11T01:07:14,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 50408 ssh2,242,2.0,,Brute Force
+11 Aug 2026 01:07:15,192.0.2.57,5900,postgres0,sshd: Failed password for postgres0 from 192.0.2.57 port 41301 ssh2,235,0.96,,Brute Force
+2026-08-11 01:07:15,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 62982,223,1.12,,Brute Force
+2026-08-11T01:07:18,192.0.2.57,5900,ubuntu,auth: authentication failed for user ubuntu from 192.0.2.57 (LDAP),267,1.76,,Brute Force
+11 Aug 2026 01:07:18,192.0.2.57,5900,admin123,sshd: Failed password for admin123 from 192.0.2.57 port 49634 ssh2,182,0.26,,Brute Force
+2026-08-11 01:07:19,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 50144 ssh2,213,0.78,,Brute Force
+2026-08-11T01:07:22,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 44096,143,2.21,,Brute Force
+11 Aug 2026 01:07:23,192.0.2.57,5900,support,sshd: Failed publickey for support from 192.0.2.57 port 42170 ssh2: RSA SHA256:W8599910629,147,0.15,,Brute Force
+2026-08-11 01:07:26,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 58251 ssh2,93,0.46,,Brute Force
+2026-08-11T01:07:27,192.0.2.57,5900,backup,sshd: Invalid user backup from 192.0.2.57 port 55495,92,2.46,,Brute Force
+11 Aug 2026 01:07:30,192.0.2.57,5900,backup,sshd: Invalid user backup from 192.0.2.57 port 64400,239,2.51,,Brute Force
+2026-08-11 01:07:31,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 54313 ssh2: RSA SHA256:W4621889208,112,0.91,,Brute Force
+2026-08-11T01:07:31,192.0.2.57,5900,support,sshd: Failed password for support from 192.0.2.57 port 46503 ssh2,119,2.69,,Brute Force
+11 Aug 2026 01:07:32,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 58993,259,0.66,,Brute Force
+2026-08-11 01:07:33,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 56651 ssh2: RSA SHA256:W8292974935,94,2.76,,Brute Force
+2026-08-11T01:07:34,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 59950 ssh2,125,2.25,,Brute Force
+11 Aug 2026 01:07:36,192.0.2.57,5900,gitlab,sshd: Failed password for gitlab from 192.0.2.57 port 43998 ssh2,180,1.01,,Brute Force
+2026-08-11 01:07:39,192.0.2.57,5900,ubuntu,auth: authentication failed for user ubuntu from 192.0.2.57 (LDAP),137,2.19,,Brute Force
+2026-08-11T01:07:41,192.0.2.57,5900,ubuntu,auth: authentication failed for user ubuntu from 192.0.2.57 (LDAP),145,1.22,,Brute Force
+11 Aug 2026 01:07:41,192.0.2.57,5900,backup,sshd: Failed password for backup from 192.0.2.57 port 46746 ssh2,147,0.93,,Brute Force
+2026-08-11 01:07:44,192.0.2.57,,,POST /xmlrpc.php,301,,401,Brute Force
+2026-08-11T01:07:45,192.0.2.57,5900,pi,sshd: Failed password for pi from 192.0.2.57 port 52743 ssh2,286,0.91,,Brute Force
+11 Aug 2026 01:07:47,192.0.2.57,5900,gitlab,sshd: Failed password for gitlab from 192.0.2.57 port 58404 ssh2,133,2.39,,Brute Force
+2026-08-11 01:07:50,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 64131 ssh2,203,2.87,,Brute Force
+2026-08-11T01:07:53,192.0.2.57,,,POST /wp-login.php,325,,401,Brute Force
+11 Aug 2026 01:07:53,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 47264 ssh2,92,0.69,,Brute Force
+2026-08-11 01:07:54,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 49226 ssh2,279,1.04,,Brute Force
+2026-08-11T01:07:57,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 51519 ssh2,121,0.74,,Brute Force
+11 Aug 2026 01:07:58,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 46160 ssh2,237,0.53,,Brute Force
+2026-08-11 01:08:00,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 45426 ssh2,114,2.1,,Brute Force
+2026-08-11T01:08:02,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 61797 ssh2,162,2.47,,Brute Force
+11 Aug 2026 01:08:03,192.0.2.57,5900,ubuntu,auth: authentication failed for user ubuntu from 192.0.2.57 (LDAP),106,1.71,,Brute Force
+2026-08-11 01:08:03,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 61447,275,1.87,,Brute Force
+2026-08-11T01:08:05,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 61712 ssh2,123,2.06,,Brute Force
+11 Aug 2026 01:08:06,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 62992,186,2.54,,Brute Force
+2026-08-11 01:08:08,192.0.2.57,5900,gitlab,sshd: Failed password for gitlab from 192.0.2.57 port 41871 ssh2,85,1.13,,Brute Force
+2026-08-11T01:08:10,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 58172 ssh2,244,0.84,,Brute Force
+11 Aug 2026 01:08:12,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 51819 ssh2: RSA SHA256:W4755205331,118,1.48,,Brute Force
+2026-08-11 01:08:14,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 53773 ssh2,81,0.91,,Brute Force
+2026-08-11T01:08:14,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 54720 ssh2: RSA SHA256:W6190232466,174,0.56,,Brute Force
+11 Aug 2026 01:08:16,192.0.2.57,,,POST /xmlrpc.php,218,,401,Brute Force
+2026-08-11 01:08:17,192.0.2.57,,,POST /administrator/index.php,219,,401,Brute Force
+2026-08-11T01:08:19,192.0.2.57,5900,postgres0,sshd: Failed password for postgres0 from 192.0.2.57 port 43575 ssh2,122,2.65,,Brute Force
+11 Aug 2026 01:08:22,192.0.2.57,5900,pi,sshd: Invalid user pi from 192.0.2.57 port 48683,175,1.11,,Brute Force
+2026-08-11 01:08:24,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 47024 ssh2,93,0.26,,Brute Force
+2026-08-11T01:08:25,192.0.2.57,5900,sales,sshd: Failed password for sales from 192.0.2.57 port 51002 ssh2,183,1.1,,Brute Force
+11 Aug 2026 01:08:28,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 44181 ssh2,133,0.21,,Brute Force
+2026-08-11 01:08:29,192.0.2.57,5900,oracle1,sshd: Failed password for oracle1 from 192.0.2.57 port 43437 ssh2,283,0.42,,Brute Force
+2026-08-11T01:08:29,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 49968 ssh2: RSA SHA256:W5519393207,271,2.05,,Brute Force
+11 Aug 2026 01:08:30,192.0.2.57,,,POST /wp-login.php,283,,401,Brute Force
+2026-08-11 01:08:31,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 54211 ssh2,154,0.4,,Brute Force
+2026-08-11T01:08:34,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 52002 ssh2,276,1.71,,Brute Force
+11 Aug 2026 01:08:35,192.0.2.57,5900,admin123,sshd: Invalid user admin123 from 192.0.2.57 port 43048,175,1.57,,Brute Force
+2026-08-11 01:08:38,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 40366,221,1.76,,Brute Force
+2026-08-11T01:08:40,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 61447 ssh2,193,2.48,,Brute Force
+11 Aug 2026 01:08:41,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 57218 ssh2,113,2.94,,Brute Force
+2026-08-11 01:08:42,192.0.2.57,5900,ubnt,auth: authentication failed for user ubnt from 192.0.2.57 (LDAP),220,0.95,,Brute Force
+2026-08-11T01:08:43,192.0.2.57,5900,sales,sshd: Failed password for sales from 192.0.2.57 port 58566 ssh2,89,2.71,,Brute Force
+11 Aug 2026 01:08:44,192.0.2.57,5900,ubuntu,auth: authentication failed for user ubuntu from 192.0.2.57 (LDAP),180,0.11,,Brute Force
+2026-08-11 01:08:46,192.0.2.57,5900,pi,sshd: Invalid user pi from 192.0.2.57 port 42904,191,2.66,,Brute Force
+2026-08-11T01:08:46,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 41080 ssh2,126,1.52,,Brute Force
+11 Aug 2026 01:08:49,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 58087 ssh2,258,0.65,,Brute Force
+2026-08-11 01:08:51,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 49046 ssh2: RSA SHA256:W2124935044,253,1.28,,Brute Force
+2026-08-11T01:08:52,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 41334 ssh2,262,1.89,,Brute Force
+11 Aug 2026 01:08:53,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 54688 ssh2,146,1.9,,Brute Force
+2026-08-11 01:08:54,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 60835 ssh2,119,2.4,,Brute Force
+2026-08-11T01:08:56,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 40215,300,0.95,,Brute Force
+11 Aug 2026 01:08:56,192.0.2.57,5900,pi,sshd: Failed publickey for pi from 192.0.2.57 port 49977 ssh2: RSA SHA256:W6196506819,230,0.46,,Brute Force
+2026-08-11 01:08:58,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 59046 ssh2,214,1.47,,Brute Force
+2026-08-11T01:08:59,192.0.2.57,5900,gitlab,sshd: Failed password for gitlab from 192.0.2.57 port 54210 ssh2,149,2.21,,Brute Force
+11 Aug 2026 01:08:59,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 50008 ssh2,158,1.31,,Brute Force
+2026-08-11 01:09:02,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 61697 ssh2,252,2.49,,Brute Force
+2026-08-11T01:09:03,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 44109,260,2.56,,Brute Force
+11 Aug 2026 01:09:03,192.0.2.57,5900,support,sshd: Failed password for support from 192.0.2.57 port 63423 ssh2,91,2.19,,Brute Force
+2026-08-11 01:09:06,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 44095 ssh2,291,2.68,,Brute Force
+2026-08-11T01:09:07,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 41408,131,1.0,,Brute Force
+11 Aug 2026 01:09:10,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 45977,140,0.35,,Brute Force
+2026-08-11 01:09:11,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 44596 ssh2: RSA SHA256:W1113528182,275,3.0,,Brute Force
+2026-08-11T01:09:13,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 47950 ssh2,85,2.01,,Brute Force
+11 Aug 2026 01:09:15,192.0.2.57,5900,oracle1,sshd: Invalid user oracle1 from 192.0.2.57 port 52345,270,2.54,,Brute Force
+2026-08-11 01:09:17,192.0.2.57,5900,gitlab,sshd: Failed password for gitlab from 192.0.2.57 port 49581 ssh2,300,2.92,,Brute Force
+2026-08-11T01:09:18,192.0.2.57,5900,test123,sshd: Invalid user test123 from 192.0.2.57 port 50671,246,0.18,,Brute Force
+11 Aug 2026 01:09:21,192.0.2.57,,,POST /xmlrpc.php,399,,401,Brute Force
+2026-08-11 01:09:22,192.0.2.57,5900,gitlab,sshd: Invalid user gitlab from 192.0.2.57 port 57051,239,1.33,,Brute Force
+2026-08-11T01:09:25,192.0.2.57,,,POST /wp-login.php,362,,401,Brute Force
+11 Aug 2026 01:09:26,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 53765 ssh2,170,0.9,,Brute Force
+2026-08-11 01:09:27,192.0.2.57,5900,sales,sshd: Failed publickey for sales from 192.0.2.57 port 49672 ssh2: RSA SHA256:W9054521827,180,2.48,,Brute Force
+2026-08-11T01:09:28,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 63813 ssh2,184,1.49,,Brute Force
+11 Aug 2026 01:09:31,192.0.2.57,5900,pi,sshd: Failed password for pi from 192.0.2.57 port 40120 ssh2,202,1.43,,Brute Force
+2026-08-11 01:09:34,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 41028 ssh2: RSA SHA256:W8513338521,250,0.91,,Brute Force
+2026-08-11T01:09:35,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 41615 ssh2,134,1.62,,Brute Force
+11 Aug 2026 01:09:36,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 57770,159,1.82,,Brute Force
+2026-08-11 01:09:38,192.0.2.57,,,POST /api/login,312,,401,Brute Force
+2026-08-11T01:09:39,192.0.2.57,,,POST /admin/login,313,,401,Brute Force
+11 Aug 2026 01:09:40,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 43248 ssh2,132,2.23,,Brute Force
+2026-08-11 01:09:42,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 62539 ssh2,200,0.37,,Brute Force
+2026-08-11T01:09:44,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 62280,247,2.75,,Brute Force
+11 Aug 2026 01:09:46,192.0.2.57,5900,ubnt,sshd: Failed password for ubnt from 192.0.2.57 port 54301 ssh2,102,2.22,,Brute Force
+2026-08-11 01:09:48,192.0.2.57,5900,test123,auth: authentication failed for user test123 from 192.0.2.57 (LDAP),284,2.88,,Brute Force
+2026-08-11T01:09:50,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 57602 ssh2: RSA SHA256:W8020311929,160,1.13,,Brute Force
+11 Aug 2026 01:09:52,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 51363 ssh2,211,2.36,,Brute Force
+2026-08-11 01:09:52,192.0.2.57,,,POST /api/login,216,,401,Brute Force
+2026-08-11T01:09:54,192.0.2.57,5900,ubnt,sshd: Failed password for ubnt from 192.0.2.57 port 59782 ssh2,285,2.64,,Brute Force
+11 Aug 2026 01:09:55,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 42446 ssh2,123,0.67,,Brute Force
+2026-08-11 01:09:58,192.0.2.57,5900,gitlab,sshd: Failed password for gitlab from 192.0.2.57 port 59228 ssh2,145,0.14,,Brute Force
+2026-08-11T01:10:00,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 42745,204,0.93,,Brute Force
+11 Aug 2026 01:10:03,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 51518,107,2.59,,Brute Force
+2026-08-11 01:10:05,192.0.2.57,5900,ubuntu,auth: authentication failed for user ubuntu from 192.0.2.57 (LDAP),153,2.28,,Brute Force
+2026-08-11T01:10:07,192.0.2.57,5900,postgres0,sshd: Failed password for postgres0 from 192.0.2.57 port 50525 ssh2,163,2.94,,Brute Force
+11 Aug 2026 01:10:09,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 60178 ssh2: RSA SHA256:W3194314837,231,1.83,,Brute Force
+2026-08-11 01:10:12,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 63372,121,1.87,,Brute Force
+2026-08-11T01:10:13,192.0.2.57,5900,postgres0,sshd: Failed password for postgres0 from 192.0.2.57 port 61824 ssh2,209,0.52,,Brute Force
+11 Aug 2026 01:10:15,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 62685 ssh2,213,0.42,,Brute Force
+2026-08-11 01:10:16,192.0.2.57,5900,backup,sshd: Invalid user backup from 192.0.2.57 port 64753,255,1.32,,Brute Force
+2026-08-11T01:10:16,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 46879 ssh2: RSA SHA256:W3074285675,238,2.23,,Brute Force
+11 Aug 2026 01:10:19,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 48427 ssh2,166,1.6,,Brute Force
+2026-08-11 01:10:21,192.0.2.57,5900,sales,sshd: Failed password for sales from 192.0.2.57 port 55979 ssh2,284,1.32,,Brute Force
+2026-08-11T01:10:23,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 53049,172,1.92,,Brute Force
+11 Aug 2026 01:10:23,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 48162 ssh2,225,1.08,,Brute Force
+2026-08-11 01:10:25,192.0.2.57,5900,gitlab,sshd: Failed password for gitlab from 192.0.2.57 port 54279 ssh2,295,1.69,,Brute Force
+2026-08-11T01:10:28,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 42651 ssh2,89,2.26,,Brute Force
+11 Aug 2026 01:10:30,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 46052 ssh2,170,2.17,,Brute Force
+2026-08-11 01:10:30,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 56186,137,2.24,,Brute Force
+2026-08-11T01:10:32,192.0.2.57,5900,ubnt,sshd: Failed password for ubnt from 192.0.2.57 port 57754 ssh2,232,0.43,,Brute Force
+11 Aug 2026 01:10:34,192.0.2.57,,,POST /login.php,208,,401,Brute Force
+2026-08-11 01:10:36,192.0.2.57,5900,gitlab,sshd: Failed publickey for gitlab from 192.0.2.57 port 54861 ssh2: RSA SHA256:W2755625357,82,1.81,,Brute Force
+2026-08-11T01:10:37,192.0.2.57,,,POST /admin/login,183,,401,Brute Force
+11 Aug 2026 01:10:39,192.0.2.57,5900,ubuntu,auth: authentication failed for user ubuntu from 192.0.2.57 (LDAP),105,0.56,,Brute Force
+2026-08-11 01:10:40,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 62909 ssh2,215,0.72,,Brute Force
+2026-08-11T01:10:41,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 42647 ssh2,270,2.53,,Brute Force
+11 Aug 2026 01:10:44,192.0.2.57,5900,ubuntu,auth: authentication failed for user ubuntu from 192.0.2.57 (LDAP),220,2.06,,Brute Force
+2026-08-11 01:10:46,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 41429 ssh2,283,2.4,,Brute Force
+2026-08-11T01:10:47,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 51428,194,0.37,,Brute Force
+11 Aug 2026 01:10:49,192.0.2.57,5900,ubuntu,auth: authentication failed for user ubuntu from 192.0.2.57 (LDAP),81,2.63,,Brute Force
+2026-08-11 01:10:50,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 44437 ssh2: RSA SHA256:W9756644866,239,1.8,,Brute Force
+2026-08-11T01:10:51,192.0.2.57,,,POST /xmlrpc.php,339,,401,Brute Force
+11 Aug 2026 01:10:54,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 47072 ssh2,94,3.0,,Brute Force
+2026-08-11 01:10:56,192.0.2.57,5900,ubnt,sshd: Invalid user ubnt from 192.0.2.57 port 50641,171,1.72,,Brute Force
+2026-08-11T01:10:56,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 49869,280,2.17,,Brute Force
+11 Aug 2026 01:10:57,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 41494 ssh2,123,2.19,,Brute Force
+2026-08-11 01:10:59,192.0.2.57,5900,ubuntu,auth: authentication failed for user ubuntu from 192.0.2.57 (LDAP),107,2.01,,Brute Force
+2026-08-11T01:11:02,192.0.2.57,5900,pi,auth: authentication failed for user pi from 192.0.2.57 (LDAP),173,1.98,,Brute Force
+11 Aug 2026 01:11:02,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 61670,291,0.24,,Brute Force
+2026-08-11 01:11:03,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 59703 ssh2: RSA SHA256:W6626615191,186,1.59,,Brute Force
+2026-08-11T01:11:04,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 62741,90,2.09,,Brute Force
+11 Aug 2026 01:11:06,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 49617,234,1.13,,Brute Force
+2026-08-11 01:11:08,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 47339 ssh2,215,1.7,,Brute Force
+2026-08-11T01:11:09,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 60756 ssh2,179,0.85,,Brute Force
+11 Aug 2026 01:11:11,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 45899 ssh2,273,2.22,,Brute Force
+2026-08-11 01:11:14,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 58845,166,0.6,,Brute Force
+2026-08-11T01:11:14,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 62058 ssh2: RSA SHA256:W9119679576,166,0.19,,Brute Force
+11 Aug 2026 01:11:17,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 50739 ssh2,299,2.85,,Brute Force
+2026-08-11 01:11:19,192.0.2.57,5900,support,sshd: Failed password for support from 192.0.2.57 port 63531 ssh2,107,0.9,,Brute Force
+2026-08-11T01:11:22,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 44628 ssh2,248,2.32,,Brute Force
+11 Aug 2026 01:11:23,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 40172,215,0.75,,Brute Force
+2026-08-11 01:11:24,192.0.2.57,,,POST /administrator/index.php,244,,401,Brute Force
+2026-08-11T01:11:25,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 63996 ssh2,236,2.1,,Brute Force
+11 Aug 2026 01:11:26,192.0.2.57,5900,postgres0,sshd: Failed password for postgres0 from 192.0.2.57 port 49400 ssh2,152,1.89,,Brute Force
+2026-08-11 01:11:29,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 48855,248,0.14,,Brute Force
+2026-08-11T01:11:30,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 50670,188,1.6,,Brute Force
+11 Aug 2026 01:11:32,192.0.2.57,5900,postgres0,auth: authentication failed for user postgres0 from 192.0.2.57 (LDAP),194,0.91,,Brute Force
+2026-08-11 01:11:33,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 59766 ssh2,142,1.26,,Brute Force
+2026-08-11T01:11:34,192.0.2.57,5900,postgres0,sshd: Invalid user postgres0 from 192.0.2.57 port 43043,135,0.29,,Brute Force
+11 Aug 2026 01:11:37,192.0.2.57,5900,pi,sshd: Failed password for pi from 192.0.2.57 port 40834 ssh2,291,0.4,,Brute Force
+2026-08-11 01:11:38,192.0.2.57,5900,ubnt,sshd: Invalid user ubnt from 192.0.2.57 port 42655,190,2.98,,Brute Force
+2026-08-11T01:11:39,192.0.2.57,5900,ubnt,sshd: Failed password for ubnt from 192.0.2.57 port 64617 ssh2,140,2.83,,Brute Force
+11 Aug 2026 01:11:41,192.0.2.57,5900,gitlab,sshd: Failed password for gitlab from 192.0.2.57 port 54382 ssh2,201,0.37,,Brute Force
+2026-08-11 01:11:42,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 51028 ssh2,99,0.26,,Brute Force
+2026-08-11T01:11:45,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 54086 ssh2,112,0.62,,Brute Force
+11 Aug 2026 01:11:47,192.0.2.57,5900,postgres0,sshd: Failed password for postgres0 from 192.0.2.57 port 61837 ssh2,140,0.6,,Brute Force
+2026-08-11 01:11:49,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 52927 ssh2,173,0.48,,Brute Force
+2026-08-11T01:11:51,192.0.2.57,5900,ubuntu,sshd: Failed publickey for ubuntu from 192.0.2.57 port 59253 ssh2: RSA SHA256:W8574305583,158,0.71,,Brute Force
+11 Aug 2026 01:11:52,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 54065 ssh2,241,2.95,,Brute Force
+2026-08-11 01:11:53,192.0.2.57,5900,pi,sshd: Failed password for pi from 192.0.2.57 port 57814 ssh2,95,1.17,,Brute Force
+2026-08-11T01:11:53,192.0.2.57,5900,ubuntu,auth: authentication failed for user ubuntu from 192.0.2.57 (LDAP),281,0.5,,Brute Force
+11 Aug 2026 01:11:54,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 50348,184,0.43,,Brute Force
+2026-08-11 01:11:57,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 52172 ssh2,241,1.76,,Brute Force
+2026-08-11T01:11:57,192.0.2.57,5900,postgres0,sshd: Failed password for postgres0 from 192.0.2.57 port 54368 ssh2,102,1.64,,Brute Force
+11 Aug 2026 01:11:58,192.0.2.57,5900,ubuntu,sshd: Invalid user ubuntu from 192.0.2.57 port 53921,180,1.51,,Brute Force
+2026-08-11 01:12:00,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 46602 ssh2,277,2.92,,Brute Force
+2026-08-11T01:12:02,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 57914 ssh2,115,2.62,,Brute Force
+11 Aug 2026 01:12:03,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 45657 ssh2,262,1.29,,Brute Force
+2026-08-11 01:12:06,192.0.2.57,5900,ubuntu,sshd: Failed password for ubuntu from 192.0.2.57 port 58450 ssh2,85,2.52,,Brute Force
+2026-08-11T13:06:01,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 13:06:34,10.14.22.19,22,test,Accepted password for test from 10.14.22.19 port 64842 ssh2,,0.14,,Normal
+2026-08-11 13:07:34,,,,CRON[8560]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T13:09:03,,,,CRON[8162]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 13:09:51,10.1.28.96,22,kmishra,Failed password for kmishra from 10.1.28.96 port 45120 ssh2,,,,Normal
+2026-08-11 13:10:20,10.19.204.164,,,GET /blog/post-3,1832,0.44,200,Normal
+2026-08-11T13:11:14,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 13:12:03,10.10.42.230,22,root,Accepted password for root from 10.10.42.230 port 57871 ssh2,,1.49,,Normal
+2026-08-11 13:13:24,10.17.248.138,,,GET /pricing,6289,0.094,200,Normal
+2026-08-11T13:14:36,10.7.133.203,22,svc_backup,Accepted password for svc_backup from 10.7.133.203 port 54435 ssh2,,0.43,,Normal
+11 Aug 2026 13:15:33,10.6.66.110,,,GET /,6274,0.645,200,Normal
+2026-08-11 13:15:48,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T13:15:55,10.3.134.185,22,admin,Accepted password for admin from 10.3.134.185 port 48889 ssh2,,1.74,,Normal
+11 Aug 2026 13:17:08,,,,CRON[8737]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 13:18:09,10.17.144.253,,,GET /search?q=queries,5253,0.493,200,Normal
+2026-08-11T13:18:53,10.14.77.2,22,kmishra,Accepted password for kmishra from 10.14.77.2 port 57246 ssh2,,0.11,,Normal
+11 Aug 2026 13:19:19,10.11.106.42,22,svc_backup,Accepted password for svc_backup from 10.11.106.42 port 64964 ssh2,,1.61,,Normal
+2026-08-11 13:19:44,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T13:20:27,10.4.18.138,,,GET /contact,760,0.584,200,Normal
+11 Aug 2026 13:20:44,10.4.78.22,22,intern,Accepted password for intern from 10.4.78.22 port 56283 ssh2,,1.16,,Normal
+2026-08-11 13:22:00,10.0.245.138,22,oracle,Accepted password for oracle from 10.0.245.138 port 40721 ssh2,,1.56,,Normal
+2026-08-11T13:22:14,10.1.57.38,,,GET /assets/app.css,3898,0.589,304,Normal
+11 Aug 2026 13:22:25,,,,CRON[8616]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 13:23:17,10.8.108.177,,,GET /images/logo.png,7199,0.29,200,Normal
+2026-08-11T13:24:24,10.14.209.92,22,kmishra,Accepted password for kmishra from 10.14.209.92 port 44368 ssh2,,1.38,,Normal
+11 Aug 2026 13:24:46,10.8.182.36,22,jdoe,Accepted password for jdoe from 10.8.182.36 port 44107 ssh2,,1.47,,Normal
+2026-08-11 13:24:57,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T13:25:44,10.12.128.184,,,GET /images/logo.png,6980,0.09,304,Normal
+11 Aug 2026 13:26:25,10.12.172.33,22,www-data,Failed password for www-data from 10.12.172.33 port 46739 ssh2,,,,Normal
+2026-08-11 13:26:56,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T13:27:25,10.10.165.25,,,GET /,8088,0.681,304,Normal
+11 Aug 2026 13:27:32,10.4.136.85,22,admin,Accepted password for admin from 10.4.136.85 port 49827 ssh2,,1.69,,Normal
+2026-08-11 13:27:52,10.7.124.231,,,GET /blog/post-1,2049,0.791,200,Normal
+2026-08-11T13:28:43,10.14.137.47,,,GET /images/logo.png,3234,0.069,200,Normal
+11 Aug 2026 13:29:24,10.13.179.22,22,sshakya,Failed password for sshakya from 10.13.179.22 port 55955 ssh2,,,,Normal
+2026-08-11 13:30:11,10.19.13.134,22,jenkins,Accepted password for jenkins from 10.19.13.134 port 57071 ssh2,,1.57,,Normal
+2026-08-11T13:30:28,10.20.95.135,,,GET /favicon.ico,4209,0.322,304,Normal
+11 Aug 2026 13:31:21,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 13:32:28,10.5.12.221,22,jdoe,Accepted password for jdoe from 10.5.12.221 port 43912 ssh2,,1.93,,Normal
+2026-08-11T13:32:44,10.9.25.28,22,audit,Failed password for audit from 10.9.25.28 port 56155 ssh2,,,,Normal
+11 Aug 2026 13:33:38,10.17.107.37,22,intern,Accepted password for intern from 10.17.107.37 port 63261 ssh2,,0.98,,Normal
+2026-08-11 13:34:09,,,,CRON[8102]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T13:35:29,10.8.114.5,22,asmith,Accepted password for asmith from 10.8.114.5 port 53808 ssh2,,1.84,,Normal
+11 Aug 2026 13:35:32,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 13:36:11,,,,CRON[8465]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T13:36:42,,,,CRON[8297]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 13:36:57,10.20.109.243,22,sshakya,Accepted password for sshakya from 10.20.109.243 port 41857 ssh2,,1.61,,Normal
+2026-08-11 13:37:37,10.17.53.211,22,oracle,Accepted password for oracle from 10.17.53.211 port 45052 ssh2,,1.26,,Normal
+2026-08-11T13:38:50,,,,CRON[8503]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 13:40:12,,,,CRON[8182]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 13:40:35,10.17.12.202,22,audit,Accepted password for audit from 10.17.12.202 port 55117 ssh2,,0.91,,Normal
+2026-08-11T13:41:52,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 13:43:13,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 13:43:17,10.15.69.232,22,root,Failed password for root from 10.15.69.232 port 53912 ssh2,,,,Normal
+2026-08-11T13:44:27,10.12.217.159,22,ubuntu,Accepted password for ubuntu from 10.12.217.159 port 45237 ssh2,,0.91,,Normal
+11 Aug 2026 13:45:07,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 13:45:29,10.17.60.146,,,GET /assets/app.js,839,0.054,304,Normal
+2026-08-11T13:46:10,10.9.204.10,,,GET /help/getting-started,2364,1.04,304,Normal
+11 Aug 2026 13:46:19,10.20.114.22,22,intern,Failed password for intern from 10.20.114.22 port 57521 ssh2,,,,Normal
+2026-08-11 13:47:22,10.20.45.63,22,git,Accepted password for git from 10.20.45.63 port 63709 ssh2,,0.27,,Normal
+2026-08-11T13:48:26,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 13:48:31,10.8.108.177,,,GET /assets/app.js,2632,0.186,304,Normal
+2026-08-11 13:49:46,10.18.17.77,22,sshakya,Failed password for sshakya from 10.18.17.77 port 45534 ssh2,,,,Normal
+2026-08-11T13:50:29,10.0.154.185,22,git,Accepted password for git from 10.0.154.185 port 48145 ssh2,,0.18,,Normal
+11 Aug 2026 13:50:42,10.19.71.103,,,GET /index.html,1127,0.881,200,Normal
+2026-08-11 13:51:39,10.2.240.122,,,GET /api/v1/users?page=22,3073,1.06,200,Normal
+2026-08-11T13:52:02,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 13:53:14,10.1.248.114,,,GET /api/health,6977,0.302,200,Normal
+2026-08-11 13:53:41,10.16.93.220,,,GET /,4052,0.859,304,Normal
+2026-08-11T13:54:55,10.6.143.72,22,ubuntu,Accepted password for ubuntu from 10.6.143.72 port 59845 ssh2,,1.1,,Normal
+11 Aug 2026 13:55:59,10.9.31.106,,,GET /pricing,5608,0.297,200,Normal
+2026-08-11 13:56:02,,,,CRON[8202]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T13:56:07,,,,CRON[8128]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 13:57:24,10.2.158.197,22,jenkins,Accepted password for jenkins from 10.2.158.197 port 61767 ssh2,,1.55,,Normal
+2026-08-11 13:58:31,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T13:59:36,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 14:00:08,10.10.165.25,,,GET /images/logo.png,1547,0.718,304,Normal
+2026-08-11 14:00:24,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T14:00:52,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 14:01:30,10.3.147.139,22,deploy,Accepted password for deploy from 10.3.147.139 port 52590 ssh2,,0.64,,Normal
+2026-08-11 14:01:59,10.0.174.14,22,git,Failed password for git from 10.0.174.14 port 53974 ssh2,,,,Normal
+2026-08-11T14:02:07,10.4.222.59,,,GET /assets/app.js,5135,1.136,200,Normal
+11 Aug 2026 14:03:07,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 14:04:14,10.8.176.116,,,GET /favicon.ico,7115,0.07,304,Normal
+2026-08-11T14:04:31,,,,CRON[8789]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 14:04:54,10.20.187.49,,,GET /api/health,1780,0.384,200,Normal
+2026-08-11 14:05:01,10.19.212.104,22,jenkins,Accepted password for jenkins from 10.19.212.104 port 57015 ssh2,,1.28,,Normal
+2026-08-11T14:05:05,10.14.99.2,,,GET /search?q=queries,2466,0.134,200,Normal
+11 Aug 2026 14:05:41,10.8.211.117,,,GET /images/logo.png,7143,0.347,200,Normal
+2026-08-11 14:06:59,10.3.17.54,22,svc_backup,Accepted password for svc_backup from 10.3.17.54 port 43837 ssh2,,0.7,,Normal
+2026-08-11T14:08:01,10.12.63.50,22,jenkins,Failed password for jenkins from 10.12.63.50 port 59408 ssh2,,,,Normal
+11 Aug 2026 14:08:31,10.13.119.178,22,www-data,Accepted password for www-data from 10.13.119.178 port 53817 ssh2,,0.81,,Normal
+2026-08-11 14:09:05,,,,CRON[8282]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T14:09:33,10.6.66.110,,,GET /api/v1/users?page=35,2579,1.092,200,Normal
+11 Aug 2026 14:10:06,10.10.46.77,,,GET /help/getting-started,7042,0.7,200,Normal
+2026-08-11 14:11:14,,,,CRON[8260]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T14:12:14,10.20.220.130,22,test,Failed password for test from 10.20.220.130 port 43400 ssh2,,,,Normal
+11 Aug 2026 14:13:19,10.13.125.174,22,test,Accepted password for test from 10.13.125.174 port 57039 ssh2,,1.74,,Normal
+2026-08-11 14:14:11,10.6.42.203,,,GET /api/v1/users?page=29,3322,0.99,200,Normal
+2026-08-11T14:15:26,10.9.185.88,22,jenkins,Failed password for jenkins from 10.9.185.88 port 48598 ssh2,,,,Normal
+11 Aug 2026 14:15:45,,,,CRON[8188]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 14:15:59,10.9.220.152,22,postgres,Accepted password for postgres from 10.9.220.152 port 51977 ssh2,,0.11,,Normal
+2026-08-11T14:16:17,,,,CRON[8533]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 14:17:45,10.5.250.63,22,postgres,Accepted password for postgres from 10.5.250.63 port 42289 ssh2,,1.7,,Normal
+2026-08-11 14:17:49,,,,CRON[8276]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T14:18:31,10.18.60.93,,,GET /assets/app.css,7273,0.635,200,Normal
+11 Aug 2026 14:19:10,10.11.51.182,,,GET /favicon.ico,1238,1.075,304,Normal
+2026-08-11 14:19:39,10.15.250.156,22,asmith,Accepted password for asmith from 10.15.250.156 port 42393 ssh2,,0.96,,Normal
+2026-08-11T14:20:07,10.4.147.127,,,GET /assets/app.css,4455,1.049,304,Normal
+11 Aug 2026 14:21:30,10.15.54.222,,,GET /blog/post-25,738,0.109,200,Normal
+2026-08-11 14:22:44,10.9.31.106,,,GET /api/health,3534,0.471,200,Normal
+2026-08-11T14:24:05,10.19.10.150,,,GET /favicon.ico,4761,1.048,200,Normal
+11 Aug 2026 14:24:13,,,,CRON[8664]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 14:24:42,10.2.141.114,22,deploy,Accepted password for deploy from 10.2.141.114 port 40653 ssh2,,0.3,,Normal
+2026-08-11T14:26:09,10.5.234.11,22,asmith,Accepted password for asmith from 10.5.234.11 port 56578 ssh2,,0.29,,Normal
+11 Aug 2026 14:26:37,10.17.144.253,,,GET /help/getting-started,5055,0.473,304,Normal
+2026-08-11 14:28:00,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T14:28:47,10.0.171.239,22,asmith,Accepted password for asmith from 10.0.171.239 port 51185 ssh2,,1.11,,Normal
+11 Aug 2026 14:28:53,10.10.46.77,,,GET /blog/post-21,3919,0.259,304,Normal
+2026-08-11 14:29:15,,,,CRON[8491]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T14:30:33,10.6.245.237,22,operator,Accepted password for operator from 10.6.245.237 port 61897 ssh2,,1.26,,Normal
+11 Aug 2026 14:31:35,10.19.173.179,22,root,Accepted password for root from 10.19.173.179 port 42365 ssh2,,1.37,,Normal
+2026-08-11 14:31:45,10.1.57.38,,,GET /contact,7949,1.118,200,Normal
+2026-08-11T14:32:56,10.9.44.76,22,appuser,Accepted password for appuser from 10.9.44.76 port 52604 ssh2,,0.54,,Normal
+11 Aug 2026 14:33:39,,,,CRON[8323]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 14:33:55,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T14:34:35,10.15.54.222,,,GET /help/getting-started,2520,1.195,200,Normal
+11 Aug 2026 14:35:47,10.18.9.93,,,GET /help/getting-started,8600,0.682,304,Normal
+2026-08-11 14:36:08,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T14:36:36,10.1.253.15,22,appuser,Accepted password for appuser from 10.1.253.15 port 59175 ssh2,,0.86,,Normal
+11 Aug 2026 14:37:06,10.3.157.187,22,root,Accepted password for root from 10.3.157.187 port 55601 ssh2,,1.4,,Normal
+2026-08-11 14:37:20,10.7.226.51,,,GET /assets/app.css,8784,0.62,200,Normal
+2026-08-11T14:38:42,10.14.182.187,22,svc_backup,Accepted password for svc_backup from 10.14.182.187 port 47922 ssh2,,1.52,,Normal
+11 Aug 2026 14:39:42,10.1.209.107,22,git,Accepted password for git from 10.1.209.107 port 60929 ssh2,,1.45,,Normal
+2026-08-11 14:40:29,10.2.240.122,,,GET /pricing,4058,0.387,304,Normal
+2026-08-11T14:41:00,10.19.60.187,,,GET /assets/app.js,6475,0.22,200,Normal
+11 Aug 2026 14:41:32,10.17.28.232,,,GET /,6612,0.684,304,Normal
+2026-08-11 14:42:58,10.17.144.253,,,GET /api/v1/users?page=3,8781,0.666,200,Normal
+2026-08-11T14:44:17,10.2.245.163,22,root,Accepted password for root from 10.2.245.163 port 54971 ssh2,,0.22,,Normal
+11 Aug 2026 14:45:06,10.6.87.129,22,operator,Accepted password for operator from 10.6.87.129 port 60560 ssh2,,1.99,,Normal
+2026-08-11 14:45:36,,,,CRON[8225]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T14:46:31,10.17.143.210,22,kmishra,Accepted password for kmishra from 10.17.143.210 port 53151 ssh2,,0.47,,Normal
+11 Aug 2026 14:47:51,10.4.147.127,,,GET /assets/app.css,5348,0.321,304,Normal
+2026-08-11 14:48:03,10.7.213.86,22,root,Accepted password for root from 10.7.213.86 port 48173 ssh2,,0.11,,Normal
+2026-08-11T14:48:15,10.8.226.196,,,GET /,1031,0.149,200,Normal
+11 Aug 2026 14:48:21,10.6.66.110,,,GET /assets/app.css,1683,1.194,200,Normal
+2026-08-11 14:49:34,,,,CRON[8688]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T14:50:50,,,,CRON[8265]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 14:50:57,,,,CRON[8977]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 14:51:18,10.18.12.35,22,admin,Failed password for admin from 10.18.12.35 port 54661 ssh2,,,,Normal
+2026-08-11T14:52:17,10.11.173.125,22,deploy,Accepted password for deploy from 10.11.173.125 port 55494 ssh2,,1.91,,Normal
+11 Aug 2026 14:52:49,10.6.66.110,,,GET /search?q=queries,1794,0.547,200,Normal
+2026-08-11 14:53:01,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T14:53:07,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 14:54:15,10.17.248.138,,,GET /assets/app.js,8097,0.561,200,Normal
+2026-08-11 14:54:38,10.9.117.40,22,root,Accepted password for root from 10.9.117.40 port 50396 ssh2,,1.26,,Normal
+2026-08-11T14:56:07,10.12.128.184,,,GET /assets/app.js,3442,0.16,200,Normal
+11 Aug 2026 14:57:11,10.19.235.141,22,postgres,Accepted password for postgres from 10.19.235.141 port 46839 ssh2,,1.92,,Normal
+2026-08-11 14:58:01,10.16.0.34,,,GET /help/getting-started,6433,0.721,200,Normal
+2026-08-11T14:58:29,10.15.206.180,,,GET /index.html,412,0.197,200,Normal
+11 Aug 2026 14:59:24,10.16.55.101,22,deploy,Accepted password for deploy from 10.16.55.101 port 44805 ssh2,,0.76,,Normal
+2026-08-11 15:00:40,10.13.164.154,,,GET /index.html,6096,1.163,200,Normal
+2026-08-11T15:01:03,10.16.207.46,22,postgres,Accepted password for postgres from 10.16.207.46 port 41462 ssh2,,1.38,,Normal
+11 Aug 2026 15:01:40,10.2.240.122,,,GET /api/v1/users?page=30,4343,0.671,200,Normal
+2026-08-11 15:01:54,10.8.211.117,,,GET /blog/post-19,3057,0.61,200,Normal
+2026-08-11T15:02:19,10.12.128.184,,,GET /pricing,6359,0.196,304,Normal
+11 Aug 2026 15:03:16,10.10.165.25,,,GET /index.html,2307,0.353,200,Normal
+2026-08-11 15:03:46,,,,CRON[8618]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T15:04:52,10.18.152.180,,,GET /api/v1/users?page=19,4146,1.197,304,Normal
+11 Aug 2026 15:04:55,10.5.187.107,,,GET /,2864,1.175,200,Normal
+2026-08-11 15:05:09,10.19.3.72,,,GET /index.html,6684,1.136,200,Normal
+2026-08-11T15:06:09,,,,CRON[8987]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 15:07:35,,,,CRON[8946]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 15:07:52,10.14.137.47,,,GET /favicon.ico,1574,0.448,200,Normal
+2026-08-11T15:08:31,,,,CRON[8703]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 15:08:53,,,,CRON[8989]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 15:09:05,10.9.204.10,,,GET /blog/post-3,726,0.096,200,Normal
+2026-08-11T15:09:29,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 15:10:30,10.17.28.232,,,GET /contact,5613,0.544,304,Normal
+2026-08-11 15:11:54,10.13.243.37,,,GET /api/v1/users?page=7,913,1.038,200,Normal
+2026-08-11T15:12:23,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 15:13:40,10.12.109.152,22,www-data,Accepted password for www-data from 10.12.109.152 port 43533 ssh2,,1.88,,Normal
+2026-08-11 15:14:22,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T15:15:42,,,,CRON[8155]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 15:16:10,10.9.204.10,,,GET /help/getting-started,3136,0.595,200,Normal
+2026-08-11 15:16:13,,,,CRON[8323]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T15:17:38,10.15.5.121,22,jenkins,Accepted password for jenkins from 10.15.5.121 port 45028 ssh2,,0.57,,Normal
+11 Aug 2026 15:18:15,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 15:19:28,10.18.112.130,22,asmith,Accepted password for asmith from 10.18.112.130 port 60474 ssh2,,1.83,,Normal
+2026-08-11T15:20:43,10.16.211.123,,,GET /favicon.ico,8108,0.577,200,Normal
+11 Aug 2026 15:21:56,10.12.221.134,22,jdoe,Accepted password for jdoe from 10.12.221.134 port 61060 ssh2,,0.49,,Normal
+2026-08-11 15:22:44,,,,CRON[8850]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T15:22:55,10.14.64.205,22,asmith,Accepted password for asmith from 10.14.64.205 port 63015 ssh2,,0.51,,Normal
+11 Aug 2026 15:24:04,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 15:25:03,10.9.31.106,,,GET /search?q=queries,7258,0.492,200,Normal
+2026-08-11T15:25:22,10.10.46.77,,,GET /index.html,439,0.669,200,Normal
+11 Aug 2026 15:26:17,10.14.173.145,22,sshakya,Accepted password for sshakya from 10.14.173.145 port 45188 ssh2,,1.91,,Normal
+2026-08-11 15:26:46,10.13.166.163,,,GET /assets/app.css,4725,0.489,200,Normal
+2026-08-11T15:27:40,,,,CRON[8474]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 15:27:44,10.6.53.96,22,git,Failed password for git from 10.6.53.96 port 61713 ssh2,,,,Normal
+2026-08-11 15:27:54,10.11.93.36,22,ubuntu,Accepted password for ubuntu from 10.11.93.36 port 44888 ssh2,,1.47,,Normal
+2026-08-11T15:28:20,10.20.13.2,22,svc_backup,Accepted password for svc_backup from 10.20.13.2 port 57811 ssh2,,1.08,,Normal
+11 Aug 2026 15:28:51,10.4.18.138,,,GET /api/health,5121,0.137,200,Normal
+2026-08-11 15:29:06,10.17.73.205,22,sshakya,Accepted password for sshakya from 10.17.73.205 port 49451 ssh2,,0.83,,Normal
+2026-08-11T15:29:33,10.10.39.129,,,GET /images/logo.png,6139,1.08,304,Normal
+11 Aug 2026 15:30:46,10.4.21.225,,,GET /favicon.ico,6094,0.529,200,Normal
+2026-08-11 15:32:12,,,,CRON[8236]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T15:33:33,10.14.179.240,22,root,Accepted password for root from 10.14.179.240 port 45655 ssh2,,0.27,,Normal
+11 Aug 2026 15:33:36,10.15.160.212,22,test,Accepted password for test from 10.15.160.212 port 64386 ssh2,,0.98,,Normal
+2026-08-11 15:33:55,10.5.166.61,,,GET /,7042,0.572,200,Normal
+2026-08-11T15:34:05,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 15:35:09,10.10.45.189,22,kmishra,Accepted password for kmishra from 10.10.45.189 port 57603 ssh2,,1.52,,Normal
+2026-08-11 15:35:31,10.11.51.182,,,GET /assets/app.css,6929,1.152,304,Normal
+2026-08-11T15:35:45,10.19.10.150,,,GET /,2952,1.153,304,Normal
+11 Aug 2026 15:36:32,,,,CRON[8394]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 15:37:46,10.12.137.151,22,intern,Accepted password for intern from 10.12.137.151 port 47768 ssh2,,0.42,,Normal
+2026-08-11T15:38:39,,,,CRON[8979]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 15:39:04,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 15:39:50,10.16.211.123,,,GET /assets/app.js,2699,0.102,200,Normal
+2026-08-11T15:41:04,10.4.26.169,22,git,Failed password for git from 10.4.26.169 port 62962 ssh2,,,,Normal
+11 Aug 2026 15:42:01,,,,CRON[8310]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 15:43:08,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T15:44:36,10.4.230.250,,,GET /search?q=queries,1826,0.314,304,Normal
+11 Aug 2026 15:45:38,,,,CRON[8696]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 15:47:05,10.4.21.225,,,GET /blog/post-10,7038,0.795,200,Normal
+2026-08-11T15:48:23,10.9.28.92,22,oracle,Accepted password for oracle from 10.9.28.92 port 49640 ssh2,,1.76,,Normal
+11 Aug 2026 15:48:35,10.4.188.110,22,admin,Accepted password for admin from 10.4.188.110 port 47339 ssh2,,0.17,,Normal
+2026-08-11 15:48:55,10.7.63.215,22,kmishra,Accepted password for kmishra from 10.7.63.215 port 45013 ssh2,,1.34,,Normal
+2026-08-11T15:49:23,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 15:50:48,10.19.3.72,,,GET /search?q=queries,985,0.546,200,Normal
+2026-08-11 15:51:15,,,,CRON[8268]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T15:51:54,10.20.183.225,22,deploy,Accepted password for deploy from 10.20.183.225 port 43311 ssh2,,0.41,,Normal
+11 Aug 2026 15:52:43,10.2.45.93,22,jdoe,Failed password for jdoe from 10.2.45.93 port 43946 ssh2,,,,Normal
+2026-08-11 15:53:29,,,,CRON[8810]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T15:53:57,10.19.204.164,,,GET /images/logo.png,1296,0.437,304,Normal
+11 Aug 2026 15:54:01,10.17.60.146,,,GET /index.html,7746,0.54,200,Normal
+2026-08-11 15:54:32,10.13.105.93,22,git,Failed password for git from 10.13.105.93 port 62617 ssh2,,,,Normal
+2026-08-11T15:55:43,10.1.1.83,,,GET /contact,1579,0.717,200,Normal
+11 Aug 2026 15:56:14,10.13.238.224,,,GET /images/logo.png,6423,0.244,200,Normal
+2026-08-11 15:57:33,10.5.166.61,,,GET /pricing,5679,0.531,304,Normal
+2026-08-11T15:58:35,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 15:59:52,,,,CRON[8689]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 16:00:22,10.12.128.184,,,GET /blog/post-12,8977,1.14,200,Normal
+2026-08-11T16:01:12,10.18.9.93,,,GET /favicon.ico,7417,0.213,200,Normal
+11 Aug 2026 16:01:41,10.4.112.175,,,GET /favicon.ico,2820,0.908,200,Normal
+2026-08-11 16:02:19,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T16:02:49,10.10.38.181,22,sshakya,Accepted password for sshakya from 10.10.38.181 port 54075 ssh2,,0.21,,Normal
+11 Aug 2026 16:04:17,10.18.9.93,,,GET /index.html,2873,0.478,200,Normal
+2026-08-11 16:04:46,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T16:05:06,10.18.174.72,22,www-data,Accepted password for www-data from 10.18.174.72 port 47210 ssh2,,1.62,,Normal
+11 Aug 2026 16:06:34,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 16:07:56,10.7.171.55,,,GET /blog/post-39,3778,0.276,200,Normal
+2026-08-11T16:08:45,10.8.108.177,,,GET /help/getting-started,730,0.769,304,Normal
+11 Aug 2026 16:09:25,10.18.60.93,,,GET /pricing,7102,0.531,200,Normal
+2026-08-11 16:10:10,10.18.60.93,,,GET /pricing,350,0.111,304,Normal
+2026-08-11T16:11:02,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 16:12:02,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 16:13:27,10.0.57.233,22,appuser,Accepted password for appuser from 10.0.57.233 port 42292 ssh2,,0.46,,Normal
+2026-08-11T16:14:04,10.17.157.155,22,kmishra,Accepted password for kmishra from 10.17.157.155 port 57547 ssh2,,0.35,,Normal
+11 Aug 2026 16:15:31,,,,CRON[8572]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 16:16:53,10.6.51.174,22,git,Accepted password for git from 10.6.51.174 port 40254 ssh2,,1.3,,Normal
+2026-08-11T16:17:43,10.11.224.12,22,operator,Accepted password for operator from 10.11.224.12 port 40450 ssh2,,0.98,,Normal
+11 Aug 2026 16:18:50,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 16:19:53,10.5.189.39,,,GET /contact,3212,0.941,200,Normal
+2026-08-11T16:20:47,10.4.38.199,22,www-data,Accepted password for www-data from 10.4.38.199 port 58072 ssh2,,0.12,,Normal
+11 Aug 2026 16:21:43,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 16:22:41,,,,CRON[8739]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T16:22:57,10.15.54.222,,,GET /pricing,8327,0.2,200,Normal
+11 Aug 2026 16:23:01,10.20.30.90,,,GET /search?q=queries,7296,0.766,200,Normal
+2026-08-11 16:23:42,10.12.229.218,22,audit,Accepted password for audit from 10.12.229.218 port 60302 ssh2,,1.65,,Normal
+2026-08-11T16:24:37,10.6.207.166,22,appuser,Accepted password for appuser from 10.6.207.166 port 45709 ssh2,,1.17,,Normal
+11 Aug 2026 16:25:31,10.12.169.161,22,appuser,Accepted password for appuser from 10.12.169.161 port 43608 ssh2,,0.96,,Normal
+2026-08-11 16:26:40,10.9.51.47,,,GET /index.html,2281,0.962,200,Normal
+2026-08-11T16:27:47,10.16.98.143,22,postgres,Accepted password for postgres from 10.16.98.143 port 44202 ssh2,,1.94,,Normal
+11 Aug 2026 16:29:16,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 16:30:19,10.1.21.68,22,audit,Accepted password for audit from 10.1.21.68 port 51638 ssh2,,0.73,,Normal
+2026-08-11T16:31:10,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 16:32:38,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 16:34:06,10.18.6.178,22,asmith,Accepted password for asmith from 10.18.6.178 port 49719 ssh2,,1.02,,Normal
+2026-08-11T16:34:48,10.9.170.73,22,oracle,Accepted password for oracle from 10.9.170.73 port 50404 ssh2,,1.75,,Normal
+11 Aug 2026 16:35:35,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 16:36:09,10.14.99.2,,,GET /images/logo.png,724,0.847,200,Normal
+2026-08-11T16:36:16,10.17.28.232,,,GET /api/v1/users?page=36,6872,0.901,200,Normal
+11 Aug 2026 16:37:13,10.17.16.115,22,postgres,Accepted password for postgres from 10.17.16.115 port 56659 ssh2,,0.15,,Normal
+2026-08-11 16:38:19,10.13.109.225,22,postgres,Accepted password for postgres from 10.13.109.225 port 48000 ssh2,,0.37,,Normal
+2026-08-11T16:39:24,10.14.133.49,22,sshakya,Accepted password for sshakya from 10.14.133.49 port 50304 ssh2,,0.46,,Normal
+11 Aug 2026 16:39:56,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 16:40:05,10.8.176.116,,,GET /,8817,0.564,200,Normal
+2026-08-11T16:41:17,10.16.60.183,22,root,Accepted password for root from 10.16.60.183 port 54883 ssh2,,0.76,,Normal
+11 Aug 2026 16:42:21,10.1.1.83,,,GET /,5672,0.707,200,Normal
+2026-08-11 16:43:26,10.12.62.114,22,jenkins,Accepted password for jenkins from 10.12.62.114 port 56539 ssh2,,1.28,,Normal
+2026-08-11T16:44:47,,,,CRON[8350]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 16:46:06,10.11.116.128,22,oracle,Accepted password for oracle from 10.11.116.128 port 58627 ssh2,,0.24,,Normal
+2026-08-11 16:47:32,10.6.165.30,22,test,Accepted password for test from 10.6.165.30 port 41769 ssh2,,1.3,,Normal
+2026-08-11T16:48:21,10.10.39.129,,,GET /pricing,3645,0.984,200,Normal
+11 Aug 2026 16:49:28,10.8.108.177,,,GET /,2947,0.402,200,Normal
+2026-08-11 16:49:45,10.13.164.154,,,GET /search?q=queries,606,0.142,304,Normal
+2026-08-11T16:50:28,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 16:51:48,10.4.18.138,,,GET /contact,422,1.054,200,Normal
+2026-08-11 16:51:51,10.13.163.82,,,GET /favicon.ico,2974,0.925,200,Normal
+2026-08-11T16:52:29,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 16:53:10,,,,CRON[8487]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 16:53:14,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T16:54:16,10.7.239.224,22,ubuntu,Accepted password for ubuntu from 10.7.239.224 port 57809 ssh2,,0.17,,Normal
+11 Aug 2026 16:55:27,10.14.137.47,,,GET /contact,8629,0.285,200,Normal
+2026-08-11 16:55:47,10.8.28.165,22,audit,Accepted password for audit from 10.8.28.165 port 59155 ssh2,,0.15,,Normal
+2026-08-11T16:56:32,10.7.26.146,22,admin,Accepted password for admin from 10.7.26.146 port 59643 ssh2,,1.92,,Normal
+11 Aug 2026 16:56:35,10.9.78.204,22,audit,Accepted password for audit from 10.9.78.204 port 44496 ssh2,,0.67,,Normal
+2026-08-11 16:57:22,10.5.97.189,22,asmith,Accepted password for asmith from 10.5.97.189 port 51419 ssh2,,1.69,,Normal
+2026-08-11T16:57:39,,,,CRON[8820]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 16:58:02,10.2.43.106,22,admin,Accepted password for admin from 10.2.43.106 port 62632 ssh2,,0.23,,Normal
+2026-08-11 16:59:19,10.20.187.49,,,GET /index.html,2609,0.156,304,Normal
+2026-08-11T16:59:45,10.16.91.66,,,GET /favicon.ico,2210,0.916,200,Normal
+11 Aug 2026 16:59:58,10.1.248.114,,,GET /contact,7626,0.213,304,Normal
+2026-08-11 17:00:58,10.8.155.142,22,root,Accepted password for root from 10.8.155.142 port 43529 ssh2,,0.42,,Normal
+2026-08-11T17:01:11,10.20.159.154,22,mysql,Accepted password for mysql from 10.20.159.154 port 62547 ssh2,,1.45,,Normal
+11 Aug 2026 17:01:36,10.17.44.219,22,sshakya,Accepted password for sshakya from 10.17.44.219 port 55878 ssh2,,0.84,,Normal
+2026-08-11 17:03:06,10.17.60.146,,,GET /index.html,4069,1.123,200,Normal
+2026-08-11T17:03:17,,,,CRON[8998]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 17:04:40,10.7.42.19,,,GET /favicon.ico,1076,1.099,200,Normal
+2026-08-11 17:05:14,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T17:06:31,10.7.124.231,,,GET /blog/post-39,8764,0.781,200,Normal
+11 Aug 2026 17:07:14,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 17:08:27,10.4.222.59,,,GET /api/v1/users?page=30,5171,0.747,200,Normal
+2026-08-11T17:09:05,10.15.243.108,22,admin,Accepted password for admin from 10.15.243.108 port 56108 ssh2,,0.23,,Normal
+11 Aug 2026 17:10:16,10.19.10.150,,,GET /blog/post-23,4075,0.068,200,Normal
+2026-08-11 17:10:56,,,,CRON[8680]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T17:11:43,10.8.234.95,22,kmishra,Failed password for kmishra from 10.8.234.95 port 61653 ssh2,,,,Normal
+11 Aug 2026 17:12:30,,,,CRON[8837]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 17:12:45,10.3.142.127,22,operator,Accepted password for operator from 10.3.142.127 port 51830 ssh2,,0.21,,Normal
+2026-08-11T17:12:58,,,,CRON[8404]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 17:13:22,10.19.204.164,,,GET /images/logo.png,8757,0.193,200,Normal
+2026-08-11 17:13:28,10.18.152.180,,,GET /assets/app.css,1590,0.338,200,Normal
+2026-08-11T17:14:37,10.15.169.186,22,sshakya,Accepted password for sshakya from 10.15.169.186 port 49272 ssh2,,1.19,,Normal
+11 Aug 2026 17:15:54,10.17.28.232,,,GET /blog/post-39,8006,0.807,200,Normal
+2026-08-11 17:16:24,10.7.226.51,,,GET /assets/app.css,4002,0.375,200,Normal
+2026-08-11T17:16:49,10.8.61.149,22,mysql,Accepted password for mysql from 10.8.61.149 port 58216 ssh2,,0.09,,Normal
+11 Aug 2026 17:17:20,10.8.211.117,,,GET /help/getting-started,447,0.939,200,Normal
+2026-08-11 17:18:47,10.10.2.199,22,kmishra,Accepted password for kmishra from 10.10.2.199 port 44028 ssh2,,1.53,,Normal
+2026-08-11T17:19:47,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 17:21:10,10.17.156.193,,,GET /index.html,4010,0.402,200,Normal
+2026-08-11 17:21:35,10.13.163.82,,,GET /favicon.ico,8279,0.426,304,Normal
+2026-08-11T17:22:24,10.12.234.79,22,kmishra,Accepted password for kmishra from 10.12.234.79 port 56538 ssh2,,1.34,,Normal
+11 Aug 2026 17:22:29,10.4.21.225,,,GET /index.html,505,0.496,304,Normal
+2026-08-11 17:23:17,10.19.204.164,,,GET /contact,1605,0.956,200,Normal
+2026-08-11T17:24:18,10.7.224.211,22,mysql,Failed password for mysql from 10.7.224.211 port 58434 ssh2,,,,Normal
+11 Aug 2026 17:24:53,,,,CRON[8975]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 17:25:48,10.10.46.77,,,GET /help/getting-started,7289,0.081,200,Normal
+2026-08-11T17:26:45,10.0.141.79,22,mysql,Accepted password for mysql from 10.0.141.79 port 50367 ssh2,,0.84,,Normal
+11 Aug 2026 17:27:57,10.16.0.34,,,GET /help/getting-started,2566,0.103,200,Normal
+2026-08-11 17:28:48,10.0.156.155,22,asmith,Failed password for asmith from 10.0.156.155 port 52668 ssh2,,,,Normal
+2026-08-11T17:28:53,10.0.1.116,22,test,Failed password for test from 10.0.1.116 port 50761 ssh2,,,,Normal
+11 Aug 2026 17:28:59,10.14.163.66,,,GET /favicon.ico,6078,0.303,200,Normal
+2026-08-11 17:29:12,,,,CRON[8536]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T17:29:16,,,,CRON[8533]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 17:30:35,10.19.204.164,,,GET /assets/app.js,3174,0.642,304,Normal
+2026-08-11 17:31:09,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T17:32:02,10.11.231.129,22,git,Accepted password for git from 10.11.231.129 port 48206 ssh2,,0.9,,Normal
+11 Aug 2026 17:33:23,10.12.32.37,22,oracle,Accepted password for oracle from 10.12.32.37 port 47044 ssh2,,1.04,,Normal
+2026-08-11 17:33:47,10.14.137.47,,,GET /api/health,743,0.398,200,Normal
+2026-08-11T17:34:54,10.8.211.117,,,GET /search?q=queries,7358,0.619,304,Normal
+11 Aug 2026 17:36:07,10.14.230.120,22,asmith,Failed password for asmith from 10.14.230.120 port 64484 ssh2,,,,Normal
+2026-08-11 17:36:36,,,,CRON[8480]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T17:36:51,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 17:36:53,10.3.169.76,22,mysql,Accepted password for mysql from 10.3.169.76 port 59924 ssh2,,1.51,,Normal
+2026-08-11 17:38:04,10.16.0.34,,,GET /images/logo.png,8407,0.229,200,Normal
+2026-08-11T17:38:55,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 17:39:54,,,,CRON[8924]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 17:40:53,10.19.212.171,22,jenkins,Accepted password for jenkins from 10.19.212.171 port 64501 ssh2,,0.49,,Normal
+2026-08-11T17:42:19,,,,CRON[8210]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 17:43:16,10.5.63.193,22,oracle,Accepted password for oracle from 10.5.63.193 port 46065 ssh2,,0.83,,Normal
+2026-08-11 17:44:45,10.19.3.72,,,GET /,2046,1.055,200,Normal
+2026-08-11T17:46:05,10.1.10.124,22,audit,Failed password for audit from 10.1.10.124 port 56068 ssh2,,,,Normal
+11 Aug 2026 17:46:19,,,,CRON[8238]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 17:47:09,10.6.6.247,22,root,Accepted password for root from 10.6.6.247 port 54747 ssh2,,0.45,,Normal
+2026-08-11T17:47:54,10.10.39.129,,,GET /favicon.ico,4128,0.744,200,Normal
+11 Aug 2026 17:49:12,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 17:49:47,10.15.20.204,22,oracle,Accepted password for oracle from 10.15.20.204 port 54259 ssh2,,1.44,,Normal
+2026-08-11T17:50:25,10.2.43.225,22,postgres,Accepted password for postgres from 10.2.43.225 port 44635 ssh2,,1.82,,Normal
+11 Aug 2026 17:50:46,10.10.150.92,22,oracle,Accepted password for oracle from 10.10.150.92 port 41286 ssh2,,0.83,,Normal
+2026-08-11 17:52:13,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T17:53:38,,,,CRON[8785]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 17:54:30,10.5.166.61,,,GET /images/logo.png,1439,0.188,200,Normal
+2026-08-11 17:55:50,,,,CRON[8785]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T17:57:02,,,,CRON[8438]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 17:58:05,10.9.204.10,,,GET /contact,407,0.051,200,Normal
+2026-08-11 17:58:39,10.1.168.93,22,ubuntu,Accepted password for ubuntu from 10.1.168.93 port 40713 ssh2,,1.0,,Normal
+2026-08-11T17:58:59,10.5.16.66,22,appuser,Accepted password for appuser from 10.5.16.66 port 63350 ssh2,,0.32,,Normal
+11 Aug 2026 17:59:56,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 18:00:25,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T18:01:31,10.20.95.135,,,GET /images/logo.png,7883,0.723,200,Normal
+11 Aug 2026 18:02:48,10.6.190.77,,,GET /assets/app.js,3199,0.231,200,Normal
+2026-08-11 18:03:34,,,,CRON[8623]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T18:04:13,10.6.233.198,22,www-data,Accepted password for www-data from 10.6.233.198 port 51119 ssh2,,1.06,,Normal
+11 Aug 2026 18:04:50,10.4.18.138,,,GET /api/v1/users?page=5,8374,0.248,200,Normal
+2026-08-11 18:05:18,10.4.124.185,22,deploy,Accepted password for deploy from 10.4.124.185 port 47023 ssh2,,0.7,,Normal
+2026-08-11T18:05:31,10.8.108.177,,,GET /assets/app.css,1065,0.908,304,Normal
+11 Aug 2026 18:05:45,10.4.147.127,,,GET /api/v1/users?page=25,7876,0.598,200,Normal
+2026-08-11 18:06:20,10.14.137.47,,,GET /blog/post-9,5091,0.43,304,Normal
+2026-08-11T18:07:18,,,,CRON[8873]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 18:08:09,10.13.164.154,,,GET /,1602,0.473,304,Normal
+2026-08-11 18:09:02,10.17.60.146,,,GET /,1937,1.184,304,Normal
+2026-08-11T18:10:22,10.9.60.108,22,sshakya,Accepted password for sshakya from 10.9.60.108 port 41085 ssh2,,1.14,,Normal
+11 Aug 2026 18:10:42,10.16.93.220,,,GET /api/health,6676,0.023,200,Normal
+2026-08-11 18:12:08,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T18:12:11,,,,CRON[8529]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 18:13:07,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 18:14:14,10.18.60.93,,,GET /search?q=queries,5640,1.195,200,Normal
+2026-08-11T18:15:12,10.6.40.224,22,ubuntu,Accepted password for ubuntu from 10.6.40.224 port 51542 ssh2,,1.72,,Normal
+11 Aug 2026 18:16:19,10.17.248.138,,,GET /help/getting-started,6261,0.99,200,Normal
+2026-08-11 18:17:32,10.10.5.117,22,jenkins,Accepted password for jenkins from 10.10.5.117 port 63382 ssh2,,1.91,,Normal
+2026-08-11T18:17:56,,,,CRON[8818]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 18:19:13,10.17.175.76,22,kmishra,Failed password for kmishra from 10.17.175.76 port 43612 ssh2,,,,Normal
+2026-08-11 18:20:35,10.16.121.164,22,git,Failed password for git from 10.16.121.164 port 58394 ssh2,,,,Normal
+2026-08-11T18:20:51,10.3.199.228,22,git,Accepted password for git from 10.3.199.228 port 63363 ssh2,,0.13,,Normal
+11 Aug 2026 18:21:24,10.1.24.72,22,git,Failed password for git from 10.1.24.72 port 43955 ssh2,,,,Normal
+2026-08-11 18:22:48,10.12.118.107,22,sshakya,Accepted password for sshakya from 10.12.118.107 port 47370 ssh2,,1.39,,Normal
+2026-08-11T18:24:12,10.7.5.43,22,root,Accepted password for root from 10.7.5.43 port 54837 ssh2,,0.3,,Normal
+11 Aug 2026 18:25:23,10.6.66.110,,,GET /api/health,4480,0.555,200,Normal
+2026-08-11 18:26:25,10.13.243.37,,,GET /assets/app.css,5117,0.684,200,Normal
+2026-08-11T18:27:36,10.1.117.235,22,root,Accepted password for root from 10.1.117.235 port 44682 ssh2,,0.76,,Normal
+11 Aug 2026 18:28:03,,,,CRON[8378]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 18:28:39,10.16.188.182,22,asmith,Accepted password for asmith from 10.16.188.182 port 60424 ssh2,,0.53,,Normal
+2026-08-11T18:29:06,10.8.196.228,22,sshakya,Accepted password for sshakya from 10.8.196.228 port 64935 ssh2,,0.14,,Normal
+11 Aug 2026 18:29:47,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 18:30:41,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T18:32:03,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 18:33:02,,,,CRON[8639]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 18:33:52,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T18:34:08,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 18:35:26,10.17.60.146,,,GET /assets/app.js,3275,0.367,200,Normal
+2026-08-11 18:35:32,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T18:36:29,10.8.226.196,,,GET /assets/app.js,8435,0.463,200,Normal
+11 Aug 2026 18:37:29,10.19.186.69,22,deploy,Failed password for deploy from 10.19.186.69 port 62196 ssh2,,,,Normal
+2026-08-11 18:38:25,10.11.221.17,22,www-data,Failed password for www-data from 10.11.221.17 port 53175 ssh2,,,,Normal
+2026-08-11T18:38:55,10.18.186.147,,,GET /index.html,3280,0.166,200,Normal
+11 Aug 2026 18:40:01,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 18:41:00,10.6.66.110,,,GET /images/logo.png,4275,0.736,304,Normal
+2026-08-11T18:42:10,10.9.63.16,22,appuser,Accepted password for appuser from 10.9.63.16 port 41566 ssh2,,0.63,,Normal
+11 Aug 2026 18:42:39,,,,CRON[8243]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 18:42:57,10.6.66.110,,,GET /index.html,6327,0.391,200,Normal
+2026-08-11T18:43:27,,,,CRON[8202]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 18:44:05,10.7.5.37,22,postgres,Accepted password for postgres from 10.7.5.37 port 49832 ssh2,,1.58,,Normal
+2026-08-11 18:44:16,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T18:44:20,10.7.207.234,22,operator,Accepted password for operator from 10.7.207.234 port 56719 ssh2,,0.11,,Normal
+11 Aug 2026 18:44:29,10.6.147.246,22,admin,Accepted password for admin from 10.6.147.246 port 57681 ssh2,,1.96,,Normal
+2026-08-11 18:45:39,10.2.92.14,22,audit,Accepted password for audit from 10.2.92.14 port 46075 ssh2,,1.54,,Normal
+2026-08-11T18:46:31,10.8.205.13,22,deploy,Accepted password for deploy from 10.8.205.13 port 63712 ssh2,,1.71,,Normal
+11 Aug 2026 18:47:50,,,,CRON[8547]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 18:49:14,10.19.59.74,22,mysql,Accepted password for mysql from 10.19.59.74 port 44717 ssh2,,1.38,,Normal
+2026-08-11T18:50:09,10.16.27.30,22,deploy,Accepted password for deploy from 10.16.27.30 port 55025 ssh2,,1.55,,Normal
+11 Aug 2026 18:50:45,10.6.117.169,22,intern,Accepted password for intern from 10.6.117.169 port 44674 ssh2,,0.94,,Normal
+2026-08-11 18:51:15,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T18:51:57,10.16.211.123,,,GET /images/logo.png,2096,0.07,200,Normal
+11 Aug 2026 18:52:47,10.19.10.150,,,GET /api/health,4321,0.314,200,Normal
+2026-08-11 18:54:13,10.7.124.231,,,GET /api/v1/users?page=35,8849,0.872,200,Normal
+2026-08-11T18:54:28,10.6.190.77,,,GET /search?q=queries,3884,0.684,200,Normal
+11 Aug 2026 18:55:17,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 18:56:03,10.18.60.93,,,GET /pricing,8390,0.855,200,Normal
+2026-08-11T18:57:19,10.19.202.15,22,sshakya,Accepted password for sshakya from 10.19.202.15 port 42023 ssh2,,0.82,,Normal
+11 Aug 2026 18:57:47,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 18:58:28,,,,CRON[8865]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T18:59:39,10.16.93.220,,,GET /assets/app.js,3469,0.679,200,Normal
+11 Aug 2026 19:01:05,,,,CRON[8342]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 19:01:23,10.20.97.205,22,asmith,Accepted password for asmith from 10.20.97.205 port 45036 ssh2,,1.53,,Normal
+2026-08-11T19:02:50,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 19:03:50,10.9.31.106,,,GET /,3094,0.138,200,Normal
+2026-08-11 19:05:05,,,,CRON[8934]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T19:05:56,10.7.42.19,,,GET /assets/app.js,4109,1.13,304,Normal
+11 Aug 2026 19:06:46,,,,CRON[8666]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 19:08:01,10.16.55.200,22,jdoe,Accepted password for jdoe from 10.16.55.200 port 42219 ssh2,,1.26,,Normal
+2026-08-11T19:08:12,10.6.245.61,22,operator,Accepted password for operator from 10.6.245.61 port 64393 ssh2,,0.65,,Normal
+11 Aug 2026 19:09:30,,,,CRON[8527]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 19:10:29,,,,CRON[8699]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T19:11:12,10.9.204.10,,,GET /favicon.ico,7959,0.511,200,Normal
+11 Aug 2026 19:11:36,10.4.213.86,22,operator,Accepted password for operator from 10.4.213.86 port 48113 ssh2,,0.1,,Normal
+2026-08-11 19:13:05,,,,CRON[8879]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T19:13:38,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 19:14:30,10.8.163.35,22,appuser,Accepted password for appuser from 10.8.163.35 port 61379 ssh2,,0.24,,Normal
+2026-08-11 19:15:05,10.18.154.35,22,git,Accepted password for git from 10.18.154.35 port 49996 ssh2,,0.31,,Normal
+2026-08-11T19:15:25,10.17.248.138,,,GET /pricing,8880,0.509,200,Normal
+11 Aug 2026 19:16:46,10.13.164.154,,,GET /api/health,2420,0.369,200,Normal
+2026-08-11 19:16:55,,,,CRON[8178]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T19:18:06,10.0.119.187,22,sshakya,Accepted password for sshakya from 10.0.119.187 port 63154 ssh2,,1.11,,Normal
+11 Aug 2026 19:18:51,,,,CRON[8436]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 19:19:36,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T19:20:41,10.11.37.117,22,ubuntu,Accepted password for ubuntu from 10.11.37.117 port 50809 ssh2,,1.86,,Normal
+11 Aug 2026 19:21:49,10.6.15.220,22,appuser,Accepted password for appuser from 10.6.15.220 port 63495 ssh2,,1.79,,Normal
+2026-08-11 19:22:54,,,,CRON[8496]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T19:23:04,10.11.33.20,,,GET /help/getting-started,7717,0.862,304,Normal
+11 Aug 2026 19:23:46,10.11.117.69,,,GET /search?q=queries,814,0.473,200,Normal
+2026-08-11 19:23:57,10.8.91.219,,,GET /api/health,5513,0.399,304,Normal
+2026-08-11T19:25:04,10.6.52.234,22,admin,Failed password for admin from 10.6.52.234 port 51036 ssh2,,,,Normal
+11 Aug 2026 19:25:51,10.8.193.193,22,git,Accepted password for git from 10.8.193.193 port 45884 ssh2,,1.98,,Normal
+2026-08-11 19:26:17,10.11.51.182,,,GET /api/health,7181,0.071,200,Normal
+2026-08-11T19:26:45,10.13.25.231,22,www-data,Accepted password for www-data from 10.13.25.231 port 43823 ssh2,,1.74,,Normal
+11 Aug 2026 19:26:50,,,,CRON[8639]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 19:27:57,10.2.240.122,,,GET /api/health,7576,0.844,200,Normal
+2026-08-11T19:29:17,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 19:29:21,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 19:29:58,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T19:30:07,10.7.42.19,,,GET /search?q=queries,3997,0.155,200,Normal
+11 Aug 2026 19:30:24,,,,CRON[8810]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 19:31:40,10.6.66.110,,,GET /,4620,0.533,304,Normal
+2026-08-11T19:32:29,,,,CRON[8836]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 19:33:10,10.20.239.243,22,sshakya,Accepted password for sshakya from 10.20.239.243 port 60257 ssh2,,0.65,,Normal
+2026-08-11 19:33:41,,,,CRON[8571]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T19:34:23,10.14.85.48,22,appuser,Accepted password for appuser from 10.14.85.48 port 45814 ssh2,,1.06,,Normal
+11 Aug 2026 19:34:49,10.13.171.95,,,GET /pricing,553,0.039,200,Normal
+2026-08-11 19:35:15,10.0.23.16,22,postgres,Accepted password for postgres from 10.0.23.16 port 62091 ssh2,,1.68,,Normal
+2026-08-11T19:35:58,10.19.204.164,,,GET /,5268,1.007,200,Normal
+11 Aug 2026 19:37:18,10.5.166.61,,,GET /blog/post-16,4035,0.266,200,Normal
+2026-08-11 19:38:20,10.20.95.135,,,GET /index.html,6632,0.258,200,Normal
+2026-08-11T19:39:09,10.17.28.232,,,GET /index.html,3539,0.685,304,Normal
+11 Aug 2026 19:39:21,10.13.242.250,22,git,Accepted password for git from 10.13.242.250 port 58783 ssh2,,1.1,,Normal
+2026-08-11 19:40:00,10.10.165.25,,,GET /assets/app.js,2648,0.608,304,Normal
+2026-08-11T19:40:18,10.13.29.58,22,mysql,Accepted password for mysql from 10.13.29.58 port 53984 ssh2,,0.16,,Normal
+11 Aug 2026 19:41:08,10.2.199.34,22,jdoe,Accepted password for jdoe from 10.2.199.34 port 45907 ssh2,,1.92,,Normal
+2026-08-11 19:41:27,10.2.171.66,22,kmishra,Accepted password for kmishra from 10.2.171.66 port 43131 ssh2,,1.15,,Normal
+2026-08-11T19:41:31,10.14.13.66,22,svc_backup,Accepted password for svc_backup from 10.14.13.66 port 44649 ssh2,,1.32,,Normal
+11 Aug 2026 19:42:03,10.17.144.253,,,GET /assets/app.js,3270,0.899,200,Normal
+2026-08-11 19:42:31,10.17.144.253,,,GET /images/logo.png,8081,0.813,200,Normal
+2026-08-11T19:43:06,10.5.20.147,22,admin,Accepted password for admin from 10.5.20.147 port 40190 ssh2,,0.48,,Normal
+11 Aug 2026 19:43:24,10.11.117.69,,,GET /,4097,0.729,304,Normal
+2026-08-11 19:43:51,10.8.77.176,22,git,Failed password for git from 10.8.77.176 port 47358 ssh2,,,,Normal
+2026-08-11T19:44:54,,,,CRON[8581]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 19:44:57,10.7.226.51,,,GET /search?q=queries,7395,0.137,200,Normal
+2026-08-11 19:45:29,10.5.189.39,,,GET /index.html,5058,0.026,200,Normal
+2026-08-11T19:46:06,,,,CRON[8369]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 19:46:43,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 19:46:49,10.17.143.8,22,intern,Accepted password for intern from 10.17.143.8 port 48259 ssh2,,0.48,,Normal
+2026-08-11T19:47:43,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 19:48:10,10.18.32.54,22,root,Accepted password for root from 10.18.32.54 port 48888 ssh2,,0.67,,Normal
+2026-08-11 19:49:20,10.6.42.203,,,GET /blog/post-14,6607,0.372,200,Normal
+2026-08-11T19:49:24,10.11.128.203,22,intern,Accepted password for intern from 10.11.128.203 port 59618 ssh2,,0.11,,Normal
+11 Aug 2026 19:50:26,10.11.33.20,,,GET /index.html,1750,0.64,200,Normal
+2026-08-11 19:51:13,10.13.146.12,22,mysql,Accepted password for mysql from 10.13.146.12 port 59915 ssh2,,0.24,,Normal
+2026-08-11T19:52:18,10.13.34.8,22,svc_backup,Accepted password for svc_backup from 10.13.34.8 port 42117 ssh2,,1.78,,Normal
+11 Aug 2026 19:53:05,10.1.248.114,,,GET /api/v1/users?page=7,454,0.814,304,Normal
+2026-08-11 19:54:16,10.18.186.147,,,GET /search?q=queries,8929,0.455,200,Normal
+2026-08-11T19:54:36,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 19:55:14,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 19:55:54,10.0.110.34,,,GET /pricing,7559,1.153,304,Normal
+2026-08-11T19:56:10,10.20.29.170,22,mysql,Failed password for mysql from 10.20.29.170 port 51145 ssh2,,,,Normal
+11 Aug 2026 19:56:27,10.16.91.66,,,GET /api/health,1088,1.184,200,Normal
+2026-08-11 19:57:45,10.13.171.95,,,GET /api/health,6727,0.397,200,Normal
+2026-08-11T19:59:00,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 20:00:09,10.14.163.66,,,GET /,4376,0.857,200,Normal
+2026-08-11 20:00:20,10.2.29.52,22,admin,Accepted password for admin from 10.2.29.52 port 48780 ssh2,,0.95,,Normal
+2026-08-11T20:00:25,,,,CRON[8754]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 20:01:21,10.0.85.120,22,deploy,Accepted password for deploy from 10.0.85.120 port 56133 ssh2,,0.59,,Normal
+2026-08-11 20:02:23,10.4.18.138,,,GET /pricing,1672,1.189,200,Normal
+2026-08-11T20:03:51,10.20.95.135,,,GET /blog/post-38,8234,0.594,304,Normal
+11 Aug 2026 20:04:19,10.1.57.38,,,GET /,1114,0.442,200,Normal
+2026-08-11 20:04:54,10.3.64.26,22,root,Failed password for root from 10.3.64.26 port 41798 ssh2,,,,Normal
+2026-08-11T20:05:13,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 20:06:27,10.15.188.148,22,test,Accepted password for test from 10.15.188.148 port 42825 ssh2,,1.64,,Normal
+2026-08-11 20:07:09,10.4.147.127,,,GET /help/getting-started,5402,0.198,200,Normal
+2026-08-11T20:07:22,10.1.130.186,22,operator,Accepted password for operator from 10.1.130.186 port 51291 ssh2,,0.46,,Normal
+11 Aug 2026 20:07:53,,,,CRON[8569]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 20:08:46,10.4.222.59,,,GET /,4326,1.122,200,Normal
+2026-08-11T20:09:25,10.2.76.212,22,www-data,Accepted password for www-data from 10.2.76.212 port 58004 ssh2,,0.47,,Normal
+11 Aug 2026 20:10:08,10.10.183.54,22,git,Accepted password for git from 10.10.183.54 port 58729 ssh2,,0.15,,Normal
+2026-08-11 20:10:32,10.0.110.34,,,GET /index.html,1466,0.979,200,Normal
+2026-08-11T20:10:46,10.18.152.180,,,GET /assets/app.css,6050,0.345,200,Normal
+11 Aug 2026 20:11:54,10.6.42.203,,,GET /index.html,2796,0.667,200,Normal
+2026-08-11 20:12:07,10.17.141.66,22,ubuntu,Accepted password for ubuntu from 10.17.141.66 port 43538 ssh2,,0.88,,Normal
+2026-08-11T20:13:23,10.19.3.72,,,GET /search?q=queries,2894,0.288,304,Normal
+11 Aug 2026 20:14:12,,,,CRON[8652]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 20:15:06,10.0.222.57,22,kmishra,Failed password for kmishra from 10.0.222.57 port 54930 ssh2,,,,Normal
+2026-08-11T20:16:29,10.12.240.133,22,jdoe,Accepted password for jdoe from 10.12.240.133 port 64359 ssh2,,1.54,,Normal
+11 Aug 2026 20:16:47,10.10.46.77,,,GET /images/logo.png,6756,0.703,200,Normal
+2026-08-11 20:18:08,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T20:19:17,10.0.160.21,22,svc_backup,Accepted password for svc_backup from 10.0.160.21 port 40771 ssh2,,1.78,,Normal
+11 Aug 2026 20:19:32,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 20:20:35,10.4.147.127,,,GET /assets/app.js,3239,0.456,200,Normal
+2026-08-11T20:21:40,,,,CRON[8661]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 20:22:03,10.5.188.223,22,appuser,Accepted password for appuser from 10.5.188.223 port 60444 ssh2,,0.13,,Normal
+2026-08-11 20:22:28,10.5.2.241,22,appuser,Accepted password for appuser from 10.5.2.241 port 42539 ssh2,,0.58,,Normal
+2026-08-11T20:23:24,10.9.77.99,22,svc_backup,Accepted password for svc_backup from 10.9.77.99 port 61337 ssh2,,1.18,,Normal
+11 Aug 2026 20:23:33,10.3.26.223,22,intern,Accepted password for intern from 10.3.26.223 port 42111 ssh2,,0.34,,Normal
+2026-08-11 20:24:45,,,,CRON[8744]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T20:25:15,10.5.187.107,,,GET /favicon.ico,688,1.025,200,Normal
+11 Aug 2026 20:26:43,10.18.90.93,22,test,Failed password for test from 10.18.90.93 port 54638 ssh2,,,,Normal
+2026-08-11 20:27:59,10.17.122.97,22,git,Accepted password for git from 10.17.122.97 port 51462 ssh2,,0.2,,Normal
+2026-08-11T20:28:31,,,,CRON[8371]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 20:28:36,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 20:29:07,10.10.39.129,,,GET /images/logo.png,8080,0.019,304,Normal
+2026-08-11T20:29:57,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 20:30:53,,,,CRON[8806]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 20:31:49,,,,CRON[8213]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T20:32:26,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 20:32:45,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 20:33:59,,,,CRON[8111]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T20:35:19,10.8.176.116,,,GET /assets/app.js,6631,0.469,200,Normal
+11 Aug 2026 20:36:21,10.6.42.203,,,GET /pricing,3512,0.904,200,Normal
+2026-08-11 20:37:47,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T20:39:09,10.19.125.234,22,ubuntu,Accepted password for ubuntu from 10.19.125.234 port 55504 ssh2,,1.77,,Normal
+11 Aug 2026 20:39:53,10.8.31.56,22,test,Accepted password for test from 10.8.31.56 port 57850 ssh2,,1.04,,Normal
+2026-08-11 20:40:11,10.17.131.142,22,audit,Accepted password for audit from 10.17.131.142 port 60649 ssh2,,0.44,,Normal
+2026-08-11T20:41:00,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 20:42:06,10.19.156.12,22,mysql,Accepted password for mysql from 10.19.156.12 port 49281 ssh2,,0.12,,Normal
+2026-08-11 20:42:33,10.19.66.127,22,sshakya,Accepted password for sshakya from 10.19.66.127 port 57321 ssh2,,0.71,,Normal
+2026-08-11T20:43:38,10.10.75.108,22,svc_backup,Accepted password for svc_backup from 10.10.75.108 port 51822 ssh2,,0.3,,Normal
+11 Aug 2026 20:43:49,10.18.252.127,22,mysql,Accepted password for mysql from 10.18.252.127 port 46751 ssh2,,0.47,,Normal
+2026-08-11 20:44:25,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T20:45:06,10.9.120.29,22,jdoe,Accepted password for jdoe from 10.9.120.29 port 57498 ssh2,,0.73,,Normal
+11 Aug 2026 20:45:36,,,,CRON[8106]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 20:47:04,10.1.57.38,,,GET /favicon.ico,4203,0.636,200,Normal
+2026-08-11T20:47:42,,,,CRON[8326]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 20:48:57,,,,CRON[8344]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 20:49:51,10.7.171.55,,,GET /assets/app.js,3037,0.881,200,Normal
+2026-08-11T20:50:07,,,,CRON[8623]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 20:50:54,10.7.124.231,,,GET /,2397,0.832,304,Normal
+2026-08-11 20:52:12,10.9.51.47,,,GET /index.html,6567,0.727,304,Normal
+2026-08-11T20:52:54,,,,CRON[8363]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 20:53:03,10.1.220.39,22,kmishra,Accepted password for kmishra from 10.1.220.39 port 58539 ssh2,,1.63,,Normal
+2026-08-11 20:54:14,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11T20:54:49,10.4.18.138,,,GET /assets/app.css,4475,0.874,304,Normal
+11 Aug 2026 20:55:21,10.2.95.196,22,ubuntu,Accepted password for ubuntu from 10.2.95.196 port 54787 ssh2,,0.64,,Normal
+2026-08-11 20:56:36,,,,CRON[8468]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T20:57:27,10.14.163.66,,,GET /index.html,7469,0.891,200,Normal
+11 Aug 2026 20:58:56,,,,CRON[8717]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 20:59:29,10.16.134.27,22,jenkins,Accepted password for jenkins from 10.16.134.27 port 57464 ssh2,,1.05,,Normal
+2026-08-11T21:00:09,10.19.60.187,,,GET /contact,6738,0.198,200,Normal
+11 Aug 2026 21:00:24,10.20.163.60,22,root,Failed password for root from 10.20.163.60 port 46340 ssh2,,,,Normal
+2026-08-11 21:01:21,10.17.248.138,,,GET /favicon.ico,6538,0.235,200,Normal
+2026-08-11T21:01:34,10.1.228.114,22,audit,Accepted password for audit from 10.1.228.114 port 48921 ssh2,,0.42,,Normal
+11 Aug 2026 21:01:44,10.1.248.114,,,GET /api/health,3819,1.136,304,Normal
+2026-08-11 21:01:51,10.18.186.147,,,GET /blog/post-35,4682,0.076,304,Normal
+2026-08-11T21:02:06,10.13.243.37,,,GET /api/health,6869,1.093,200,Normal
+11 Aug 2026 21:02:56,10.14.99.2,,,GET /search?q=queries,5169,0.883,304,Normal
+2026-08-11 21:03:25,,,,CRON[8694]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T21:03:39,10.10.165.25,,,GET /assets/app.css,4824,1.112,200,Normal
+11 Aug 2026 21:03:44,10.3.183.205,22,postgres,Accepted password for postgres from 10.3.183.205 port 47570 ssh2,,0.33,,Normal
+2026-08-11 21:04:03,10.12.32.54,22,ubuntu,Accepted password for ubuntu from 10.12.32.54 port 49132 ssh2,,0.93,,Normal
+2026-08-11T21:04:53,,,,CRON[8232]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+11 Aug 2026 21:05:55,10.10.46.77,,,GET /api/health,2546,0.467,200,Normal
+2026-08-11 21:06:47,,,,CRON[8898]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T21:07:11,10.6.0.131,22,jenkins,Accepted password for jenkins from 10.6.0.131 port 51750 ssh2,,1.88,,Normal
+11 Aug 2026 21:08:08,10.17.60.146,,,GET /index.html,7536,0.036,200,Normal
+2026-08-11 21:08:38,10.9.204.10,,,GET /assets/app.js,1265,0.061,304,Normal
+2026-08-11T21:09:34,10.14.227.57,22,git,Failed password for git from 10.14.227.57 port 55227 ssh2,,,,Normal
+11 Aug 2026 21:11:03,10.3.34.23,22,www-data,Accepted password for www-data from 10.3.34.23 port 58354 ssh2,,1.5,,Normal
+2026-08-11 21:11:32,10.5.63.27,22,git,Accepted password for git from 10.5.63.27 port 60882 ssh2,,0.28,,Normal
+2026-08-11T21:12:59,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+11 Aug 2026 21:13:43,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 21:15:09,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T21:16:20,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 21:17:33,10.19.87.80,22,postgres,Accepted password for postgres from 10.19.87.80 port 49883 ssh2,,1.86,,Normal
+2026-08-11 21:18:47,,,,CRON[8725]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T21:19:09,10.9.93.148,22,sshakya,Accepted password for sshakya from 10.9.93.148 port 51701 ssh2,,1.97,,Normal
+11 Aug 2026 21:20:24,10.19.10.150,,,GET /api/health,1119,0.396,304,Normal
+2026-08-11 21:20:47,10.3.97.238,22,git,Accepted password for git from 10.3.97.238 port 61329 ssh2,,0.07,,Normal
+2026-08-11T21:21:59,10.14.137.47,,,GET /api/v1/users?page=5,2536,0.931,200,Normal
+11 Aug 2026 21:22:16,10.8.108.177,,,GET /assets/app.js,6960,0.991,200,Normal
+2026-08-11 21:23:05,10.5.166.61,,,GET /help/getting-started,6788,0.548,304,Normal
+2026-08-11T21:24:33,10.15.235.45,22,mysql,Accepted password for mysql from 10.15.235.45 port 46396 ssh2,,1.93,,Normal
+11 Aug 2026 21:24:37,10.15.54.222,,,GET /contact,3939,0.244,304,Normal
+2026-08-11 21:24:49,10.10.77.105,22,intern,Accepted password for intern from 10.10.77.105 port 62759 ssh2,,0.14,,Normal
+2026-08-11T21:25:26,10.4.112.175,,,GET /blog/post-11,1688,0.261,200,Normal
+11 Aug 2026 21:26:04,10.0.196.75,22,sshakya,Failed password for sshakya from 10.0.196.75 port 50234 ssh2,,,,Normal
+2026-08-11 21:27:08,10.1.94.170,22,oracle,Accepted password for oracle from 10.1.94.170 port 42287 ssh2,,0.79,,Normal
+2026-08-11T21:27:46,10.8.146.94,22,kmishra,Accepted password for kmishra from 10.8.146.94 port 56082 ssh2,,0.39,,Normal
+11 Aug 2026 21:28:31,10.7.124.231,,,GET /api/health,4013,0.356,200,Normal
+2026-08-11 21:28:53,10.5.187.107,,,GET /search?q=queries,3430,0.33,200,Normal
+2026-08-11T21:29:20,10.14.99.2,,,GET /images/logo.png,2468,0.761,304,Normal
+11 Aug 2026 21:29:31,10.8.91.219,,,GET /blog/post-4,5734,0.994,200,Normal
+2026-08-11 21:30:24,10.4.21.225,,,GET /api/v1/users?page=5,7715,0.995,200,Normal
+2026-08-11T21:31:27,10.13.171.95,,,GET /,3498,0.458,200,Normal
+11 Aug 2026 21:32:24,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 21:33:08,10.17.206.141,,,GET /assets/app.css,6153,0.192,200,Normal
+2026-08-11T21:33:55,10.18.9.93,,,GET /assets/app.js,2056,0.723,200,Normal
+11 Aug 2026 21:34:09,10.8.112.211,22,jdoe,Accepted password for jdoe from 10.8.112.211 port 58056 ssh2,,1.65,,Normal
+2026-08-11 21:35:35,10.9.232.70,,,GET /pricing,4216,0.489,200,Normal
+2026-08-11T21:35:57,10.16.230.76,22,appuser,Accepted password for appuser from 10.16.230.76 port 58413 ssh2,,1.81,,Normal
+11 Aug 2026 21:36:08,10.15.201.66,22,admin,Accepted password for admin from 10.15.201.66 port 55353 ssh2,,1.53,,Normal
+2026-08-11 21:36:43,10.8.91.219,,,GET /contact,1014,0.425,200,Normal
+2026-08-11T21:36:48,10.18.62.196,22,deploy,Accepted password for deploy from 10.18.62.196 port 41370 ssh2,,0.13,,Normal
+11 Aug 2026 21:37:42,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11 21:37:58,,,,CRON[8465]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11T21:38:18,10.3.126.162,22,postgres,Failed password for postgres from 10.3.126.162 port 40499 ssh2,,,,Normal
+11 Aug 2026 21:38:45,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-11 21:39:06,10.15.206.180,,,GET /api/health,4833,0.018,200,Normal
+2026-08-11T21:39:43,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+11 Aug 2026 21:39:48,10.0.201.100,22,test,Accepted password for test from 10.0.201.100 port 49218 ssh2,,0.05,,Normal
+2026-08-11 21:41:07,10.18.152.180,,,GET /api/v1/users?page=15,3860,0.277,304,Normal
+2026-08-11T21:42:03,10.7.39.254,22,root,Accepted password for root from 10.7.39.254 port 40119 ssh2,,1.68,,Normal
+11 Aug 2026 21:42:55,10.13.49.212,22,test,Accepted password for test from 10.13.49.212 port 48872 ssh2,,1.98,,Normal
+2026-08-11 21:43:41,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-11T21:44:24,10.18.189.52,22,www-data,Accepted password for www-data from 10.18.189.52 port 47389 ssh2,,0.49,,Normal
+11 Aug 2026 21:44:29,,,,CRON[8731]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-11 21:44:59,10.13.238.224,,,GET /contact,8970,1.056,200,Normal
+2026-08-11T21:46:28,10.13.163.82,,,GET /assets/app.css,7786,0.764,304,Normal
+11 Aug 2026 21:47:47,10.17.156.193,,,GET /api/health,4097,0.442,200,Normal
+2026-08-11 21:48:16,10.2.28.245,22,kmishra,Accepted password for kmishra from 10.2.28.245 port 59468 ssh2,,0.6,,Normal
+2026-08-11T21:49:36,10.9.91.199,22,test,Accepted password for test from 10.9.91.199 port 42890 ssh2,,1.44,,Normal
+11 Aug 2026 21:50:16,10.8.226.196,,,GET /index.html,1380,0.105,200,Normal
+2026-08-11 21:50:58,10.11.51.182,,,GET /help/getting-started,1788,0.472,200,Normal
+2026-08-11T21:52:06,,,,CRON[8784]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+15 Aug 2026 05:15:23,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15 05:16:46,10.8.189.55,22,mysql,Accepted password for mysql from 10.8.189.55 port 42652 ssh2,,0.09,,Normal
+2026-08-15T05:18:10,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+15 Aug 2026 05:18:44,,,,CRON[8561]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-15 05:19:58,10.14.61.168,22,deploy,Accepted password for deploy from 10.14.61.168 port 46096 ssh2,,1.5,,Normal
+2026-08-15T05:21:19,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+15 Aug 2026 05:21:37,10.2.182.43,22,operator,Accepted password for operator from 10.2.182.43 port 64467 ssh2,,0.19,,Normal
+2026-08-15 05:22:04,10.3.153.33,22,intern,Accepted password for intern from 10.3.153.33 port 44320 ssh2,,1.57,,Normal
+2026-08-15T05:23:17,10.10.107.19,,,GET /assets/app.css,2521,0.965,304,Normal
+15 Aug 2026 05:24:04,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15 05:25:26,,,,CRON[8773]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-15T05:26:21,10.10.200.230,22,operator,Accepted password for operator from 10.10.200.230 port 59406 ssh2,,1.67,,Normal
+15 Aug 2026 05:27:21,,,,CRON[8893]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-15 05:28:24,,,,CRON[8538]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-15T05:29:21,10.0.125.213,22,admin,Accepted password for admin from 10.0.125.213 port 51715 ssh2,,1.49,,Normal
+15 Aug 2026 05:29:47,10.7.248.57,22,www-data,Accepted password for www-data from 10.7.248.57 port 61749 ssh2,,0.25,,Normal
+2026-08-15 05:30:05,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-15T05:31:23,10.12.24.143,22,postgres,Failed password for postgres from 10.12.24.143 port 49536 ssh2,,,,Normal
+15 Aug 2026 05:32:01,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-15 05:33:13,10.14.159.90,22,ubuntu,Failed password for ubuntu from 10.14.159.90 port 45072 ssh2,,,,Normal
+2026-08-15T05:33:56,,,,CRON[8939]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+15 Aug 2026 05:34:47,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-15 05:34:55,10.10.107.19,,,GET /blog/post-25,6369,0.155,200,Normal
+2026-08-15T05:35:11,10.8.129.124,22,mysql,Accepted password for mysql from 10.8.129.124 port 40583 ssh2,,1.57,,Normal
+15 Aug 2026 05:35:35,,,,CRON[8917]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-15 05:36:36,10.17.240.16,,,GET /search?q=queries,7129,0.503,200,Normal
+2026-08-15T05:37:04,10.15.132.131,,,GET /assets/app.js,1475,1.104,200,Normal
+15 Aug 2026 05:37:14,10.15.132.131,,,GET /search?q=queries,8568,1.081,304,Normal
+2026-08-15 05:38:06,10.15.64.28,22,svc_backup,Accepted password for svc_backup from 10.15.64.28 port 54980 ssh2,,0.07,,Normal
+2026-08-15T05:39:11,10.14.12.86,22,admin,Accepted password for admin from 10.14.12.86 port 61822 ssh2,,1.15,,Normal
+15 Aug 2026 05:40:38,,,,CRON[8950]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-15 05:41:08,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15T05:42:27,10.20.143.153,22,postgres,Accepted password for postgres from 10.20.143.153 port 60482 ssh2,,1.72,,Normal
+15 Aug 2026 05:43:32,10.17.240.16,,,GET /,1093,0.741,304,Normal
+2026-08-15 05:45:00,10.18.123.183,,,GET /help/getting-started,3878,0.243,200,Normal
+2026-08-15T05:45:14,,,,CRON[8678]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+15 Aug 2026 05:45:23,,,,CRON[8771]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-15 05:46:53,10.18.123.183,,,GET /api/health,797,0.124,200,Normal
+2026-08-15T05:47:57,10.20.23.94,,,GET /assets/app.js,5435,0.528,200,Normal
+15 Aug 2026 05:48:12,10.2.61.39,22,kmishra,Accepted password for kmishra from 10.2.61.39 port 62001 ssh2,,0.48,,Normal
+2026-08-15 05:49:29,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15T05:50:15,10.20.88.228,,,GET /blog/post-29,7635,1.109,304,Normal
+15 Aug 2026 05:50:21,,,,CRON[8951]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-15 05:51:38,10.20.23.94,,,GET /blog/post-16,6155,0.537,200,Normal
+2026-08-15T05:53:03,10.19.116.5,22,kmishra,Accepted password for kmishra from 10.19.116.5 port 63861 ssh2,,0.53,,Normal
+15 Aug 2026 05:53:49,10.9.191.10,,,GET /assets/app.css,2978,0.526,200,Normal
+2026-08-15 05:54:31,10.18.123.183,,,GET /assets/app.css,7626,1.149,200,Normal
+2026-08-15T05:55:11,10.20.164.245,22,asmith,Accepted password for asmith from 10.20.164.245 port 46974 ssh2,,1.75,,Normal
+15 Aug 2026 05:55:54,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15 05:57:05,10.17.120.37,22,kmishra,Accepted password for kmishra from 10.17.120.37 port 41588 ssh2,,0.94,,Normal
+2026-08-15T05:57:22,10.7.183.159,22,ubuntu,Accepted password for ubuntu from 10.7.183.159 port 52961 ssh2,,0.48,,Normal
+15 Aug 2026 05:58:13,10.9.99.224,22,deploy,Accepted password for deploy from 10.9.99.224 port 46685 ssh2,,0.07,,Normal
+2026-08-15 05:59:28,10.17.234.249,22,oracle,Failed password for oracle from 10.17.234.249 port 63515 ssh2,,,,Normal
+2026-08-15T06:00:41,10.20.88.228,,,GET /api/v1/users?page=6,7497,1.135,200,Normal
+15 Aug 2026 06:01:46,10.10.107.19,,,GET /api/health,417,0.638,200,Normal
+2026-08-15 06:01:54,10.19.1.165,,,GET /assets/app.js,4823,0.28,200,Normal
+2026-08-15T06:02:35,10.19.141.217,22,ubuntu,Accepted password for ubuntu from 10.19.141.217 port 40412 ssh2,,1.69,,Normal
+15 Aug 2026 06:03:09,10.19.1.165,,,GET /search?q=queries,7151,0.231,200,Normal
+2026-08-15 06:04:13,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15T06:04:26,10.0.175.135,22,intern,Accepted password for intern from 10.0.175.135 port 64506 ssh2,,1.97,,Normal
+15 Aug 2026 06:05:31,10.1.9.30,22,root,Accepted password for root from 10.1.9.30 port 63014 ssh2,,1.89,,Normal
+2026-08-15 06:06:51,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15T06:08:07,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+15 Aug 2026 06:08:56,10.20.15.214,,,GET /search?q=queries,4054,0.547,304,Normal
+2026-08-15 06:09:54,10.18.123.183,,,GET /api/health,8123,0.879,200,Normal
+2026-08-15T06:11:02,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+15 Aug 2026 06:12:26,10.10.125.231,22,sshakya,Failed password for sshakya from 10.10.125.231 port 62339 ssh2,,,,Normal
+2026-08-15 06:13:53,10.18.123.183,,,GET /images/logo.png,1720,0.93,200,Normal
+2026-08-15T06:15:20,10.20.23.94,,,GET /index.html,1749,0.845,304,Normal
+15 Aug 2026 06:15:38,10.19.1.165,,,GET /blog/post-8,674,0.31,200,Normal
+2026-08-15 06:16:02,10.3.96.114,22,kmishra,Accepted password for kmishra from 10.3.96.114 port 53817 ssh2,,1.86,,Normal
+2026-08-15T06:16:27,10.15.123.137,22,ubuntu,Accepted password for ubuntu from 10.15.123.137 port 54558 ssh2,,0.94,,Normal
+15 Aug 2026 06:17:53,10.20.88.228,,,GET /assets/app.js,4034,0.566,200,Normal
+2026-08-15 06:19:08,10.15.132.131,,,GET /help/getting-started,4573,0.106,304,Normal
+2026-08-15T06:19:45,,,,CRON[8826]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+15 Aug 2026 06:21:14,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15 06:21:36,10.18.115.191,22,git,Failed password for git from 10.18.115.191 port 52652 ssh2,,,,Normal
+2026-08-15T06:22:52,10.20.15.214,,,GET /api/health,8276,0.594,200,Normal
+15 Aug 2026 06:23:50,,,,CRON[8866]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-15 06:25:19,10.11.116.12,22,audit,Accepted password for audit from 10.11.116.12 port 50812 ssh2,,1.81,,Normal
+2026-08-15T06:25:43,10.20.114.178,22,admin,Accepted password for admin from 10.20.114.178 port 40809 ssh2,,0.61,,Normal
+15 Aug 2026 06:26:39,10.10.107.19,,,GET /assets/app.js,6749,1.193,200,Normal
+2026-08-15 06:27:29,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15T06:28:51,10.0.39.124,22,svc_backup,Accepted password for svc_backup from 10.0.39.124 port 41594 ssh2,,1.99,,Normal
+15 Aug 2026 06:29:51,10.10.181.22,22,test,Accepted password for test from 10.10.181.22 port 51433 ssh2,,1.82,,Normal
+2026-08-15 06:29:55,,,,CRON[8513]: (root) CMD (run-parts /etc/cron.hourly),,,,Normal
+2026-08-15T06:31:24,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+15 Aug 2026 06:32:16,10.14.34.222,22,admin,Accepted password for admin from 10.14.34.222 port 42478 ssh2,,0.19,,Normal
+2026-08-15 06:33:08,10.19.23.181,22,asmith,Accepted password for asmith from 10.19.23.181 port 49107 ssh2,,1.95,,Normal
+2026-08-15T06:33:10,10.12.206.16,22,www-data,Accepted password for www-data from 10.12.206.16 port 52262 ssh2,,0.63,,Normal
+15 Aug 2026 06:34:30,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15 06:35:12,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15T06:35:39,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+15 Aug 2026 06:36:07,10.20.23.94,,,GET /images/logo.png,5043,0.237,200,Normal
+2026-08-15 06:37:11,,,,systemd[1]: Started Daily apt download activities.,,,,Normal
+2026-08-15T06:37:35,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+15 Aug 2026 06:38:18,,,,systemd[1]: Started Cleanup of Temporary Directories.,,,,Normal
+2026-08-15 06:39:26,10.20.180.229,22,admin,Accepted password for admin from 10.20.180.229 port 56837 ssh2,,0.74,,Normal
+2026-08-15T06:39:32,10.11.20.6,22,test,Accepted password for test from 10.11.20.6 port 47293 ssh2,,1.22,,Normal
+15 Aug 2026 06:39:35,10.4.120.98,22,root,Accepted password for root from 10.4.120.98 port 51955 ssh2,,1.35,,Normal

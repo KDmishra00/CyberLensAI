@@ -1,0 +1,901 @@
+timestamp,src_ip,dst_port,username,message,bytes,status
+2026-08-12 20:39:46,10.14.137.212,22,admin,Accepted password for admin from 10.14.137.212 port 64880 ssh2,,
+2026-08-12 20:40:45,10.20.216.177,,,GET /search?q=queries,1180,304
+2026-08-12 20:41:10,,,,CRON[8656]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 20:42:24,10.0.134.194,22,test,Failed password for test from 10.0.134.194 port 51116 ssh2,,
+2026-08-12 20:43:33,10.15.5.160,,,GET /,2124,200
+2026-08-12 20:44:49,10.9.234.91,,,GET /blog/post-29,4295,200
+2026-08-12 20:45:18,10.4.54.131,22,jenkins,Accepted password for jenkins from 10.4.54.131 port 58744 ssh2,,
+2026-08-12 20:45:27,,,,CRON[8497]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 20:46:15,10.11.12.247,,,GET /assets/app.css,8962,200
+2026-08-12 20:47:28,10.11.12.247,,,GET /favicon.ico,2672,200
+2026-08-12 20:48:18,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 20:49:30,10.15.64.130,22,svc_backup,Accepted password for svc_backup from 10.15.64.130 port 46259 ssh2,,
+2026-08-12 20:49:43,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 20:50:19,10.2.73.88,22,mysql,Accepted password for mysql from 10.2.73.88 port 55157 ssh2,,
+2026-08-12 20:51:26,,,,CRON[8984]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 20:52:49,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 20:54:15,10.1.68.18,,,GET /pricing,3693,200
+2026-08-12 20:55:30,,,,CRON[8376]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 20:56:00,10.10.3.11,22,deploy,Failed password for deploy from 10.10.3.11 port 58641 ssh2,,
+2026-08-12 20:56:07,10.17.195.47,,,GET /api/v1/users?page=26,4448,304
+2026-08-12 20:57:27,10.7.29.144,,,GET /search?q=queries,3608,200
+2026-08-12 20:58:46,10.9.12.187,,,GET /assets/app.js,3437,200
+2026-08-12 20:59:57,10.15.163.155,,,GET /api/v1/users?page=29,4061,200
+2026-08-12 21:00:34,10.15.181.233,,,GET /favicon.ico,4118,200
+2026-08-12 21:01:58,10.6.84.140,,,GET /api/v1/users?page=1,6860,304
+2026-08-12 21:02:42,10.15.7.69,22,sshakya,Failed password for sshakya from 10.15.7.69 port 55471 ssh2,,
+2026-08-12 21:03:02,10.3.74.114,22,root,Accepted password for root from 10.3.74.114 port 41770 ssh2,,
+2026-08-12 21:04:18,10.19.7.248,,,GET /api/health,4513,304
+2026-08-12 21:05:29,10.9.136.158,22,operator,Accepted password for operator from 10.9.136.158 port 42349 ssh2,,
+2026-08-12 21:05:57,,,,CRON[8593]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:07:06,10.11.122.116,22,jenkins,Accepted password for jenkins from 10.11.122.116 port 50789 ssh2,,
+2026-08-12 21:07:40,10.3.89.134,22,audit,Accepted password for audit from 10.3.89.134 port 44878 ssh2,,
+2026-08-12 21:08:36,10.12.240.30,22,root,Failed password for root from 10.12.240.30 port 62168 ssh2,,
+2026-08-12 21:09:19,10.8.25.134,,,GET /api/health,4594,200
+2026-08-12 21:09:30,10.7.79.204,22,git,Accepted password for git from 10.7.79.204 port 61105 ssh2,,
+2026-08-12 21:10:01,10.12.0.164,22,jdoe,Accepted password for jdoe from 10.12.0.164 port 55117 ssh2,,
+2026-08-12 21:10:50,,,,CRON[8570]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:10:57,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 21:11:26,10.1.35.210,,,GET /contact,5479,200
+2026-08-12 21:11:41,10.12.122.21,,,GET /help/getting-started,1598,200
+2026-08-12 21:12:17,10.13.105.206,22,appuser,Accepted password for appuser from 10.13.105.206 port 62112 ssh2,,
+2026-08-12 21:13:08,10.18.134.177,,,GET /help/getting-started,3993,200
+2026-08-12 21:13:38,10.18.145.134,,,GET /help/getting-started,7865,200
+2026-08-12 21:14:12,,,,CRON[8153]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:15:39,10.1.227.68,22,postgres,Accepted password for postgres from 10.1.227.68 port 63332 ssh2,,
+2026-08-12 21:16:15,10.16.242.198,22,operator,Accepted password for operator from 10.16.242.198 port 40499 ssh2,,
+2026-08-12 21:17:44,,,,CRON[8706]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:18:58,10.16.2.51,,,GET /assets/app.css,4110,200
+2026-08-12 21:19:39,,,,CRON[8231]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:21:00,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 21:22:23,10.5.97.98,22,admin,Accepted password for admin from 10.5.97.98 port 61538 ssh2,,
+2026-08-12 21:22:49,10.19.240.245,22,admin,Accepted password for admin from 10.19.240.245 port 55330 ssh2,,
+2026-08-12 21:23:11,,,,CRON[8470]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:24:15,10.3.225.185,,,GET /api/v1/users?page=6,4260,200
+2026-08-12 21:24:26,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 21:25:08,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 21:26:29,10.3.225.185,,,GET /api/health,729,200
+2026-08-12 21:26:34,,,,CRON[8434]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:26:55,10.19.158.4,22,intern,Accepted password for intern from 10.19.158.4 port 56005 ssh2,,
+2026-08-12 21:28:00,10.18.134.177,,,GET /api/v1/users?page=27,8714,304
+2026-08-12 21:29:20,10.2.16.161,22,admin,Failed password for admin from 10.2.16.161 port 45500 ssh2,,
+2026-08-12 21:30:29,10.10.2.14,,,GET /pricing,3261,200
+2026-08-12 21:31:36,10.19.212.144,,,GET /images/logo.png,7715,304
+2026-08-12 21:32:35,10.11.12.247,,,GET /contact,7202,200
+2026-08-12 21:33:18,,,,CRON[8163]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:34:28,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 21:34:33,10.4.173.30,,,GET /blog/post-7,2068,200
+2026-08-12 21:35:47,,,,CRON[8605]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:36:41,,,,CRON[8238]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:37:22,10.12.122.21,,,GET /assets/app.js,686,200
+2026-08-12 21:38:13,10.9.214.66,,,GET /search?q=queries,4267,200
+2026-08-12 21:38:41,10.4.168.84,22,ubuntu,Accepted password for ubuntu from 10.4.168.84 port 48685 ssh2,,
+2026-08-12 21:39:56,10.12.204.175,22,ubuntu,Accepted password for ubuntu from 10.12.204.175 port 40297 ssh2,,
+2026-08-12 21:40:34,10.13.132.162,,,GET /,4855,200
+2026-08-12 21:41:32,,,,CRON[8364]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:42:06,,,,CRON[8333]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:42:30,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 21:42:35,10.18.230.182,,,GET /contact,4520,200
+2026-08-12 21:43:02,10.16.35.139,,,GET /,6215,200
+2026-08-12 21:44:08,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 21:44:14,10.7.98.210,,,GET /search?q=queries,3465,200
+2026-08-12 21:45:36,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 21:46:11,10.8.252.164,22,intern,Accepted password for intern from 10.8.252.164 port 58080 ssh2,,
+2026-08-12 21:47:00,10.9.14.147,22,kmishra,Accepted password for kmishra from 10.9.14.147 port 62605 ssh2,,
+2026-08-12 21:48:18,10.17.143.207,,,GET /blog/post-8,1053,200
+2026-08-12 21:48:41,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 21:48:49,,,,CRON[8651]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:49:42,10.14.19.249,,,GET /assets/app.css,6635,200
+2026-08-12 21:50:30,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 21:50:34,10.19.209.202,22,www-data,Accepted password for www-data from 10.19.209.202 port 46327 ssh2,,
+2026-08-12 21:51:27,10.8.214.223,22,asmith,Accepted password for asmith from 10.8.214.223 port 61777 ssh2,,
+2026-08-12 21:52:53,,,,CRON[8781]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:54:16,,,,CRON[8187]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:55:13,10.12.122.21,,,GET /pricing,5640,304
+2026-08-12 21:56:17,10.8.244.101,22,mysql,Accepted password for mysql from 10.8.244.101 port 49731 ssh2,,
+2026-08-12 21:56:54,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 21:56:58,,,,CRON[8898]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 21:58:00,10.13.23.178,,,GET /blog/post-30,8840,200
+2026-08-12 21:59:20,10.8.146.147,22,audit,Accepted password for audit from 10.8.146.147 port 53334 ssh2,,
+2026-08-12 21:59:51,10.15.95.150,,,GET /api/v1/users?page=4,3362,200
+2026-08-12 22:01:08,10.13.80.185,22,appuser,Accepted password for appuser from 10.13.80.185 port 62344 ssh2,,
+2026-08-12 22:01:22,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 22:02:46,,,,CRON[8525]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:03:50,10.10.20.109,22,postgres,Accepted password for postgres from 10.10.20.109 port 51485 ssh2,,
+2026-08-12 22:04:21,10.11.12.247,,,GET /favicon.ico,7104,200
+2026-08-12 22:05:13,,,,CRON[8916]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:06:17,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 22:06:50,10.13.125.132,22,admin,Failed password for admin from 10.13.125.132 port 61244 ssh2,,
+2026-08-12 22:06:54,10.4.174.209,,,GET /pricing,1494,200
+2026-08-12 22:08:03,,,,CRON[8903]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:08:27,,,,CRON[8332]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:08:31,10.4.147.25,22,intern,Accepted password for intern from 10.4.147.25 port 51257 ssh2,,
+2026-08-12 22:09:46,10.15.95.150,,,GET /,2553,200
+2026-08-12 22:10:54,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 22:12:07,10.17.121.117,,,GET /assets/app.js,3323,304
+2026-08-12 22:12:31,10.14.254.128,22,oracle,Accepted password for oracle from 10.14.254.128 port 53288 ssh2,,
+2026-08-12 22:13:42,10.11.4.121,,,GET /assets/app.css,2179,200
+2026-08-12 22:14:45,10.0.222.105,,,GET /,2468,200
+2026-08-12 22:15:20,10.7.98.210,,,GET /blog/post-25,4473,200
+2026-08-12 22:16:10,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 22:16:19,10.16.214.73,22,intern,Accepted password for intern from 10.16.214.73 port 51752 ssh2,,
+2026-08-12 22:16:57,10.1.122.69,22,git,Accepted password for git from 10.1.122.69 port 41714 ssh2,,
+2026-08-12 22:17:47,10.1.28.234,22,mysql,Accepted password for mysql from 10.1.28.234 port 57476 ssh2,,
+2026-08-12 22:18:53,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 22:19:23,,,,CRON[8982]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:20:21,10.10.207.82,,,GET /,5090,304
+2026-08-12 22:21:29,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 22:21:59,10.2.86.44,22,jdoe,Accepted password for jdoe from 10.2.86.44 port 61699 ssh2,,
+2026-08-12 22:22:27,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 22:23:56,,,,CRON[8884]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:24:07,10.5.238.248,,,GET /,4714,304
+2026-08-12 22:25:30,10.9.121.83,22,test,Accepted password for test from 10.9.121.83 port 41722 ssh2,,
+2026-08-12 22:25:51,10.17.143.207,,,GET /api/health,7076,200
+2026-08-12 22:26:16,10.19.212.144,,,GET /search?q=queries,7286,304
+2026-08-12 22:26:38,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 22:27:36,,,,CRON[8265]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:28:19,10.11.171.46,22,git,Accepted password for git from 10.11.171.46 port 50032 ssh2,,
+2026-08-12 22:29:38,10.11.12.247,,,GET /assets/app.js,6587,200
+2026-08-12 22:31:04,10.10.126.220,22,appuser,Accepted password for appuser from 10.10.126.220 port 54270 ssh2,,
+2026-08-12 22:31:07,10.12.122.21,,,GET /favicon.ico,2266,200
+2026-08-12 22:32:32,,,,CRON[8900]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:32:41,10.11.4.121,,,GET /blog/post-37,3505,304
+2026-08-12 22:34:02,10.17.169.73,,,GET /index.html,2416,200
+2026-08-12 22:34:44,10.15.123.31,22,git,Accepted password for git from 10.15.123.31 port 61619 ssh2,,
+2026-08-12 22:36:08,10.13.198.120,22,jenkins,Accepted password for jenkins from 10.13.198.120 port 42955 ssh2,,
+2026-08-12 22:36:33,,,,CRON[8724]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:38:01,10.3.170.92,22,git,Accepted password for git from 10.3.170.92 port 50034 ssh2,,
+2026-08-12 22:38:26,10.4.174.209,,,GET /,7837,200
+2026-08-12 22:39:05,10.16.57.60,22,sshakya,Accepted password for sshakya from 10.16.57.60 port 50896 ssh2,,
+2026-08-12 22:39:59,10.15.56.143,,,GET /help/getting-started,7288,200
+2026-08-12 22:40:36,10.1.105.127,22,operator,Accepted password for operator from 10.1.105.127 port 59471 ssh2,,
+2026-08-12 22:41:49,10.14.171.243,22,postgres,Failed password for postgres from 10.14.171.243 port 47168 ssh2,,
+2026-08-12 22:42:14,,,,CRON[8535]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:43:32,10.10.43.87,,,GET /api/health,8901,200
+2026-08-12 22:44:01,10.1.41.239,,,GET /search?q=queries,1087,200
+2026-08-12 22:44:48,10.12.209.2,22,asmith,Failed password for asmith from 10.12.209.2 port 52119 ssh2,,
+2026-08-12 22:45:29,10.0.56.166,22,sshakya,Failed password for sshakya from 10.0.56.166 port 49905 ssh2,,
+2026-08-12 22:46:08,,,,CRON[8839]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:46:13,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 22:47:25,10.0.111.37,22,svc_backup,Accepted password for svc_backup from 10.0.111.37 port 62185 ssh2,,
+2026-08-12 22:48:00,,,,CRON[8955]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:49:26,10.8.25.134,,,GET /blog/post-4,7506,200
+2026-08-12 22:49:47,10.3.15.145,22,admin,Accepted password for admin from 10.3.15.145 port 55623 ssh2,,
+2026-08-12 22:51:01,,,,CRON[8359]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 22:52:13,10.2.139.149,22,root,Accepted password for root from 10.2.139.149 port 46768 ssh2,,
+2026-08-12 22:52:24,10.5.49.107,22,ubuntu,Accepted password for ubuntu from 10.5.49.107 port 52512 ssh2,,
+2026-08-12 22:52:28,10.5.238.248,,,GET /favicon.ico,6257,200
+2026-08-12 22:52:49,10.12.227.211,22,git,Accepted password for git from 10.12.227.211 port 43058 ssh2,,
+2026-08-12 22:53:53,10.4.174.209,,,GET /favicon.ico,2476,304
+2026-08-12 22:54:04,10.10.54.15,,,GET /blog/post-35,813,200
+2026-08-12 22:55:19,10.14.103.225,22,www-data,Accepted password for www-data from 10.14.103.225 port 45665 ssh2,,
+2026-08-12 22:56:11,10.20.118.64,22,intern,Accepted password for intern from 10.20.118.64 port 58871 ssh2,,
+2026-08-12 22:57:26,10.8.153.124,22,svc_backup,Accepted password for svc_backup from 10.8.153.124 port 60553 ssh2,,
+2026-08-12 22:57:58,10.9.218.157,22,svc_backup,Accepted password for svc_backup from 10.9.218.157 port 57419 ssh2,,
+2026-08-12 22:59:25,10.17.59.158,,,GET /pricing,3539,200
+2026-08-12 23:00:17,10.20.223.227,22,test,Accepted password for test from 10.20.223.227 port 56293 ssh2,,
+2026-08-12 23:00:39,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 23:01:29,10.4.64.170,,,GET /help/getting-started,2967,200
+2026-08-12 23:02:48,10.17.169.73,,,GET /favicon.ico,8681,200
+2026-08-12 23:04:13,10.7.140.37,22,appuser,Accepted password for appuser from 10.7.140.37 port 56185 ssh2,,
+2026-08-12 23:05:20,,,,CRON[8775]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:06:42,10.4.37.228,22,appuser,Failed password for appuser from 10.4.37.228 port 54308 ssh2,,
+2026-08-12 23:07:00,10.4.129.168,22,audit,Accepted password for audit from 10.4.129.168 port 62802 ssh2,,
+2026-08-12 23:07:33,,,,CRON[8983]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:08:50,,,,CRON[8527]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:09:37,,,,CRON[8281]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:10:30,10.14.170.46,22,mysql,Accepted password for mysql from 10.14.170.46 port 55926 ssh2,,
+2026-08-12 23:11:46,10.18.241.31,22,kmishra,Accepted password for kmishra from 10.18.241.31 port 48873 ssh2,,
+2026-08-12 23:12:04,,,,CRON[8614]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:13:10,,,,CRON[8631]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:13:44,10.11.184.196,22,root,Accepted password for root from 10.11.184.196 port 48609 ssh2,,
+2026-08-12 23:13:49,10.1.68.18,,,GET /images/logo.png,3728,200
+2026-08-12 23:13:52,10.17.141.232,,,GET /assets/app.css,8630,200
+2026-08-12 23:14:00,10.11.9.251,22,appuser,Accepted password for appuser from 10.11.9.251 port 51918 ssh2,,
+2026-08-12 23:15:07,10.19.89.237,22,test,Failed password for test from 10.19.89.237 port 62893 ssh2,,
+2026-08-12 23:15:35,10.0.164.65,22,audit,Accepted password for audit from 10.0.164.65 port 53423 ssh2,,
+2026-08-12 23:15:44,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 23:16:04,10.6.88.70,22,operator,Accepted password for operator from 10.6.88.70 port 40726 ssh2,,
+2026-08-12 23:17:21,10.7.124.133,22,svc_backup,Accepted password for svc_backup from 10.7.124.133 port 40876 ssh2,,
+2026-08-12 23:18:25,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 23:18:34,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-12 23:19:38,10.0.75.69,,,GET /help/getting-started,7670,200
+2026-08-12 23:19:57,10.15.181.233,,,GET /,1966,200
+2026-08-12 23:20:26,10.16.108.40,22,audit,Accepted password for audit from 10.16.108.40 port 51575 ssh2,,
+2026-08-12 23:21:16,10.12.125.52,22,appuser,Accepted password for appuser from 10.12.125.52 port 58130 ssh2,,
+2026-08-12 23:21:34,10.11.217.162,22,www-data,Accepted password for www-data from 10.11.217.162 port 53999 ssh2,,
+2026-08-12 23:21:58,10.9.234.91,,,GET /api/health,857,200
+2026-08-12 23:22:55,10.3.32.117,22,intern,Accepted password for intern from 10.3.32.117 port 60517 ssh2,,
+2026-08-12 23:24:24,10.20.24.95,22,intern,Accepted password for intern from 10.20.24.95 port 51524 ssh2,,
+2026-08-12 23:25:22,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 23:25:51,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 23:26:30,10.13.64.222,,,GET /favicon.ico,7317,200
+2026-08-12 23:27:22,10.10.4.112,,,GET /assets/app.js,2877,304
+2026-08-12 23:27:43,10.6.235.214,22,oracle,Accepted password for oracle from 10.6.235.214 port 54048 ssh2,,
+2026-08-12 23:28:33,10.19.67.117,22,admin,Accepted password for admin from 10.19.67.117 port 63159 ssh2,,
+2026-08-12 23:28:35,10.17.141.232,,,GET /assets/app.css,709,200
+2026-08-12 23:29:32,10.1.12.82,22,jdoe,Accepted password for jdoe from 10.1.12.82 port 41790 ssh2,,
+2026-08-12 23:29:36,,,,CRON[8324]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:29:49,10.10.94.46,,,GET /assets/app.css,725,304
+2026-08-12 23:30:06,10.1.186.52,,,GET /api/v1/users?page=31,8380,200
+2026-08-12 23:31:26,10.7.136.247,,,GET /index.html,6412,200
+2026-08-12 23:31:53,10.15.5.160,,,GET /contact,8801,304
+2026-08-12 23:32:47,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 23:32:59,,,,CRON[8515]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:33:18,10.12.38.159,22,root,Failed password for root from 10.12.38.159 port 60067 ssh2,,
+2026-08-12 23:33:24,10.5.90.98,22,operator,Failed password for operator from 10.5.90.98 port 55407 ssh2,,
+2026-08-12 23:34:37,,,,CRON[8510]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:34:48,10.16.205.83,,,GET /index.html,2188,304
+2026-08-12 23:35:12,10.15.181.233,,,GET /index.html,705,200
+2026-08-12 23:35:29,10.17.244.170,22,kmishra,Accepted password for kmishra from 10.17.244.170 port 58194 ssh2,,
+2026-08-12 23:36:09,10.5.141.208,22,www-data,Accepted password for www-data from 10.5.141.208 port 46448 ssh2,,
+2026-08-12 23:36:52,10.10.54.15,,,GET /blog/post-22,1081,200
+2026-08-12 23:37:17,10.12.72.127,22,deploy,Accepted password for deploy from 10.12.72.127 port 51970 ssh2,,
+2026-08-12 23:38:33,10.10.207.82,,,GET /pricing,4872,200
+2026-08-12 23:39:35,10.6.95.23,22,audit,Accepted password for audit from 10.6.95.23 port 53951 ssh2,,
+2026-08-12 23:40:00,10.18.230.182,,,GET /,5580,200
+2026-08-12 23:41:21,10.6.229.27,22,asmith,Accepted password for asmith from 10.6.229.27 port 64369 ssh2,,
+2026-08-12 23:42:12,10.7.248.117,22,audit,Accepted password for audit from 10.7.248.117 port 61186 ssh2,,
+2026-08-12 23:42:30,10.4.64.170,,,GET /api/health,4084,304
+2026-08-12 23:42:40,10.1.78.243,22,svc_backup,Accepted password for svc_backup from 10.1.78.243 port 55455 ssh2,,
+2026-08-12 23:43:31,,,,CRON[8923]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:43:49,10.3.234.8,,,GET /contact,8971,200
+2026-08-12 23:44:39,10.15.95.150,,,GET /index.html,7641,200
+2026-08-12 23:44:48,10.10.246.150,,,GET /search?q=queries,5603,200
+2026-08-12 23:45:00,10.13.208.131,,,GET /search?q=queries,6267,200
+2026-08-12 23:46:29,10.2.13.209,22,svc_backup,Accepted password for svc_backup from 10.2.13.209 port 45027 ssh2,,
+2026-08-12 23:47:05,10.14.188.234,22,root,Accepted password for root from 10.14.188.234 port 60964 ssh2,,
+2026-08-12 23:47:40,10.11.53.105,22,postgres,Accepted password for postgres from 10.11.53.105 port 49749 ssh2,,
+2026-08-12 23:48:01,10.19.7.248,,,GET /search?q=queries,1840,200
+2026-08-12 23:48:52,,,,CRON[8458]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:49:46,10.17.78.208,,,GET /index.html,1970,200
+2026-08-12 23:50:49,10.16.151.179,22,root,Accepted password for root from 10.16.151.179 port 57756 ssh2,,
+2026-08-12 23:50:52,,,,CRON[8536]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:52:07,10.3.234.8,,,GET /pricing,4739,200
+2026-08-12 23:52:23,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-12 23:52:33,,,,CRON[8207]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:53:23,10.6.30.248,22,sshakya,Accepted password for sshakya from 10.6.30.248 port 57593 ssh2,,
+2026-08-12 23:54:38,10.15.46.211,22,asmith,Accepted password for asmith from 10.15.46.211 port 53125 ssh2,,
+2026-08-12 23:54:47,10.9.234.91,,,GET /api/health,3712,200
+2026-08-12 23:56:14,10.8.178.238,22,git,Accepted password for git from 10.8.178.238 port 41327 ssh2,,
+2026-08-12 23:57:11,10.4.174.209,,,GET /pricing,2231,200
+2026-08-12 23:57:40,,,,CRON[8960]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-12 23:58:45,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 00:00:08,,,,CRON[8639]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:00:58,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 00:01:43,10.16.245.94,,,GET /pricing,2848,200
+2026-08-13 00:02:14,10.4.146.80,22,kmishra,Accepted password for kmishra from 10.4.146.80 port 63177 ssh2,,
+2026-08-13 00:02:53,,,,CRON[8652]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:03:34,10.12.207.165,22,deploy,Accepted password for deploy from 10.12.207.165 port 48753 ssh2,,
+2026-08-13 00:03:52,10.4.64.170,,,GET /blog/post-39,1403,200
+2026-08-13 00:04:46,,,,CRON[8196]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:06:03,,,,CRON[8529]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:07:27,10.7.98.210,,,GET /images/logo.png,5788,200
+2026-08-13 00:08:02,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 00:08:20,10.18.145.134,,,GET /assets/app.js,4242,304
+2026-08-13 00:08:34,10.12.122.21,,,GET /blog/post-18,7882,304
+2026-08-13 00:09:51,10.18.139.140,22,asmith,Accepted password for asmith from 10.18.139.140 port 54387 ssh2,,
+2026-08-13 00:10:17,,,,CRON[8227]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:11:42,10.0.7.30,,,GET /search?q=queries,2044,200
+2026-08-13 00:11:46,10.7.123.83,,,GET /blog/post-4,7434,200
+2026-08-13 00:11:54,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 00:12:30,10.17.78.208,,,GET /images/logo.png,2014,304
+2026-08-13 00:13:30,10.13.13.230,,,GET /api/v1/users?page=23,5373,200
+2026-08-13 00:13:56,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 00:14:49,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 00:15:51,10.13.64.222,,,GET /help/getting-started,3746,200
+2026-08-13 00:16:52,10.13.20.131,,,GET /favicon.ico,5385,200
+2026-08-13 00:17:58,10.3.19.225,22,sshakya,Accepted password for sshakya from 10.3.19.225 port 51317 ssh2,,
+2026-08-13 00:18:18,10.4.126.102,22,deploy,Accepted password for deploy from 10.4.126.102 port 43912 ssh2,,
+2026-08-13 00:19:44,10.3.232.149,,,GET /search?q=queries,5570,200
+2026-08-13 00:19:47,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 00:21:04,,,,CRON[8649]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:21:49,10.17.121.117,,,GET /images/logo.png,773,200
+2026-08-13 00:22:24,10.11.116.50,22,intern,Accepted password for intern from 10.11.116.50 port 44827 ssh2,,
+2026-08-13 00:23:38,,,,CRON[8881]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:23:53,10.8.83.104,22,mysql,Accepted password for mysql from 10.8.83.104 port 40101 ssh2,,
+2026-08-13 00:24:43,10.17.141.232,,,GET /search?q=queries,4402,200
+2026-08-13 00:25:12,10.2.2.210,22,admin,Accepted password for admin from 10.2.2.210 port 54181 ssh2,,
+2026-08-13 00:26:20,10.0.22.111,22,root,Failed password for root from 10.0.22.111 port 48139 ssh2,,
+2026-08-13 00:26:30,,,,CRON[8887]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:27:21,10.9.12.187,,,GET /api/v1/users?page=30,5802,200
+2026-08-13 00:28:36,10.0.156.130,22,sshakya,Accepted password for sshakya from 10.0.156.130 port 61105 ssh2,,
+2026-08-13 00:30:05,10.14.250.243,22,git,Accepted password for git from 10.14.250.243 port 42912 ssh2,,
+2026-08-13 00:30:43,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 00:31:10,10.10.246.150,,,GET /images/logo.png,8479,200
+2026-08-13 00:32:07,,,,CRON[8582]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:32:22,10.14.127.242,22,git,Failed password for git from 10.14.127.242 port 50411 ssh2,,
+2026-08-13 00:32:59,,,,CRON[8265]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:33:08,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 00:33:45,,,,CRON[8877]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:35:12,10.13.174.14,22,root,Accepted password for root from 10.13.174.14 port 45489 ssh2,,
+2026-08-13 00:35:55,,,,CRON[8592]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:36:45,10.7.92.13,22,postgres,Accepted password for postgres from 10.7.92.13 port 58635 ssh2,,
+2026-08-13 00:36:52,10.12.230.46,22,svc_backup,Accepted password for svc_backup from 10.12.230.46 port 42535 ssh2,,
+2026-08-13 00:38:20,10.9.12.187,,,GET /contact,6031,304
+2026-08-13 00:39:09,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 00:40:29,10.20.88.141,22,test,Accepted password for test from 10.20.88.141 port 43453 ssh2,,
+2026-08-13 00:41:46,10.0.120.245,22,mysql,Accepted password for mysql from 10.0.120.245 port 45168 ssh2,,
+2026-08-13 00:42:33,10.17.48.118,22,root,Accepted password for root from 10.17.48.118 port 40704 ssh2,,
+2026-08-13 00:42:54,10.7.136.247,,,GET /,7387,200
+2026-08-13 00:43:04,10.19.151.3,22,sshakya,Accepted password for sshakya from 10.19.151.3 port 51127 ssh2,,
+2026-08-13 00:44:06,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 00:44:38,10.10.2.14,,,GET /api/health,4005,200
+2026-08-13 00:45:53,10.11.12.247,,,GET /contact,5897,200
+2026-08-13 00:47:09,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 00:47:44,10.3.58.148,22,ubuntu,Accepted password for ubuntu from 10.3.58.148 port 62610 ssh2,,
+2026-08-13 00:48:53,10.16.205.83,,,GET /api/v1/users?page=20,2563,200
+2026-08-13 00:50:06,,,,CRON[8784]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:50:13,10.15.5.160,,,GET /search?q=queries,825,200
+2026-08-13 00:51:42,,,,CRON[8641]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:52:07,10.4.103.126,,,GET /blog/post-30,3600,200
+2026-08-13 00:52:32,,,,CRON[8345]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:52:45,10.3.218.191,22,kmishra,Accepted password for kmishra from 10.3.218.191 port 58914 ssh2,,
+2026-08-13 00:53:29,10.9.214.66,,,GET /blog/post-14,3221,200
+2026-08-13 00:54:37,,,,CRON[8771]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 00:55:27,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 00:55:59,10.15.163.155,,,GET /search?q=queries,4482,200
+2026-08-13 00:56:21,10.15.155.243,22,deploy,Accepted password for deploy from 10.15.155.243 port 62755 ssh2,,
+2026-08-13 00:56:52,10.7.29.144,,,GET /blog/post-1,8733,200
+2026-08-13 00:57:34,10.17.121.117,,,GET /,6861,200
+2026-08-13 00:57:58,10.7.48.100,22,svc_backup,Accepted password for svc_backup from 10.7.48.100 port 62743 ssh2,,
+2026-08-13 00:58:00,10.18.209.102,,,GET /index.html,4525,304
+2026-08-13 00:59:14,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 00:59:35,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 00:59:51,10.4.142.63,22,audit,Accepted password for audit from 10.4.142.63 port 54405 ssh2,,
+2026-08-13 01:00:17,10.2.143.78,22,test,Accepted password for test from 10.2.143.78 port 41073 ssh2,,
+2026-08-13 01:01:31,10.15.95.150,,,GET /pricing,2814,304
+2026-08-13 01:02:33,10.14.142.226,22,mysql,Accepted password for mysql from 10.14.142.226 port 50045 ssh2,,
+2026-08-13 01:02:41,10.0.223.254,22,intern,Accepted password for intern from 10.0.223.254 port 63661 ssh2,,
+2026-08-13 01:02:56,,,,CRON[8195]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 01:03:12,10.10.175.24,22,jdoe,Accepted password for jdoe from 10.10.175.24 port 53796 ssh2,,
+2026-08-13 01:03:53,10.5.252.4,,,GET /index.html,8684,200
+2026-08-13 01:04:56,,,,CRON[8600]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 01:05:20,10.15.179.16,22,deploy,Accepted password for deploy from 10.15.179.16 port 57412 ssh2,,
+2026-08-13 01:06:44,10.4.84.232,22,deploy,Accepted password for deploy from 10.4.84.232 port 64826 ssh2,,
+2026-08-13 01:06:57,10.19.66.78,22,ubuntu,Accepted password for ubuntu from 10.19.66.78 port 44930 ssh2,,
+2026-08-13 01:08:22,10.16.22.64,22,ubuntu,Accepted password for ubuntu from 10.16.22.64 port 49764 ssh2,,
+2026-08-13 01:09:37,10.9.159.40,22,operator,Accepted password for operator from 10.9.159.40 port 42618 ssh2,,
+2026-08-13 01:10:32,10.1.41.239,,,GET /api/health,2623,200
+2026-08-13 01:11:05,10.1.41.239,,,GET /assets/app.css,1114,200
+2026-08-13 01:12:12,10.1.67.42,22,audit,Accepted password for audit from 10.1.67.42 port 52896 ssh2,,
+2026-08-13 01:13:18,10.6.186.158,22,mysql,Accepted password for mysql from 10.6.186.158 port 61515 ssh2,,
+2026-08-13 01:14:06,10.14.211.220,22,jdoe,Accepted password for jdoe from 10.14.211.220 port 58253 ssh2,,
+2026-08-13 01:15:01,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 01:16:03,10.17.167.202,22,mysql,Accepted password for mysql from 10.17.167.202 port 61762 ssh2,,
+2026-08-13 01:17:08,10.13.147.160,22,asmith,Accepted password for asmith from 10.13.147.160 port 64894 ssh2,,
+2026-08-13 01:17:37,10.9.179.172,22,audit,Accepted password for audit from 10.9.179.172 port 59936 ssh2,,
+2026-08-13 01:18:31,,,,CRON[8878]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 01:19:53,10.1.41.239,,,GET /index.html,3325,304
+2026-08-13 01:20:44,10.2.20.248,22,admin,Accepted password for admin from 10.2.20.248 port 54885 ssh2,,
+2026-08-13 01:21:05,10.0.189.165,22,audit,Accepted password for audit from 10.0.189.165 port 59189 ssh2,,
+2026-08-13 01:22:10,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 01:22:29,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 01:22:36,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 01:23:45,10.1.41.239,,,GET /help/getting-started,1119,200
+2026-08-13 01:24:08,,,,CRON[8865]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 01:24:42,10.17.78.208,,,GET /api/health,4928,304
+2026-08-13 01:24:44,10.9.61.220,22,jenkins,Accepted password for jenkins from 10.9.61.220 port 47798 ssh2,,
+2026-08-13 01:25:24,,,,CRON[8587]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 01:26:19,10.5.157.41,22,mysql,Accepted password for mysql from 10.5.157.41 port 59196 ssh2,,
+2026-08-13 01:26:29,10.8.182.124,22,operator,Accepted password for operator from 10.8.182.124 port 63483 ssh2,,
+2026-08-13 01:27:38,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 01:27:59,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 01:29:23,10.13.64.222,,,GET /index.html,8717,304
+2026-08-13 01:29:33,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 01:30:08,10.18.209.102,,,GET /images/logo.png,3135,200
+2026-08-13 01:30:59,10.0.209.37,22,svc_backup,Accepted password for svc_backup from 10.0.209.37 port 50194 ssh2,,
+2026-08-13 01:32:12,10.4.173.30,,,GET /contact,7458,200
+2026-08-13 01:33:03,10.9.44.198,,,GET /images/logo.png,8491,200
+2026-08-13 01:33:42,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 01:33:54,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 01:34:51,10.17.173.156,22,postgres,Accepted password for postgres from 10.17.173.156 port 41845 ssh2,,
+2026-08-13 01:35:22,10.6.77.113,,,GET /index.html,1598,304
+2026-08-13 01:36:45,10.11.227.115,22,git,Accepted password for git from 10.11.227.115 port 59597 ssh2,,
+2026-08-13 01:36:58,10.4.173.30,,,GET /images/logo.png,8612,200
+2026-08-13 01:37:46,10.15.5.160,,,GET /pricing,7451,304
+2026-08-13 01:38:25,,,,CRON[8977]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 01:38:51,,,,CRON[8470]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 01:39:44,10.6.77.113,,,GET /api/health,927,304
+2026-08-13 01:40:53,10.9.180.115,22,asmith,Accepted password for asmith from 10.9.180.115 port 57589 ssh2,,
+2026-08-13 01:40:57,10.13.208.131,,,GET /contact,3847,304
+2026-08-13 01:41:52,10.20.119.143,22,root,Accepted password for root from 10.20.119.143 port 58844 ssh2,,
+2026-08-13 01:43:10,10.11.245.197,22,jenkins,Accepted password for jenkins from 10.11.245.197 port 51093 ssh2,,
+2026-08-13 01:44:15,10.1.35.210,,,GET /assets/app.css,7655,200
+2026-08-13 01:44:57,10.13.109.69,22,deploy,Accepted password for deploy from 10.13.109.69 port 50483 ssh2,,
+2026-08-13 01:46:27,10.10.240.184,22,intern,Accepted password for intern from 10.10.240.184 port 59115 ssh2,,
+2026-08-13 01:47:29,10.4.181.92,22,ubuntu,Accepted password for ubuntu from 10.4.181.92 port 55489 ssh2,,
+2026-08-13 01:48:09,10.8.157.134,22,root,Accepted password for root from 10.8.157.134 port 59149 ssh2,,
+2026-08-13 01:48:35,10.8.9.189,22,intern,Accepted password for intern from 10.8.9.189 port 56291 ssh2,,
+2026-08-13 01:49:48,,,,CRON[8243]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 01:51:13,10.17.143.207,,,GET /contact,770,304
+2026-08-13 01:52:43,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 01:53:20,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 01:53:24,10.7.123.83,,,GET /search?q=queries,7904,304
+2026-08-13 01:54:23,10.3.225.185,,,GET /help/getting-started,8515,200
+2026-08-13 01:54:33,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 01:55:37,,,,CRON[8576]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 01:57:00,10.6.132.115,22,sshakya,Failed password for sshakya from 10.6.132.115 port 57179 ssh2,,
+2026-08-13 01:57:36,10.20.17.81,,,GET /,4207,200
+2026-08-13 01:58:35,,,,CRON[8265]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 01:58:57,10.11.84.153,22,deploy,Accepted password for deploy from 10.11.84.153 port 61442 ssh2,,
+2026-08-13 01:59:35,,,,CRON[8551]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:00:12,,,,CRON[8536]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:01:00,10.14.68.10,22,jdoe,Accepted password for jdoe from 10.14.68.10 port 54947 ssh2,,
+2026-08-13 02:02:08,10.10.4.112,,,GET /contact,5952,200
+2026-08-13 02:02:16,10.11.34.75,22,deploy,Failed password for deploy from 10.11.34.75 port 40294 ssh2,,
+2026-08-13 02:03:14,10.15.150.102,,,GET /api/v1/users?page=7,8436,200
+2026-08-13 02:03:49,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 02:04:16,10.16.98.80,22,svc_backup,Accepted password for svc_backup from 10.16.98.80 port 51652 ssh2,,
+2026-08-13 02:04:22,,,,CRON[8333]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:05:18,,,,CRON[8963]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:06:32,10.9.248.112,22,intern,Accepted password for intern from 10.9.248.112 port 41826 ssh2,,
+2026-08-13 02:07:13,,,,CRON[8169]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:08:43,10.7.199.60,22,intern,Accepted password for intern from 10.7.199.60 port 52496 ssh2,,
+2026-08-13 02:09:32,10.2.133.107,22,www-data,Accepted password for www-data from 10.2.133.107 port 45753 ssh2,,
+2026-08-13 02:09:45,,,,CRON[8944]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:10:49,10.18.200.71,,,GET /images/logo.png,5575,200
+2026-08-13 02:11:48,10.19.90.135,22,www-data,Accepted password for www-data from 10.19.90.135 port 61898 ssh2,,
+2026-08-13 02:12:55,10.8.147.43,,,GET /images/logo.png,2006,200
+2026-08-13 02:13:32,10.11.114.153,,,GET /api/health,6998,304
+2026-08-13 02:14:15,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 02:14:58,10.20.104.246,22,deploy,Failed password for deploy from 10.20.104.246 port 55912 ssh2,,
+2026-08-13 02:15:52,10.3.232.149,,,GET /api/v1/users?page=15,1488,304
+2026-08-13 02:17:21,10.15.95.150,,,GET /images/logo.png,6768,200
+2026-08-13 02:18:32,,,,CRON[8897]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:19:55,10.2.54.37,22,jdoe,Accepted password for jdoe from 10.2.54.37 port 44295 ssh2,,
+2026-08-13 02:20:35,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 02:21:50,10.13.109.115,22,admin,Accepted password for admin from 10.13.109.115 port 52712 ssh2,,
+2026-08-13 02:23:08,10.13.23.178,,,GET /pricing,6239,200
+2026-08-13 02:23:14,,,,CRON[8198]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:24:14,,,,CRON[8616]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:25:41,10.1.50.41,22,sshakya,Accepted password for sshakya from 10.1.50.41 port 62751 ssh2,,
+2026-08-13 02:26:54,10.19.181.119,22,kmishra,Accepted password for kmishra from 10.19.181.119 port 57953 ssh2,,
+2026-08-13 02:27:06,10.15.56.143,,,GET /search?q=queries,8948,200
+2026-08-13 02:27:51,10.12.214.219,22,root,Accepted password for root from 10.12.214.219 port 43357 ssh2,,
+2026-08-13 02:28:12,,,,CRON[8540]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:29:12,10.7.81.42,22,jenkins,Accepted password for jenkins from 10.7.81.42 port 47754 ssh2,,
+2026-08-13 02:30:09,,,,CRON[8562]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:30:40,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 02:30:47,10.20.17.81,,,GET /api/health,5345,200
+2026-08-13 02:31:32,10.4.224.214,22,svc_backup,Accepted password for svc_backup from 10.4.224.214 port 64370 ssh2,,
+2026-08-13 02:32:32,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 02:33:14,10.16.35.139,,,GET /contact,7469,200
+2026-08-13 02:33:40,10.2.131.13,22,intern,Accepted password for intern from 10.2.131.13 port 42120 ssh2,,
+2026-08-13 02:34:33,,,,CRON[8475]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:35:46,10.14.192.57,,,GET /api/v1/users?page=39,2392,200
+2026-08-13 02:36:28,10.1.41.239,,,GET /api/v1/users?page=30,1691,200
+2026-08-13 02:36:47,10.18.122.29,22,sshakya,Accepted password for sshakya from 10.18.122.29 port 52246 ssh2,,
+2026-08-13 02:38:13,10.3.59.177,22,postgres,Accepted password for postgres from 10.3.59.177 port 59926 ssh2,,
+2026-08-13 02:39:38,10.15.26.86,22,mysql,Failed password for mysql from 10.15.26.86 port 41213 ssh2,,
+2026-08-13 02:40:34,10.19.112.61,22,operator,Accepted password for operator from 10.19.112.61 port 60343 ssh2,,
+2026-08-13 02:40:44,10.4.3.231,22,asmith,Accepted password for asmith from 10.4.3.231 port 50042 ssh2,,
+2026-08-13 02:41:05,10.1.186.52,,,GET /api/v1/users?page=32,3321,304
+2026-08-13 02:41:20,10.18.209.102,,,GET /pricing,6754,304
+2026-08-13 02:41:38,10.16.205.83,,,GET /assets/app.css,4490,304
+2026-08-13 02:41:46,10.1.76.215,22,intern,Accepted password for intern from 10.1.76.215 port 61120 ssh2,,
+2026-08-13 02:42:22,10.1.186.52,,,GET /api/v1/users?page=40,8024,200
+2026-08-13 02:42:34,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 02:43:54,10.14.192.57,,,GET /pricing,3003,304
+2026-08-13 02:44:23,10.19.11.134,22,postgres,Accepted password for postgres from 10.19.11.134 port 58947 ssh2,,
+2026-08-13 02:44:57,10.17.39.170,22,oracle,Accepted password for oracle from 10.17.39.170 port 45174 ssh2,,
+2026-08-13 02:45:46,10.1.13.180,22,root,Accepted password for root from 10.1.13.180 port 49997 ssh2,,
+2026-08-13 02:46:47,10.12.36.88,22,oracle,Accepted password for oracle from 10.12.36.88 port 62208 ssh2,,
+2026-08-13 02:47:09,,,,CRON[8932]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:48:08,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 02:48:24,10.8.92.100,22,appuser,Accepted password for appuser from 10.8.92.100 port 51907 ssh2,,
+2026-08-13 02:48:57,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 02:49:17,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 02:49:49,10.20.250.63,,,GET /api/health,4761,304
+2026-08-13 02:50:51,10.20.216.177,,,GET /index.html,1950,200
+2026-08-13 02:52:02,10.14.86.194,,,GET /help/getting-started,7801,200
+2026-08-13 02:52:35,10.3.234.8,,,GET /help/getting-started,3352,200
+2026-08-13 02:54:02,10.17.59.158,,,GET /assets/app.js,426,304
+2026-08-13 02:55:29,10.13.20.131,,,GET /,1799,200
+2026-08-13 02:55:50,,,,CRON[8683]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 02:56:00,10.13.211.211,22,root,Accepted password for root from 10.13.211.211 port 51040 ssh2,,
+2026-08-13 02:57:07,10.15.102.198,22,deploy,Accepted password for deploy from 10.15.102.198 port 50928 ssh2,,
+2026-08-13 02:57:12,10.18.200.71,,,GET /search?q=queries,2044,200
+2026-08-13 02:57:38,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 02:59:04,10.17.141.232,,,GET /index.html,556,200
+2026-08-13 02:59:38,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 02:59:55,10.16.35.139,,,GET /contact,7451,304
+2026-08-13 03:00:02,10.13.20.131,,,GET /api/v1/users?page=22,7676,200
+2026-08-13 03:00:48,10.19.212.144,,,GET /api/v1/users?page=34,4401,200
+2026-08-13 03:02:16,10.17.103.191,22,mysql,Accepted password for mysql from 10.17.103.191 port 55431 ssh2,,
+2026-08-13 03:02:34,10.7.136.247,,,GET /assets/app.js,7907,304
+2026-08-13 03:03:51,10.8.42.187,22,jdoe,Accepted password for jdoe from 10.8.42.187 port 56785 ssh2,,
+2026-08-13 03:04:43,10.4.64.170,,,GET /api/health,6241,200
+2026-08-13 03:05:53,10.20.99.3,22,git,Accepted password for git from 10.20.99.3 port 64155 ssh2,,
+2026-08-13 03:07:07,10.9.64.234,22,sshakya,Failed password for sshakya from 10.9.64.234 port 62402 ssh2,,
+2026-08-13 03:07:42,10.18.55.59,22,deploy,Failed password for deploy from 10.18.55.59 port 55272 ssh2,,
+2026-08-13 03:08:21,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 03:09:04,10.6.231.177,22,test,Failed password for test from 10.6.231.177 port 40207 ssh2,,
+2026-08-13 03:10:20,10.2.98.139,22,kmishra,Accepted password for kmishra from 10.2.98.139 port 61247 ssh2,,
+2026-08-13 03:11:21,10.3.225.185,,,GET /help/getting-started,3418,200
+2026-08-13 03:12:03,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 03:13:00,10.16.93.216,22,audit,Accepted password for audit from 10.16.93.216 port 62590 ssh2,,
+2026-08-13 03:14:08,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 03:14:22,10.19.181.116,22,sshakya,Accepted password for sshakya from 10.19.181.116 port 55000 ssh2,,
+2026-08-13 03:15:05,10.6.84.140,,,GET /contact,8031,200
+2026-08-13 03:15:16,10.17.59.158,,,GET /pricing,5210,200
+2026-08-13 03:16:06,10.15.4.211,22,jenkins,Accepted password for jenkins from 10.15.4.211 port 52541 ssh2,,
+2026-08-13 03:16:25,10.9.44.198,,,GET /assets/app.css,6186,304
+2026-08-13 03:17:50,10.9.156.54,,,GET /pricing,1800,200
+2026-08-13 03:18:18,10.20.17.164,22,www-data,Accepted password for www-data from 10.20.17.164 port 62959 ssh2,,
+2026-08-13 03:19:38,10.6.3.153,22,svc_backup,Accepted password for svc_backup from 10.6.3.153 port 51290 ssh2,,
+2026-08-13 03:19:54,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 03:20:43,10.3.109.202,22,audit,Accepted password for audit from 10.3.109.202 port 62432 ssh2,,
+2026-08-13 03:21:34,10.18.134.177,,,GET /api/v1/users?page=37,1836,200
+2026-08-13 03:22:02,,,,CRON[8160]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 03:22:59,,,,CRON[8679]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 03:23:51,,,,CRON[8299]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 03:23:54,10.11.123.33,22,jdoe,Accepted password for jdoe from 10.11.123.33 port 52143 ssh2,,
+2026-08-13 03:24:38,10.7.129.160,22,mysql,Accepted password for mysql from 10.7.129.160 port 64403 ssh2,,
+2026-08-13 03:26:02,10.5.184.53,22,www-data,Accepted password for www-data from 10.5.184.53 port 52523 ssh2,,
+2026-08-13 03:27:01,10.13.216.34,22,svc_backup,Failed password for svc_backup from 10.13.216.34 port 50879 ssh2,,
+2026-08-13 03:27:38,10.19.68.215,22,ubuntu,Accepted password for ubuntu from 10.19.68.215 port 59617 ssh2,,
+2026-08-13 03:28:19,,,,CRON[8141]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 03:29:09,10.8.2.113,22,www-data,Accepted password for www-data from 10.8.2.113 port 60797 ssh2,,
+2026-08-13 03:30:32,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 03:31:07,10.12.151.43,22,svc_backup,Accepted password for svc_backup from 10.12.151.43 port 55809 ssh2,,
+2026-08-13 03:32:15,10.9.30.63,22,jenkins,Accepted password for jenkins from 10.9.30.63 port 59426 ssh2,,
+2026-08-13 03:33:32,10.2.170.154,22,appuser,Accepted password for appuser from 10.2.170.154 port 53072 ssh2,,
+2026-08-13 03:34:43,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 03:35:40,,,,CRON[8435]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 03:36:43,10.3.225.185,,,GET /assets/app.css,927,200
+2026-08-13 03:37:12,10.1.168.38,22,jdoe,Accepted password for jdoe from 10.1.168.38 port 50815 ssh2,,
+2026-08-13 03:38:11,10.13.20.131,,,GET /blog/post-18,750,200
+2026-08-13 03:38:47,10.2.63.21,22,appuser,Accepted password for appuser from 10.2.63.21 port 64197 ssh2,,
+2026-08-13 03:39:27,10.1.222.215,22,audit,Accepted password for audit from 10.1.222.215 port 56422 ssh2,,
+2026-08-13 03:39:44,10.4.174.209,,,GET /images/logo.png,8305,200
+2026-08-13 03:40:53,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 03:41:49,10.18.178.45,22,jdoe,Accepted password for jdoe from 10.18.178.45 port 44039 ssh2,,
+2026-08-13 03:43:11,10.4.174.209,,,GET /api/v1/users?page=14,936,200
+2026-08-13 03:44:17,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 03:45:19,,,,CRON[8683]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 03:46:04,10.0.110.57,22,intern,Accepted password for intern from 10.0.110.57 port 48240 ssh2,,
+2026-08-13 03:47:19,10.20.216.177,,,GET /favicon.ico,5198,200
+2026-08-13 03:47:33,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 03:47:40,,,,CRON[8654]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 03:48:19,10.4.64.170,,,GET /help/getting-started,7359,200
+2026-08-13 03:48:49,,,,CRON[8353]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 03:50:16,10.6.175.100,22,deploy,Failed password for deploy from 10.6.175.100 port 43442 ssh2,,
+2026-08-13 03:51:12,10.19.187.148,22,svc_backup,Accepted password for svc_backup from 10.19.187.148 port 40959 ssh2,,
+2026-08-13 03:51:44,,,,CRON[8421]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 03:52:48,10.10.153.7,22,sshakya,Accepted password for sshakya from 10.10.153.7 port 40293 ssh2,,
+2026-08-13 03:53:38,,,,CRON[8569]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 03:54:07,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 03:54:20,10.7.29.144,,,GET /images/logo.png,2412,200
+2026-08-13 03:54:37,10.18.209.102,,,GET /api/health,4227,200
+2026-08-13 03:55:00,10.17.184.135,22,sshakya,Accepted password for sshakya from 10.17.184.135 port 62034 ssh2,,
+2026-08-13 03:56:16,10.4.213.199,22,oracle,Accepted password for oracle from 10.4.213.199 port 43267 ssh2,,
+2026-08-13 03:57:33,10.4.103.126,,,GET /,6075,200
+2026-08-13 03:57:38,,,,CRON[8487]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 03:57:49,10.5.76.218,22,root,Accepted password for root from 10.5.76.218 port 56104 ssh2,,
+2026-08-13 03:58:15,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 03:59:10,10.13.28.107,22,sshakya,Accepted password for sshakya from 10.13.28.107 port 62304 ssh2,,
+2026-08-13 03:59:53,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 04:00:19,10.3.232.149,,,GET /help/getting-started,4498,200
+2026-08-13 04:01:30,10.17.93.78,22,git,Accepted password for git from 10.17.93.78 port 57140 ssh2,,
+2026-08-13 04:01:54,10.1.68.18,,,GET /index.html,7273,200
+2026-08-13 04:02:35,10.5.238.248,,,GET /,2227,304
+2026-08-13 04:03:16,10.13.208.131,,,GET /index.html,5979,200
+2026-08-13 04:04:13,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 04:04:22,10.20.26.228,22,oracle,Failed password for oracle from 10.20.26.228 port 55913 ssh2,,
+2026-08-13 04:05:23,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 04:05:51,10.5.125.84,22,test,Failed password for test from 10.5.125.84 port 60063 ssh2,,
+2026-08-13 04:06:03,10.12.35.143,,,GET /blog/post-14,5679,200
+2026-08-13 04:06:58,10.1.41.239,,,GET /help/getting-started,5741,200
+2026-08-13 04:07:19,10.10.4.112,,,GET /images/logo.png,5311,200
+2026-08-13 04:08:15,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 04:08:41,10.17.121.117,,,GET /pricing,4455,200
+2026-08-13 04:09:09,10.6.200.147,22,postgres,Accepted password for postgres from 10.6.200.147 port 40923 ssh2,,
+2026-08-13 04:10:26,10.13.132.162,,,GET /api/health,7744,304
+2026-08-13 04:11:17,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 04:11:51,10.17.78.208,,,GET /assets/app.css,5994,200
+2026-08-13 04:12:10,10.2.214.184,22,deploy,Accepted password for deploy from 10.2.214.184 port 40564 ssh2,,
+2026-08-13 04:12:47,,,,CRON[8886]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 04:14:07,10.4.56.94,22,root,Accepted password for root from 10.4.56.94 port 55491 ssh2,,
+2026-08-13 04:15:08,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 04:15:35,10.19.212.216,22,jenkins,Accepted password for jenkins from 10.19.212.216 port 52843 ssh2,,
+2026-08-13 04:17:04,10.20.17.81,,,GET /help/getting-started,7409,200
+2026-08-13 04:17:39,,,,CRON[8556]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 04:17:54,10.20.17.81,,,GET /api/v1/users?page=30,752,200
+2026-08-13 04:18:41,10.14.56.171,22,postgres,Failed password for postgres from 10.14.56.171 port 46038 ssh2,,
+2026-08-13 04:20:08,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 04:20:24,10.6.38.227,,,GET /,7199,304
+2026-08-13 04:20:38,,,,CRON[8833]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 04:20:56,10.19.127.98,22,operator,Accepted password for operator from 10.19.127.98 port 46674 ssh2,,
+2026-08-13 04:21:13,10.8.49.193,,,GET /api/health,8814,200
+2026-08-13 04:22:13,10.15.153.123,22,deploy,Failed password for deploy from 10.15.153.123 port 45004 ssh2,,
+2026-08-13 04:23:37,,,,CRON[8719]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 04:23:51,10.9.66.21,,,GET /api/v1/users?page=13,6476,304
+2026-08-13 04:25:09,,,,CRON[8548]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 04:26:18,10.20.191.62,22,svc_backup,Accepted password for svc_backup from 10.20.191.62 port 55069 ssh2,,
+2026-08-13 04:27:42,10.8.121.164,,,GET /pricing,8035,304
+2026-08-13 04:29:08,10.17.121.117,,,GET /pricing,3951,304
+2026-08-13 04:30:17,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 04:31:12,10.4.232.18,22,deploy,Accepted password for deploy from 10.4.232.18 port 48244 ssh2,,
+2026-08-13 04:31:47,10.7.29.144,,,GET /assets/app.css,2975,304
+2026-08-13 04:32:50,10.17.121.117,,,GET /pricing,5680,200
+2026-08-13 04:34:18,10.14.22.36,22,kmishra,Accepted password for kmishra from 10.14.22.36 port 51342 ssh2,,
+2026-08-13 04:35:24,10.18.209.102,,,GET /api/v1/users?page=1,6942,200
+2026-08-13 04:36:25,10.6.245.65,,,GET /images/logo.png,4658,200
+2026-08-13 04:36:54,10.10.94.46,,,GET /blog/post-16,8101,200
+2026-08-13 04:37:36,,,,CRON[8778]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 04:38:57,10.13.211.24,22,kmishra,Accepted password for kmishra from 10.13.211.24 port 44334 ssh2,,
+2026-08-13 04:40:05,10.6.30.40,22,svc_backup,Accepted password for svc_backup from 10.6.30.40 port 40401 ssh2,,
+2026-08-13 04:41:27,10.15.56.143,,,GET /images/logo.png,8291,200
+2026-08-13 04:41:34,10.8.121.164,,,GET /api/v1/users?page=10,1278,304
+2026-08-13 04:42:56,10.10.94.46,,,GET /search?q=queries,7931,200
+2026-08-13 04:43:36,10.17.134.137,22,mysql,Accepted password for mysql from 10.17.134.137 port 43421 ssh2,,
+2026-08-13 04:43:40,,,,CRON[8399]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 04:45:03,10.19.212.144,,,GET /api/v1/users?page=21,7477,304
+2026-08-13 04:46:25,10.7.29.144,,,GET /search?q=queries,3643,200
+2026-08-13 04:46:34,10.1.35.210,,,GET /images/logo.png,1260,200
+2026-08-13 04:46:47,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 04:47:25,10.15.150.102,,,GET /,4494,200
+2026-08-13 04:47:37,10.6.61.68,22,postgres,Accepted password for postgres from 10.6.61.68 port 45610 ssh2,,
+2026-08-13 04:48:25,10.0.76.227,22,git,Accepted password for git from 10.0.76.227 port 43900 ssh2,,
+2026-08-13 04:48:43,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 04:49:30,10.20.43.41,22,jenkins,Accepted password for jenkins from 10.20.43.41 port 42956 ssh2,,
+2026-08-13 04:49:40,10.6.38.227,,,GET /help/getting-started,395,304
+2026-08-13 04:50:12,10.2.115.219,22,intern,Accepted password for intern from 10.2.115.219 port 52662 ssh2,,
+2026-08-13 04:51:01,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 04:51:35,10.6.38.227,,,GET /help/getting-started,8642,200
+2026-08-13 04:52:43,10.11.124.168,22,audit,Failed password for audit from 10.11.124.168 port 49305 ssh2,,
+2026-08-13 04:53:02,,,,CRON[8251]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 04:54:04,,,,CRON[8597]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 04:55:32,10.7.208.248,22,audit,Accepted password for audit from 10.7.208.248 port 64975 ssh2,,
+2026-08-13 04:55:52,,,,CRON[8822]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 04:57:15,,,,CRON[8452]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 04:57:48,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 04:58:06,10.15.150.102,,,GET /contact,4083,200
+2026-08-13 04:58:16,10.12.35.143,,,GET /blog/post-34,997,200
+2026-08-13 04:59:25,10.9.12.187,,,GET /images/logo.png,7517,200
+2026-08-13 04:59:41,10.13.64.222,,,GET /assets/app.css,4929,304
+2026-08-13 05:00:17,10.3.155.193,22,sshakya,Accepted password for sshakya from 10.3.155.193 port 42840 ssh2,,
+2026-08-13 05:01:39,10.10.207.82,,,GET /,5541,304
+2026-08-13 05:01:41,10.14.60.159,22,kmishra,Failed password for kmishra from 10.14.60.159 port 63898 ssh2,,
+2026-08-13 05:02:10,10.3.218.181,22,intern,Accepted password for intern from 10.3.218.181 port 47371 ssh2,,
+2026-08-13 05:03:33,10.10.54.15,,,GET /search?q=queries,4452,200
+2026-08-13 05:04:10,10.20.17.81,,,GET /search?q=queries,8274,304
+2026-08-13 05:05:17,10.9.156.54,,,GET /index.html,7219,200
+2026-08-13 05:05:54,10.15.206.175,22,admin,Accepted password for admin from 10.15.206.175 port 55071 ssh2,,
+2026-08-13 05:06:59,10.19.119.227,22,oracle,Accepted password for oracle from 10.19.119.227 port 52532 ssh2,,
+2026-08-13 05:07:19,10.7.82.151,22,audit,Accepted password for audit from 10.7.82.151 port 50088 ssh2,,
+2026-08-13 05:08:43,,,,CRON[8941]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 05:09:56,10.9.214.66,,,GET /api/health,8261,200
+2026-08-13 05:10:29,10.12.220.129,22,appuser,Failed password for appuser from 10.12.220.129 port 61921 ssh2,,
+2026-08-13 05:10:53,10.12.60.231,22,svc_backup,Accepted password for svc_backup from 10.12.60.231 port 49423 ssh2,,
+2026-08-13 05:11:12,,,,CRON[8685]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 05:11:26,10.15.181.233,,,GET /search?q=queries,4901,200
+2026-08-13 05:12:14,10.14.14.107,22,intern,Accepted password for intern from 10.14.14.107 port 60932 ssh2,,
+2026-08-13 05:13:17,10.8.121.164,,,GET /api/v1/users?page=7,8182,200
+2026-08-13 05:14:46,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:15:53,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 05:16:34,10.20.216.177,,,GET /help/getting-started,2688,200
+2026-08-13 05:17:28,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:17:34,10.10.196.141,22,postgres,Accepted password for postgres from 10.10.196.141 port 51214 ssh2,,
+2026-08-13 05:17:55,,,,CRON[8340]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 05:18:02,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:18:19,10.16.35.139,,,GET /assets/app.js,5965,304
+2026-08-13 05:19:17,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:19:48,10.6.77.113,,,GET /api/v1/users?page=35,4983,200
+2026-08-13 05:20:24,10.0.243.95,22,asmith,Failed password for asmith from 10.0.243.95 port 55787 ssh2,,
+2026-08-13 05:20:34,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:21:22,10.8.104.161,22,root,Failed password for root from 10.8.104.161 port 43436 ssh2,,
+2026-08-13 05:22:23,,,,CRON[8806]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 05:23:43,10.11.12.247,,,GET /api/v1/users?page=24,5659,200
+2026-08-13 05:23:58,10.7.84.208,22,admin,Accepted password for admin from 10.7.84.208 port 42352 ssh2,,
+2026-08-13 05:24:37,10.13.40.43,22,admin,Accepted password for admin from 10.13.40.43 port 40252 ssh2,,
+2026-08-13 05:25:15,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 05:25:18,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 05:25:45,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 05:26:10,10.17.147.243,22,asmith,Accepted password for asmith from 10.17.147.243 port 64849 ssh2,,
+2026-08-13 05:26:58,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:27:17,10.9.234.91,,,GET /search?q=queries,6512,200
+2026-08-13 05:28:39,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:28:43,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:29:47,10.15.94.183,22,git,Accepted password for git from 10.15.94.183 port 55615 ssh2,,
+2026-08-13 05:30:52,,,,CRON[8886]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 05:31:40,,,,CRON[8955]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 05:31:47,10.15.5.160,,,GET /assets/app.css,758,200
+2026-08-13 05:32:09,10.17.222.28,22,test,Accepted password for test from 10.17.222.28 port 49904 ssh2,,
+2026-08-13 05:32:16,10.17.143.207,,,GET /api/v1/users?page=12,7096,200
+2026-08-13 05:33:13,10.13.97.26,22,deploy,Accepted password for deploy from 10.13.97.26 port 44413 ssh2,,
+2026-08-13 05:34:04,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:35:01,10.16.2.51,,,GET /favicon.ico,1857,200
+2026-08-13 05:35:42,,,,CRON[8581]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 05:36:26,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 05:36:53,10.8.189.76,22,ubuntu,Accepted password for ubuntu from 10.8.189.76 port 58671 ssh2,,
+2026-08-13 05:37:29,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:38:50,,,,CRON[8840]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 05:40:08,10.17.59.158,,,GET /,2333,200
+2026-08-13 05:41:07,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:42:24,10.9.66.21,,,GET /assets/app.css,1512,200
+2026-08-13 05:43:41,10.14.86.194,,,GET /pricing,6902,200
+2026-08-13 05:45:03,10.3.232.149,,,GET /assets/app.css,1616,200
+2026-08-13 05:46:16,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 05:47:13,10.11.73.94,22,sshakya,Accepted password for sshakya from 10.11.73.94 port 59612 ssh2,,
+2026-08-13 05:47:41,10.10.189.209,22,test,Accepted password for test from 10.10.189.209 port 43027 ssh2,,
+2026-08-13 05:47:44,10.6.23.24,22,admin,Accepted password for admin from 10.6.23.24 port 50054 ssh2,,
+2026-08-13 05:48:22,10.8.227.54,22,intern,Accepted password for intern from 10.8.227.54 port 54396 ssh2,,
+2026-08-13 05:49:47,10.20.216.177,,,GET /search?q=queries,8840,304
+2026-08-13 05:50:22,10.5.252.4,,,GET /assets/app.js,4629,200
+2026-08-13 05:50:44,10.5.50.66,,,GET /help/getting-started,7505,200
+2026-08-13 05:51:26,10.13.133.179,22,operator,Accepted password for operator from 10.13.133.179 port 51103 ssh2,,
+2026-08-13 05:52:38,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 05:53:38,,,,CRON[8945]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 05:53:59,,,,CRON[8817]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 05:54:21,10.15.225.253,22,audit,Accepted password for audit from 10.15.225.253 port 55659 ssh2,,
+2026-08-13 05:55:01,,,,CRON[8371]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 05:55:10,10.11.4.121,,,GET /search?q=queries,5814,200
+2026-08-13 05:55:40,10.4.174.209,,,GET /search?q=queries,6120,200
+2026-08-13 05:56:37,10.3.152.155,22,postgres,Accepted password for postgres from 10.3.152.155 port 56586 ssh2,,
+2026-08-13 05:57:57,10.10.4.112,,,GET /assets/app.js,4284,200
+2026-08-13 05:58:20,10.2.132.29,,,GET /assets/app.js,8602,200
+2026-08-13 05:58:45,10.8.164.127,22,intern,Accepted password for intern from 10.8.164.127 port 49260 ssh2,,
+2026-08-13 05:59:08,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 05:59:13,10.0.106.210,22,test,Accepted password for test from 10.0.106.210 port 45725 ssh2,,
+2026-08-13 05:59:21,10.10.94.46,,,GET /blog/post-17,7915,200
+2026-08-13 05:59:35,10.3.146.49,22,audit,Accepted password for audit from 10.3.146.49 port 47157 ssh2,,
+2026-08-13 05:59:53,,,,CRON[8642]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:00:22,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 06:01:39,10.13.20.131,,,GET /favicon.ico,6415,200
+2026-08-13 06:01:55,,,,CRON[8496]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:02:01,10.10.176.150,22,root,Accepted password for root from 10.10.176.150 port 47337 ssh2,,
+2026-08-13 06:02:04,10.15.41.136,22,jenkins,Failed password for jenkins from 10.15.41.136 port 50737 ssh2,,
+2026-08-13 06:03:12,10.10.94.46,,,GET /index.html,2882,200
+2026-08-13 06:03:28,10.13.8.186,22,jdoe,Failed password for jdoe from 10.13.8.186 port 43075 ssh2,,
+2026-08-13 06:04:45,10.7.136.247,,,GET /api/health,1273,200
+2026-08-13 06:04:56,,,,CRON[8687]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:05:12,10.13.105.122,22,git,Accepted password for git from 10.13.105.122 port 58918 ssh2,,
+2026-08-13 06:05:40,10.9.234.91,,,GET /favicon.ico,5339,200
+2026-08-13 06:06:43,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 06:07:40,10.13.23.178,,,GET /api/v1/users?page=32,7137,304
+2026-08-13 06:08:33,10.1.127.52,22,jdoe,Accepted password for jdoe from 10.1.127.52 port 43850 ssh2,,
+2026-08-13 06:08:50,10.18.134.177,,,GET /assets/app.js,2107,200
+2026-08-13 06:08:59,10.14.25.82,22,sshakya,Accepted password for sshakya from 10.14.25.82 port 60143 ssh2,,
+2026-08-13 06:09:58,10.17.44.162,22,sshakya,Accepted password for sshakya from 10.17.44.162 port 41001 ssh2,,
+2026-08-13 06:10:29,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 06:11:40,10.7.146.188,22,jenkins,Accepted password for jenkins from 10.7.146.188 port 48003 ssh2,,
+2026-08-13 06:12:02,10.17.76.134,22,intern,Accepted password for intern from 10.17.76.134 port 64268 ssh2,,
+2026-08-13 06:12:32,10.1.138.23,22,test,Accepted password for test from 10.1.138.23 port 47601 ssh2,,
+2026-08-13 06:13:03,,,,CRON[8751]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:13:42,,,,CRON[8406]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:15:11,10.11.188.239,22,jenkins,Accepted password for jenkins from 10.11.188.239 port 62158 ssh2,,
+2026-08-13 06:15:18,10.9.234.91,,,GET /search?q=queries,8875,200
+2026-08-13 06:16:02,10.14.174.182,22,git,Accepted password for git from 10.14.174.182 port 58750 ssh2,,
+2026-08-13 06:16:47,,,,CRON[8466]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:17:52,10.10.43.87,,,GET /pricing,3236,200
+2026-08-13 06:18:15,10.2.188.171,22,root,Accepted password for root from 10.2.188.171 port 42349 ssh2,,
+2026-08-13 06:18:43,10.19.85.177,22,asmith,Accepted password for asmith from 10.19.85.177 port 41228 ssh2,,
+2026-08-13 06:18:52,10.14.118.116,,,GET /images/logo.png,4751,200
+2026-08-13 06:19:10,10.9.45.111,22,svc_backup,Failed password for svc_backup from 10.9.45.111 port 46352 ssh2,,
+2026-08-13 06:19:18,10.18.193.185,22,sshakya,Accepted password for sshakya from 10.18.193.185 port 43004 ssh2,,
+2026-08-13 06:19:40,10.8.183.143,22,postgres,Accepted password for postgres from 10.8.183.143 port 52350 ssh2,,
+2026-08-13 06:20:09,10.17.20.29,22,admin,Accepted password for admin from 10.17.20.29 port 54917 ssh2,,
+2026-08-13 06:21:23,10.20.145.228,22,operator,Accepted password for operator from 10.20.145.228 port 51571 ssh2,,
+2026-08-13 06:22:48,10.4.230.16,22,kmishra,Failed password for kmishra from 10.4.230.16 port 44493 ssh2,,
+2026-08-13 06:23:55,10.20.113.30,22,deploy,Accepted password for deploy from 10.20.113.30 port 60288 ssh2,,
+2026-08-13 06:24:35,10.15.96.130,22,audit,Accepted password for audit from 10.15.96.130 port 53711 ssh2,,
+2026-08-13 06:25:18,10.6.2.120,22,test,Accepted password for test from 10.6.2.120 port 53587 ssh2,,
+2026-08-13 06:25:41,10.13.174.52,22,sshakya,Accepted password for sshakya from 10.13.174.52 port 48337 ssh2,,
+2026-08-13 06:26:17,10.14.86.194,,,GET /pricing,7471,304
+2026-08-13 06:27:09,10.10.169.149,22,kmishra,Accepted password for kmishra from 10.10.169.149 port 40944 ssh2,,
+2026-08-13 06:28:20,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 06:29:16,10.16.12.158,22,ubuntu,Accepted password for ubuntu from 10.16.12.158 port 52380 ssh2,,
+2026-08-13 06:29:35,10.9.2.190,22,intern,Accepted password for intern from 10.9.2.190 port 40382 ssh2,,
+2026-08-13 06:29:55,10.17.135.14,22,appuser,Accepted password for appuser from 10.17.135.14 port 59084 ssh2,,
+2026-08-13 06:30:13,,,,CRON[8169]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:30:23,10.20.115.112,22,mysql,Accepted password for mysql from 10.20.115.112 port 56461 ssh2,,
+2026-08-13 06:31:32,,,,CRON[8241]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:32:25,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 06:32:50,,,,CRON[8252]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:33:11,10.6.12.217,,,GET /help/getting-started,5279,200
+2026-08-13 06:33:17,10.5.236.192,22,audit,Accepted password for audit from 10.5.236.192 port 56411 ssh2,,
+2026-08-13 06:33:56,10.17.78.208,,,GET /search?q=queries,5846,200
+2026-08-13 06:34:53,10.17.143.207,,,GET /api/health,8333,304
+2026-08-13 06:35:33,10.6.116.199,22,deploy,Accepted password for deploy from 10.6.116.199 port 49853 ssh2,,
+2026-08-13 06:36:35,10.5.79.86,22,oracle,Accepted password for oracle from 10.5.79.86 port 46273 ssh2,,
+2026-08-13 06:36:37,10.18.56.43,22,postgres,Failed password for postgres from 10.18.56.43 port 48867 ssh2,,
+2026-08-13 06:37:05,10.6.125.225,22,admin,Accepted password for admin from 10.6.125.225 port 52770 ssh2,,
+2026-08-13 06:37:53,10.20.146.124,22,deploy,Accepted password for deploy from 10.20.146.124 port 54106 ssh2,,
+2026-08-13 06:38:41,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 06:39:30,10.3.5.190,22,postgres,Accepted password for postgres from 10.3.5.190 port 47345 ssh2,,
+2026-08-13 06:40:58,10.0.109.39,22,sshakya,Accepted password for sshakya from 10.0.109.39 port 46646 ssh2,,
+2026-08-13 06:41:25,,,,CRON[8245]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:41:38,10.17.109.207,22,audit,Accepted password for audit from 10.17.109.207 port 62012 ssh2,,
+2026-08-13 06:42:57,10.18.139.59,22,test,Failed password for test from 10.18.139.59 port 41849 ssh2,,
+2026-08-13 06:43:54,,,,CRON[8722]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:44:03,,,,CRON[8362]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:45:20,10.8.22.167,22,admin,Accepted password for admin from 10.8.22.167 port 50504 ssh2,,
+2026-08-13 06:46:38,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 06:48:04,10.8.121.164,,,GET /help/getting-started,2841,304
+2026-08-13 06:48:40,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 06:50:00,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 06:51:11,10.3.56.159,22,sshakya,Accepted password for sshakya from 10.3.56.159 port 63753 ssh2,,
+2026-08-13 06:52:26,,,,CRON[8377]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:53:06,,,,CRON[8626]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:53:45,10.7.86.201,22,intern,Accepted password for intern from 10.7.86.201 port 48128 ssh2,,
+2026-08-13 06:54:40,10.8.121.164,,,GET /images/logo.png,6495,200
+2026-08-13 06:55:34,,,,CRON[8316]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 06:56:10,10.9.12.187,,,GET /search?q=queries,4997,200
+2026-08-13 06:57:37,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 06:57:52,10.7.123.83,,,GET /search?q=queries,7942,304
+2026-08-13 06:58:20,10.15.56.143,,,GET /help/getting-started,4583,200
+2026-08-13 06:59:04,10.11.4.121,,,GET /contact,6207,200
+2026-08-13 07:00:33,10.18.144.203,22,root,Accepted password for root from 10.18.144.203 port 64339 ssh2,,
+2026-08-13 07:00:52,10.15.243.129,22,deploy,Failed password for deploy from 10.15.243.129 port 55866 ssh2,,
+2026-08-13 07:02:04,10.2.240.242,22,test,Accepted password for test from 10.2.240.242 port 64423 ssh2,,
+2026-08-13 07:02:47,10.16.2.51,,,GET /pricing,2060,200
+2026-08-13 07:02:54,10.4.64.170,,,GET /api/v1/users?page=38,904,200
+2026-08-13 07:04:03,,,,CRON[8156]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 07:05:21,10.18.7.246,22,root,Accepted password for root from 10.18.7.246 port 45616 ssh2,,
+2026-08-13 07:06:09,10.10.241.224,22,git,Accepted password for git from 10.10.241.224 port 53936 ssh2,,
+2026-08-13 07:07:07,10.15.192.191,22,test,Accepted password for test from 10.15.192.191 port 53467 ssh2,,
+2026-08-13 07:07:52,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 07:09:11,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 07:10:06,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 07:11:35,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 07:11:52,10.0.29.104,22,mysql,Accepted password for mysql from 10.0.29.104 port 54223 ssh2,,
+2026-08-13 07:12:37,10.6.77.113,,,GET /index.html,3204,304
+2026-08-13 07:13:40,10.5.218.232,22,sshakya,Accepted password for sshakya from 10.5.218.232 port 41985 ssh2,,
+2026-08-13 07:14:41,10.13.189.192,22,root,Accepted password for root from 10.13.189.192 port 62317 ssh2,,
+2026-08-13 07:15:56,10.3.192.108,22,test,Accepted password for test from 10.3.192.108 port 61559 ssh2,,
+2026-08-13 07:17:09,10.1.41.239,,,GET /pricing,4581,200
+2026-08-13 07:17:58,10.14.86.194,,,GET /assets/app.js,824,200
+2026-08-13 07:18:37,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 07:19:25,10.8.181.225,22,ubuntu,Accepted password for ubuntu from 10.8.181.225 port 48989 ssh2,,
+2026-08-13 07:19:51,10.18.218.17,22,root,Failed password for root from 10.18.218.17 port 62027 ssh2,,
+2026-08-13 07:21:02,10.6.170.17,22,intern,Accepted password for intern from 10.6.170.17 port 57489 ssh2,,
+2026-08-13 07:21:38,10.17.59.158,,,GET /api/health,7132,304
+2026-08-13 07:22:46,,,,CRON[8484]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 07:23:38,10.20.216.177,,,GET /assets/app.js,6197,200
+2026-08-13 07:24:05,,,,CRON[8590]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 07:24:56,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 07:25:46,10.18.200.71,,,GET /assets/app.css,7865,200
+2026-08-13 07:26:14,10.8.121.164,,,GET /api/v1/users?page=13,5902,200
+2026-08-13 07:26:39,10.14.124.47,22,jenkins,Accepted password for jenkins from 10.14.124.47 port 57093 ssh2,,
+2026-08-13 07:28:09,10.16.165.20,22,root,Accepted password for root from 10.16.165.20 port 41589 ssh2,,
+2026-08-13 07:29:16,10.7.4.243,22,audit,Failed password for audit from 10.7.4.243 port 49406 ssh2,,
+2026-08-13 07:29:37,10.13.109.242,22,oracle,Accepted password for oracle from 10.13.109.242 port 54599 ssh2,,
+2026-08-13 07:29:58,10.7.206.233,22,appuser,Accepted password for appuser from 10.7.206.233 port 59034 ssh2,,
+2026-08-13 07:30:41,10.17.121.117,,,GET /favicon.ico,5142,200
+2026-08-13 07:32:04,10.14.252.122,22,mysql,Accepted password for mysql from 10.14.252.122 port 45303 ssh2,,
+2026-08-13 07:32:36,10.17.141.232,,,GET /assets/app.css,5536,200
+2026-08-13 07:32:51,10.15.5.160,,,GET /index.html,843,200
+2026-08-13 07:33:46,10.10.2.14,,,GET /assets/app.js,7561,200
+2026-08-13 07:34:06,10.12.122.21,,,GET /assets/app.css,2030,304
+2026-08-13 07:34:45,10.7.29.144,,,GET /favicon.ico,740,200
+2026-08-13 07:36:11,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 07:37:40,10.13.208.131,,,GET /pricing,2369,200
+2026-08-13 07:38:31,10.6.84.140,,,GET /api/health,4994,304
+2026-08-13 07:39:08,10.5.144.204,22,operator,Accepted password for operator from 10.5.144.204 port 49273 ssh2,,
+2026-08-13 07:39:21,10.19.252.182,22,operator,Accepted password for operator from 10.19.252.182 port 50142 ssh2,,
+2026-08-13 07:39:57,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 07:40:31,10.4.103.126,,,GET /assets/app.js,6430,304
+2026-08-13 07:41:32,10.12.91.91,22,jdoe,Accepted password for jdoe from 10.12.91.91 port 47224 ssh2,,
+2026-08-13 07:42:57,10.18.200.71,,,GET /assets/app.js,2338,200
+2026-08-13 07:43:52,10.9.156.54,,,GET /blog/post-14,3220,304
+2026-08-13 07:45:18,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 07:46:42,10.20.216.177,,,GET /assets/app.js,324,200
+2026-08-13 07:47:22,10.19.7.248,,,GET /blog/post-1,1095,200
+2026-08-13 07:48:10,10.7.136.247,,,GET /,6424,304
+2026-08-13 07:48:56,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 07:49:40,,,,systemd[1]: Started Cleanup of Temporary Directories.,,
+2026-08-13 07:50:48,,,,CRON[8526]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 07:51:37,10.18.230.182,,,GET /favicon.ico,3678,200
+2026-08-13 07:52:27,10.10.198.57,22,asmith,Failed password for asmith from 10.10.198.57 port 52912 ssh2,,
+2026-08-13 07:52:31,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 07:53:25,,,,CRON[8440]: (root) CMD (run-parts /etc/cron.hourly),,
+2026-08-13 07:54:41,,,,systemd[1]: Started Daily apt download activities.,,
+2026-08-13 07:55:04,10.13.23.178,,,GET /contact,7099,200
+2026-08-13 07:55:49,10.3.225.185,,,GET /contact,2240,200
+2026-08-13 07:55:54,10.20.216.177,,,GET /contact,3585,200
+2026-08-13 07:57:19,10.18.209.102,,,GET /api/health,5967,200
+2026-08-13 07:57:24,10.13.20.131,,,GET /index.html,819,304
+2026-08-13 07:57:28,10.7.98.210,,,GET /api/health,4239,304

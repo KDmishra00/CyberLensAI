@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block bodyattrs %}data-analysis-id="{{ analysis_id }}"{% endblock %}
+{% block title %}Preview - CyberLens AI{% endblock %}
+{% block container %}container container-wide{% endblock %}
+{% block content %}
+<section class="preview-page">
+  <h1>Check the file before analysing</h1>
+  <p class="muted">{{ filename }}</p>
+  <div id="preview-summary" class="preview-summary" aria-live="polite"></div>
+
+  <section id="preview-section" hidden>
+    <h2>First 20 rows</h2>
+    <div class="table-scroll">
+      <table class="data-table" id="preview-table">
+        <thead></thead><tbody></tbody>
+      </table>
+    </div>
+
+    <h2>Columns</h2>
+    <div class="table-scroll">
+      <table class="data-table" id="columns-table">
+        <thead><tr><th scope="col">Column</th><th scope="col">Role</th><th scope="col">Missing</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+
+    <section id="numeric-section" hidden>
+      <h2>Numeric columns</h2>
+      <div class="table-scroll">
+        <table class="data-table" id="numeric-table">
+          <thead><tr><th scope="col">Column</th><th scope="col">Count</th><th scope="col">Mean</th><th scope="col">Min</th><th scope="col">Max</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <h2>Warnings</h2>
+    <ul id="preview-warnings" class="warnings"></ul>
+
+    <div class="preview-actions">
+      <button id="analyze-btn" class="btn btn-primary" disabled>Run analysis</button>
+      <a class="btn btn-secondary" href="/upload">Try another file</a>
+      <span id="analyze-status" class="status" aria-live="polite"></span>
+    </div>
+    <div class="progress-track" id="analyze-progress" hidden>
+      <div class="progress-bar progress-indeterminate" id="analyze-bar"></div>
+    </div>
+  </section>
+
+  <section id="preview-failed" hidden>
+    <p class="error-text" role="alert" id="preview-error"></p>
+    <a class="btn btn-secondary" href="/upload">Try another file</a>
+  </section>
+</section>
+{% endblock %}
+{% block scripts %}<script src="/static/js/preview.js"></script>{% endblock %}

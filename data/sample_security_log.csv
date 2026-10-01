@@ -1,0 +1,26 @@
+timestamp,source_ip,username,event_description,status,protocol,port
+2024-03-15 08:23:41,192.168.1.100,admin,Login successful,success,TCP,22
+2024-03-15 08:24:12,10.0.0.55,root,Failed login attempt - invalid password,failed,TCP,22
+2024-03-15 08:24:13,10.0.0.55,root,Failed login attempt - invalid password,failed,TCP,22
+2024-03-15 08:24:14,10.0.0.55,root,Failed login attempt - brute force detected,failed,TCP,22
+2024-03-15 08:24:15,10.0.0.55,root,Failed login attempt - brute force attack,failed,TCP,22
+2024-03-15 08:24:16,10.0.0.55,root,Failed login attempt - access denied,failed,TCP,22
+2024-03-15 08:30:00,172.16.0.88,,Port scan detected on multiple ports,alert,TCP,0
+2024-03-15 08:30:01,172.16.0.88,,Port scan activity - scanning ports 1-1024,alert,TCP,0
+2024-03-15 08:30:02,172.16.0.88,,Suspicious port scanning behavior,alert,TCP,445
+2024-03-15 08:35:22,192.168.1.200,webuser,GET /index.html HTTP/1.1 200,success,HTTP,80
+2024-03-15 08:36:10,10.0.0.99,webuser,POST /login?id=1 OR 1=1-- SQL injection attempt,blocked,HTTP,80
+2024-03-15 08:36:11,10.0.0.99,,SELECT * FROM users WHERE id=1 UNION SELECT * FROM passwords,blocked,HTTP,80
+2024-03-15 08:40:00,192.168.1.150,sysadmin,Normal system health check,success,ICMP,0
+2024-03-15 08:45:33,10.0.0.77,,Malware signature detected - trojan.gen.2,critical,TCP,443
+2024-03-15 08:45:34,10.0.0.77,,Suspicious executable download detected malware activity,critical,TCP,443
+2024-03-15 08:45:35,10.0.0.77,,C2 beacon communication detected,critical,TCP,8443
+2024-03-15 08:50:00,192.168.1.100,admin,Routine backup completed,success,TCP,3306
+2024-03-15 09:00:12,10.0.0.44,operator,Privilege escalation attempt - unauthorized sudo,alert,TCP,22
+2024-03-15 09:00:13,10.0.0.44,operator,Unauthorized privilege change detected escalation,alert,TCP,22
+2024-03-15 09:05:00,192.168.1.50,,Normal web traffic - GET /api/data,success,HTTP,443
+2024-03-15 09:10:00,172.16.0.200,,High volume traffic - possible DoS indicators detected,alert,TCP,80
+2024-03-15 09:10:01,172.16.0.200,,SYN flood detected - denial of service attack,critical,TCP,80
+2024-03-15 09:10:02,172.16.0.200,,Bandwidth spike - DDoS indicators,alert,TCP,80
+2024-03-15 09:15:00,192.168.1.100,admin,Firewall rule update,success,TCP,443
+2024-03-15 09:20:00,192.168.1.100,monitor,System monitoring check - all normal,success,SNMP,161

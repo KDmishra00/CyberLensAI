@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+{% block title %}Upload a file - CyberLens AI{% endblock %}
+{% block content %}
+<section class="upload-page">
+  <h1>Upload a file</h1>
+  <p class="muted">CSV, Excel or .log files up to 20&nbsp;MB. The file is read, never run.</p>
+
+  <form id="upload-form" action="/api/upload" method="post" enctype="multipart/form-data">
+    <div id="dropzone" class="dropzone" tabindex="0" role="button"
+         aria-label="Choose a file or drop one here">
+      <p class="dropzone-title">Drop a file here</p>
+      <p class="muted">or press Enter to browse. Nothing is uploaded until you press the button below.</p>
+      <input type="file" id="file-input" accept=".csv,.xlsx,.log" hidden>
+    </div>
+
+    <div id="file-info" class="file-info" hidden>
+      <p><strong id="file-name"></strong> <span class="muted" id="file-meta"></span></p>
+      <p class="muted" id="file-type-warning" hidden></p>
+    </div>
+
+    <div class="upload-actions">
+      <button type="submit" id="upload-btn" class="btn btn-primary" disabled>Upload</button>
+      <button type="button" id="choose-btn" class="btn btn-secondary">Choose file</button>
+    </div>
+
+    <div class="progress-track" id="progress-track" hidden>
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <p id="upload-status" class="status" aria-live="polite"></p>
+  </form>
+
+  <section class="upload-help">
+    <h2>What happens to your file</h2>
+    <ul>
+      <li>It is stored under a random name in a temporary folder on this machine.</li>
+      <li>It is validated before anything reads it: extension, size, and that it really is
+          text or a plain Excel workbook. Macro-enabled workbooks are refused.</li>
+      <li>Nothing is executed, and the original file is never modified.</li>
+      <li>Delete it any time from the dashboard, or let the hourly sweep remove it.</li>
+    </ul>
+    {% if error %}<p class="error-text" role="alert">{{ error }}</p>{% endif %}
+  </section>
+</section>
+{% endblock %}
+{% block scripts %}<script src="/static/js/upload.js"></script>{% endblock %}

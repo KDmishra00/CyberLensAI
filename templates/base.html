@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}CyberLens AI{% endblock %}</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+  <link rel="icon" href="data:,">
+</head>
+<body {% block bodyattrs %}{% endblock %}>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="wordmark" href="/">CyberLens&nbsp;AI</a>
+      <nav aria-label="Main">
+        <a href="/" {% if request.path == '/' %}aria-current="page"{% endif %}>Home</a>
+        <a href="/upload" {% if request.path == '/upload' %}aria-current="page"{% endif %}>Analyse</a>
+        <a href="/about" {% if request.path == '/about' %}aria-current="page"{% endif %}>About</a>
+      </nav>
+    </div>
+  </header>
+  {% if not model_ok %}
+  <div class="banner" role="status">
+    Model not found. Run <code>python train_model.py</code> first, then restart the app.
+  </div>
+  {% endif %}
+  <main id="main" class="{% block container %}container{% endblock %}">
+    {% block content %}{% endblock %}
+  </main>
+  <footer class="footer">
+    <p>CyberLens AI &middot; a Manipal University Jaipur project &middot; by Kuldeep Mishra and Samay Shakya</p>
+  </footer>
+  {% block scripts %}{% endblock %}
+</body>
+</html>
