@@ -122,3 +122,4 @@ def run_inference(model, scaler, df: pd.DataFrame) -> List[Dict[str, Any]]:
         })
 
     return results
+//completed
